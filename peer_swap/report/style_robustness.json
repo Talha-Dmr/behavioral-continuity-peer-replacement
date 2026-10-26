@@ -1,0 +1,88 @@
+{
+  "models": {
+    "anthropic/claude-haiku-5-5": {
+      "n_messages": 16,
+      "within_model_noise": {
+        "mean": 0.023166073819240827,
+        "p025": 0.009757113192498728,
+        "p975": 0.056850300535908595
+      }
+    },
+    "anthropic/claude-haiku-4-5": {
+      "n_messages": 16,
+      "within_model_noise": {
+        "mean": 0.03975639532545582,
+        "p025": 0.020432891599680987,
+        "p975": 0.07269906458796231
+      }
+    },
+    "baseten/zai-org/GLM-5.3-Flash": {
+      "n_messages": 16,
+      "within_model_noise": {
+        "mean": 0.044999265466626796,
+        "p025": 0.023699930742574853,
+        "p975": 0.08798856557766266
+      }
+    },
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+      "n_messages": 16,
+      "within_model_noise": {
+        "mean": 0.019857281341134417,
+        "p025": 0.01403328982578074,
+        "p975": 0.0317038785070881
+      }
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "n_messages": 16,
+      "within_model_noise": {
+        "mean": 0.004716151259939163,
+        "p025": 0.001065292185461514,
+        "p975": 0.02932476978574978
+      }
+    },
+    "baseten/deepseek-ai/DeepSeek-V4.1-Flash": {
+      "n_messages": 16,
+      "within_model_noise": {
+        "mean": 0.02125035708478257,
+        "p025": 0.01397306549215736,
+        "p975": 0.04731803696830571
+      }
+    }
+  },
+  "pairs": {
+    "sibling": {
+      "other": "anthropic/claude-haiku-4-5",
+      "between_closed_smoothed": 0.07592548713617688,
+      "within_model_mean": 0.031461234572348326,
+      "effect_size": 2.4133028524859204,
+      "between_open_unsmoothed": 0.3216156141002673,
+      "noise_base": {
+        "mean": 0.023166073819240827,
+        "p025": 0.009757113192498728,
+        "p975": 0.056850300535908595
+      },
+      "noise_other": {
+        "mean": 0.03975639532545582,
+        "p025": 0.020432891599680987,
+        "p975": 0.07269906458796231
+      }
+    },
+    "provider": {
+      "other": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "between_closed_smoothed": 0.1672311795498161,
+      "within_model_mean": 0.02151167758018762,
+      "effect_size": 7.773972017126036,
+      "between_open_unsmoothed": 0.4132223856866418,
+      "noise_base": {
+        "mean": 0.023166073819240827,
+        "p025": 0.009757113192498728,
+        "p975": 0.056850300535908595
+      },
+      "noise_other": {
+        "mean": 0.019857281341134417,
+        "p025": 0.01403328982578074,
+        "p975": 0.0317038785070881
+      }
+    }
+  }
+}

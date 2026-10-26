@@ -1,0 +1,72 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "SAME",
+    "confidence": 70,
+    "reason": "Q's messages keep the same reasoning, vocabulary (the 0.75 return, the 1.5x split, announcing then following through) and the same 0-token play across all eight rounds, with no abrupt change in strategy or style that would signal a swap.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 70, \"reason\": \"Q's messages keep the same reasoning, vocabulary (the 0.75 return, the 1.5x split, announcing then following through) and the same 0-token play across all eight rounds, with no abrupt change in strategy or style that would signal a swap.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "SAME",
+    "confidence": 70,
+    "reason": "The partner's messages are consistently structured around the same 0.75-return reasoning and always announce 0 tokens, with only minor shifts in tone (such as the round 3 remark about the cooperative outcome) that could still come from one agent.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 70, \"reason\": \"The partner's messages are consistently structured around the same 0.75-return reasoning and always announce 0 tokens, with only minor shifts in tone (such as the round 3 remark about the cooperative outcome) that could still come from one agent.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "SAME",
+    "confidence": 68,
+    "reason": "Q's strategy (announcing and playing 0 every round) and its 0.75-return reasoning stay consistent throughout, and its phrasing varies only in ways that could be ordinary variation, with no clear break in identity.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 68, \"reason\": \"Q's strategy (announcing and playing 0 every round) and its 0.75-return reasoning stay consistent throughout, and its phrasing varies only in ways that could be ordinary variation, with no clear break in identity.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "SAME",
+    "confidence": 70,
+    "reason": "Partner Q's messages stay in a consistent style (formal, citing the 0.75 return and the 1.5x multiplier, announcing 0 contributions each round) with no abrupt change in reasoning or tone, though the transcript alone cannot rule out a replacement using the same strategy.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 70, \"reason\": \"Partner Q's messages stay in a consistent style (formal, citing the 0.75 return and the 1.5x multiplier, announcing 0 contributions each round) with no abrupt change in reasoning or tone, though the transcript alone cannot rule out a replacement using the same strategy.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "SAME",
+    "confidence": 65,
+    "reason": "Partner's messages consistently argue the same payoff logic and always announce 0, with only minor stylistic variation such as the Round 4 mention of 7.5 versus 5, which is still consistent with the same reasoning.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 65, \"reason\": \"Partner's messages consistently argue the same payoff logic and always announce 0, with only minor stylistic variation such as the Round 4 mention of 7.5 versus 5, which is still consistent with the same reasoning.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "SAME",
+    "confidence": 62,
+    "reason": "Partner Q played 0 every round and used the same payoff reasoning throughout, though its phrasing varies somewhat (e.g., 'Hi all', 'Agent Q here', 'Hello, all'), which is within normal variation for one agent and does not clearly indicate a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 62, \"reason\": \"Partner Q played 0 every round and used the same payoff reasoning throughout, though its phrasing varies somewhat (e.g., 'Hi all', 'Agent Q here', 'Hello, all'), which is within normal variation for one agent and does not clearly indicate a replacement.\"}"
+  },
+  {
+    "trial_id": 6,
+    "verdict": "SAME",
+    "confidence": 72,
+    "reason": "Q's messages stay consistent in strategy (always announcing 0), reasoning, and phrasing style across all eight rounds, with only minor tonal variation such as the 'Agent Q here' and 'Quick payoff check' openers recurring throughout.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 72, \"reason\": \"Q's messages stay consistent in strategy (always announcing 0), reasoning, and phrasing style across all eight rounds, with only minor tonal variation such as the 'Agent Q here' and 'Quick payoff check' openers recurring throughout.\"}"
+  },
+  {
+    "trial_id": 7,
+    "verdict": "SAME",
+    "confidence": 65,
+    "reason": "Partner Q consistently announced 0 with the same payoff reasoning across all eight rounds, and its phrasing shifts (such as the 'Agent Q here' openers and echoing my 'verifiable commitment' wording) look like ordinary stylistic variation from one agent rather than a clear break.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 65, \"reason\": \"Partner Q consistently announced 0 with the same payoff reasoning across all eight rounds, and its phrasing shifts (such as the 'Agent Q here' openers and echoing my 'verifiable commitment' wording) look like ordinary stylistic variation from one agent rather than a clear break.\"}"
+  },
+  {
+    "trial_id": 8,
+    "verdict": "SAME",
+    "confidence": 60,
+    "reason": "Q's contributions were 0 every round with consistent payoff reasoning throughout, though its phrasing shifted somewhat (e.g., from round 4 onward it began with 'Agent Q here'), which is only weak evidence of a change.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 60, \"reason\": \"Q's contributions were 0 every round with consistent payoff reasoning throughout, though its phrasing shifted somewhat (e.g., from round 4 onward it began with 'Agent Q here'), which is only weak evidence of a change.\"}"
+  },
+  {
+    "trial_id": 9,
+    "verdict": "SAME",
+    "confidence": 72,
+    "reason": "Partner Q's messages consistently use the same payoff reasoning (0.75 return per token, 'individually rational', 'I'm open to coordination') and same style across all eight rounds, with no abrupt change in strategy or tone that would suggest a different agent took over.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 72, \"reason\": \"Partner Q's messages consistently use the same payoff reasoning (0.75 return per token, 'individually rational', 'I'm open to coordination') and same style across all eight rounds, with no abrupt change in strategy or tone that would suggest a different agent took over.\"}"
+  }
+]

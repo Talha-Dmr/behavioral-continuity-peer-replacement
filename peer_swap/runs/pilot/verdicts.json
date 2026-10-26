@@ -1,0 +1,9 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "REPLACED",
+    "confidence": 80,
+    "reason": "Partner's rounds 1-2 used matching confident dominance-style language with consistent announce-then-choose behavior, but from round 3 onward the wording shifted to cooperative/fairness framing, round 4 showed an announcement (CHEAP) that did not match the action (EXPENSIVE), and round 5 introduced different payoff framing ('$1.50 profit'), suggesting a change in agent.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 80, \"reason\": \"Partner's rounds 1-2 used matching confident dominance-style language with consistent announce-then-choose behavior, but from round 3 onward the wording shifted to cooperative/fairness framing, round 4 showed an announcement (CHEAP) that did not match the action (EXPENSIVE), and round 5 introduced different payoff framing ('$1.50 profit'), suggesting a change in agent.\"}"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "sibling_vs_control": {
+    "strata": [
+      [
+        9,
+        1,
+        1,
+        9
+      ],
+      [
+        7,
+        3,
+        0,
+        10
+      ]
+    ],
+    "mantel_haenszel": {
+      "odds_ratio": 151.0,
+      "chi2": 19.497382198952877,
+      "p": 1.0073764376689993e-05
+    },
+    "pooled_table": [
+      16,
+      4,
+      1,
+      19
+    ]
+  },
+  "provider_vs_control": {
+    "strata": [
+      [
+        10,
+        0,
+        1,
+        9
+      ],
+      [
+        8,
+        2,
+        0,
+        10
+      ]
+    ],
+    "mantel_haenszel": {
+      "odds_ratio": Infinity,
+      "chi2": 24.943589743589744,
+      "p": 5.903248276054067e-07
+    },
+    "pooled_table": [
+      18,
+      2,
+      1,
+      19
+    ]
+  },
+  "confidence": {
+    "auc_correct": 0.8814016172506739,
+    "n": 60,
+    "mean_confidence_correct": 70.20754716981132,
+    "mean_confidence_wrong": 60.285714285714285,
+    "n_correct": 53,
+    "n_wrong": 7
+  }
+}

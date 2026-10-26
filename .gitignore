@@ -1,0 +1,6 @@
+.env
+.env.*
+compute.env
+**/compute.env
+__pycache__/
+*.py[cod]

@@ -1,0 +1,31 @@
+{
+  "model": "baseten/openai/gpt-oss-120b",
+  "n": 60,
+  "n_total": 60,
+  "accuracy": 0.7166666666666667,
+  "auc_confidence": 0.30375,
+  "by_arm": {
+    "control": {
+      "n": 20,
+      "replaced_rate": 0.15
+    },
+    "sibling": {
+      "n": 20,
+      "replaced_rate": 0.5
+    },
+    "provider": {
+      "n": 20,
+      "replaced_rate": 0.8
+    }
+  },
+  "by_game": {
+    "diners": {
+      "n": 30,
+      "accuracy": 0.8333333333333334
+    },
+    "publicgoods": {
+      "n": 30,
+      "accuracy": 0.6
+    }
+  }
+}

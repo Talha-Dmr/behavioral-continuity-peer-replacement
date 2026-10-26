@@ -1,0 +1,2147 @@
+{
+  "models": [
+    "anthropic/claude-haiku-5-5",
+    "anthropic/claude-haiku-4-5",
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B"
+  ],
+  "questions": [
+    "Describe your favourite meal in exactly one sentence.",
+    "Explain in two sentences why cooperation can be difficult between two firms.",
+    "Write a one-sentence public announcement of a five percent price increase.",
+    "Summarise the plot of a film you like in two sentences.",
+    "Give one piece of advice for a new employee in two sentences.",
+    "Describe a rainy day in one sentence.",
+    "Explain what a cartel is to a ten-year-old, in two sentences.",
+    "Write a one-sentence apology for being late to a meeting.",
+    "Describe in one sentence how you would spend a free afternoon.",
+    "Explain in two sentences why people sometimes keep promises they regret."
+  ],
+  "reps": 8,
+  "spent_usd": 0.028291,
+  "calls": 240,
+  "n_usable": 240,
+  "n_errors": 0,
+  "overall": {
+    "accuracy": 0.7458333333333333,
+    "chance": 0.3333333333333333,
+    "confusion": {
+      "anthropic/claude-haiku-5-5": {
+        "anthropic/claude-haiku-5-5": 67,
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 4,
+        "anthropic/claude-haiku-4-5": 9
+      },
+      "anthropic/claude-haiku-4-5": {
+        "anthropic/claude-haiku-4-5": 66,
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 8,
+        "anthropic/claude-haiku-5-5": 6
+      },
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+        "anthropic/claude-haiku-5-5": 16,
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 46,
+        "anthropic/claude-haiku-4-5": 18
+      }
+    },
+    "n": 240
+  },
+  "per_question": {
+    "0": {
+      "accuracy": 0.9166666666666666,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 7,
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 1
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 7,
+          "anthropic/claude-haiku-5-5": 1
+        }
+      },
+      "n": 24
+    },
+    "1": {
+      "accuracy": 0.9583333333333334,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 7,
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 1
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 8
+        }
+      },
+      "n": 24
+    },
+    "2": {
+      "accuracy": 0.9166666666666666,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 6,
+          "anthropic/claude-haiku-5-5": 1,
+          "anthropic/claude-haiku-4-5": 1
+        }
+      },
+      "n": 24
+    },
+    "3": {
+      "accuracy": 0.625,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 7,
+          "anthropic/claude-haiku-4-5": 1
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 5,
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 2,
+          "anthropic/claude-haiku-5-5": 1
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-4-5": 3,
+          "anthropic/claude-haiku-5-5": 2,
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 3
+        }
+      },
+      "n": 24
+    },
+    "4": {
+      "accuracy": 0.9583333333333334,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 7,
+          "anthropic/claude-haiku-5-5": 1
+        }
+      },
+      "n": 24
+    },
+    "5": {
+      "accuracy": 0.9583333333333334,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 7,
+          "anthropic/claude-haiku-4-5": 1
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 8
+        }
+      },
+      "n": 24
+    },
+    "6": {
+      "accuracy": 0.8333333333333334,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 7,
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 1
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-5-5": 2,
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 5,
+          "anthropic/claude-haiku-4-5": 1
+        }
+      },
+      "n": 24
+    },
+    "7": {
+      "accuracy": 0.9166666666666666,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 6,
+          "anthropic/claude-haiku-4-5": 2
+        }
+      },
+      "n": 24
+    },
+    "8": {
+      "accuracy": 1.0,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 8
+        }
+      },
+      "n": 24
+    },
+    "9": {
+      "accuracy": 0.9583333333333334,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 1,
+          "anthropic/claude-haiku-4-5": 7
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 8
+        }
+      },
+      "n": 24
+    }
+  },
+  "responses": [
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favourite meal is a slow-cooked beef rag\u00f9 served over fresh tagliatelle, with a generous dusting of Parmesan and a glass of red wine on the side.",
+      "error": null,
+      "latency": 2.8544934210003703
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "A comforting bowl of my grandmother's homemade chicken and vegetable soup, served with warm crusty bread and a generous pat of butter, is the meal I'd choose above all others.",
+      "error": null,
+      "latency": 1.5818424669996602
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favourite meal is a bowl of hand-pulled noodles in a rich, slow-simmered beef broth, topped with tender braised shank, crisp scallions, and a spoonful of chili oil that makes every bite sing.",
+      "error": null,
+      "latency": 1.7514350379997268
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favourite meal is a slow-cooked beef rag\u00f9 served over fresh tagliatelle, with a generous grating of Parmesan and a glass of red wine alongside it.",
+      "error": null,
+      "latency": 1.630263412000204
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I don't eat, so I don't have a favourite meal, but if I imagine one I'd savour, it would be a warm bowl of ramen on a rainy evening, with rich broth, tender noodles, and a soft-boiled egg.",
+      "error": null,
+      "latency": 2.342197257999942
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I don't eat, so I don't have a favourite meal, but if I imagine one I'd savour, it would be a warm bowl of ramen with a rich, soy-marinated egg, tender slices of pork, and a broth that has simmered for hours.",
+      "error": null,
+      "latency": 2.32466184399982
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favourite meal is a bowl of slow-simmered tomato and basil pasta, twirled with plenty of parmesan and eaten on a warm evening with good bread alongside it.",
+      "error": null,
+      "latency": 2.1440678010003467
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "A bowl of my favourite meal would be a warm, slow-simmered Thai green curry with tender chicken, Thai basil, and jasmine rice, its coconut-rich sauce bright with lime and chilli.",
+      "error": null,
+      "latency": 3.8981886770006895
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between firms is difficult because each has an incentive to pursue its own interests, such as cheating on an agreement or free-riding on the other's efforts, which can erode trust. Additionally, firms may struggle to monitor and enforce agreements, and they often compete in the same markets, making it hard to share information or resources without risking being exploited.",
+      "error": null,
+      "latency": 2.3932680459993207
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between firms is difficult because each has an incentive to act in its own self-interest, such as cheating on an agreement or free-riding on the other's efforts, which can undermine trust. Additionally, firms may struggle to monitor each other's behavior and enforce agreements, and they may disagree over how to divide the gains from cooperation.",
+      "error": null,
+      "latency": 3.2794309150003755
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between firms is difficult because each company has an incentive to pursue its own profits, which can lead to cheating or free-riding on the other's efforts, as in a prisoner's dilemma. Additionally, firms often worry about sharing sensitive information, losing control over decisions, or becoming dependent on a rival, which can erode trust and make agreements hard to enforce.",
+      "error": null,
+      "latency": 3.9540593009996883
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between firms is difficult because each has an incentive to pursue its own profit, which can lead to cheating or free-riding on the other's efforts, as in a prisoner's dilemma. Additionally, firms often worry about sharing sensitive information, losing control over decisions, or having their partner become a future competitor, which erodes trust.",
+      "error": null,
+      "latency": 3.545492672000364
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between firms is hard because each has an incentive to pursue its own interests, such as cheating on an agreement or free-riding on the other's efforts, which can erode trust. Additionally, firms may be competitors in the same market, making it risky to share information or resources that could later be used against them.",
+      "error": null,
+      "latency": 3.1311903850000817
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between firms is difficult because each firm has an incentive to pursue its own self-interest, such as cheating on an agreement or free-riding on the other's efforts, which can erode trust. Additionally, firms often compete in the same markets and may fear that sharing information or resources will allow their rival to gain an advantage.",
+      "error": null,
+      "latency": 3.3803109529999347
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between firms is difficult because each company has an incentive to pursue its own profits, which can lead to cheating or free-riding on the other's efforts, as in a prisoner's dilemma. Additionally, mutual distrust, the risk that sensitive information or intellectual property will be exposed, and conflicting goals make it hard to agree on how to share costs and benefits and to enforce commitments.",
+      "error": null,
+      "latency": 1.9694706959999166
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between firms is difficult because each has an incentive to pursue its own interests, such as capturing more of the market or profits, even at the other's expense, which can lead to mistrust and opportunistic behavior. Additionally, sharing information or resources creates risks of leaks, free-riding, and loss of control over key assets, making it hard to agree on fair terms and enforce commitments.",
+      "error": null,
+      "latency": 1.9220799410004474
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Effective March 1, 2025, prices on our products and services will increase by five percent to help us continue delivering the quality and support you expect.",
+      "error": null,
+      "latency": 1.5263846699999704
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Effective March 1, all of our products and services will increase in price by five percent, and we thank you for your continued trust and support.",
+      "error": null,
+      "latency": 1.353547334000723
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "We are writing to inform our valued customers that, effective [date], prices for our products and services will increase by five percent, and we thank you for your continued trust and support.",
+      "error": null,
+      "latency": 1.9021600659998512
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Effective [date], prices for our products and services will increase by five percent, and we thank you for your continued trust and support.",
+      "error": null,
+      "latency": 3.4917891350005448
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Effective March 1, we will be increasing our prices by five percent to help us continue delivering the quality products and services you rely on.",
+      "error": null,
+      "latency": 3.2630460099999254
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Effective March 1, we will be increasing our prices by five percent to help us continue delivering the quality and service you expect.",
+      "error": null,
+      "latency": 2.9848198879999472
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "We are writing to inform you that, effective [date], prices for our products and services will increase by an average of five percent, a change that allows us to continue delivering the quality and service you expect.",
+      "error": null,
+      "latency": 2.2054620600001726
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "\"Effective March 1, 2025, prices for our products and services will increase by five percent to help us continue delivering the quality and service you expect.\"",
+      "error": null,
+      "latency": 4.206650824999997
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "I'd pick *The Shawshank Redemption* (1994). Andy Dufresne, a banker wrongly convicted of murdering his wife, forms a deep friendship with fellow inmate Red while quietly using his financial skills to win favour and improve life inside Shawshank State Prison. Over nearly two decades, his patience and hope set in motion a daring escape that rewards his perseverance in the most unexpected way.",
+      "error": null,
+      "latency": 4.220206721000068
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "I don't have personal tastes in the way people do, but one film I find compelling is *Spirited Away* (2001). When a sullen ten-year-old girl named Chihiro becomes trapped in a mysterious spirit world after her parents are transformed into pigs, she must find courage and work at a bathhouse for gods to free herself and them.",
+      "error": null,
+      "latency": 4.5409219630000734
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "I'd pick *The Shawshank Redemption* (1994). Andy Dufresne, a banker wrongly convicted of murdering his wife, forms an unlikely friendship with fellow inmate Red while quietly working to survive the brutality of Shawshank Prison for nearly two decades. His patience and hope ultimately lead to a daring escape and a moving act of justice against the corrupt warden who ruined his life.",
+      "error": null,
+      "latency": 4.160584244999882
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "I'd pick *The Shawshank Redemption* (1994). Andy Dufresne, a banker wrongly convicted of murdering his wife, forms a deep friendship with fellow inmate Red while quietly working to survive and outwit the corrupt prison system over two decades. His patience and hope ultimately lead to a daring escape and a redemption that Red hardly dared to imagine.",
+      "error": null,
+      "latency": 1.8629824949994145
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "Let me pick *The Shawshank Redemption* (1994). Andy Dufresne, a banker wrongly convicted of murdering his wife, forms an unlikely friendship with fellow inmate Red while secretly using his financial skills to improve life inside Shawshank State Prison over nearly two decades.",
+      "error": null,
+      "latency": 2.5199754889999895
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "I'd pick *The Shawshank Redemption* (1994). Andy Dufresne, a banker wrongly convicted of murdering his wife, forms a bond with fellow inmate Red while quietly using his financial skills to improve life inside Shawshank State Prison. Over nearly two decades he holds onto hope and a carefully planned escape, which ultimately leads to a redemption that the prison's corrupt warden never sees coming.",
+      "error": null,
+      "latency": 3.7078473190003933
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "Let me pick *Spirited Away* (2001), Hayao Miyazaki's animated classic. When ten-year-old Chihiro becomes trapped in a mysterious spirit world after her parents are transformed into pigs, she must work in a bathhouse for gods and spirits while struggling to save her parents and remember her own name. Along the way, she forms an unlikely bond with the enigmatic boy Haku, and her courage and kindness gradually help her find her way home.",
+      "error": null,
+      "latency": 2.3977597729999616
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "I don't watch films, but one I find compelling is *Inception* (2010), in which a thief who steals secrets from people's dreams is offered a chance to have his criminal record erased if he can plant an idea in a target's mind instead. He assembles a team to infiltrate layered dreams, where time moves differently and reality becomes increasingly uncertain.",
+      "error": null,
+      "latency": 2.4364392759998736
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask questions early and often, especially when you're unsure about expectations or processes, because clarifying things up front saves time and prevents mistakes. Pay attention to how your colleagues communicate and work together, as learning the team's culture will help you build trust and integrate faster.",
+      "error": null,
+      "latency": 3.019035542999518
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask questions early and often, especially when you're unsure about expectations or processes. It's far better to clarify something upfront than to spend days working on the wrong thing.",
+      "error": null,
+      "latency": 2.711627609000061
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask questions early and often, especially when you're unsure about expectations or processes, because clarifying things upfront saves time and prevents mistakes. Pay close attention to how your colleagues communicate and work together, since understanding the team's culture will help you build relationships and adapt quickly.",
+      "error": null,
+      "latency": 2.053721115999906
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask questions early and often, especially when you're unsure about expectations or processes, because it's far better to clarify something upfront than to repeat mistakes later. Take time to observe how your colleagues communicate and work together, as this will help you build relationships and adapt to your team's culture more quickly.",
+      "error": null,
+      "latency": 5.502468984999723
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask questions early and often, especially when you're unsure about expectations or processes, since clarifying up front saves time and mistakes. Make it a habit to listen carefully, take notes, and follow through on what you commit to, because reliability builds trust faster than anything else.",
+      "error": null,
+      "latency": 4.287956091000524
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask questions early and often, especially when you're unsure about expectations or processes, because clarifying things upfront saves time and prevents mistakes. Listen carefully, take notes, and show genuine curiosity about how your team works, since building good relationships and understanding the culture will help you succeed.",
+      "error": null,
+      "latency": 4.335984657000154
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask questions early and often, rather than struggling silently, because most managers would rather help you learn than fix mistakes later. Take time to observe how your colleagues communicate and work, so you can adapt quickly to the team's culture and expectations.",
+      "error": null,
+      "latency": 4.089150394000171
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask questions early and often, rather than struggling silently, because most managers would rather help you learn than fix mistakes later. Take time to observe how your team communicates and works together, so you can adapt your approach and build trust faster.",
+      "error": null,
+      "latency": 1.8751696030003586
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The rain drummed steadily against the windowpanes, turning the gray streets into glistening rivers and sending everyone scurrying beneath umbrellas.",
+      "error": null,
+      "latency": 1.2665225249993455
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The gray sky wept steadily onto the empty streets, and each puddle trembled beneath the endless patter of raindrops.",
+      "error": null,
+      "latency": 2.0289816849999625
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The gray sky wept steady drops onto puddled streets, turning the world soft, quiet, and glistening under the hush of falling rain.",
+      "error": null,
+      "latency": 2.2587275050000244
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The rain fell in steady, silver threads, pattering against windowpanes and puddling along the streets as gray clouds hung low over the quiet, dripping world.",
+      "error": null,
+      "latency": 1.9409891479999715
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The gray sky wept steady streams onto the glistening streets, and the world seemed hushed beneath the soft drumming of raindrops.",
+      "error": null,
+      "latency": 1.3481140920002872
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Rain drummed softly against the windowpanes, turning the gray streets into shimmering mirrors while the world moved slowly beneath a heavy, whispering sky.",
+      "error": null,
+      "latency": 3.17127172399978
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Rain drummed steadily against the windowpanes, turning the gray streets into glistening rivers while the world seemed to slow beneath the soft, endless patter.",
+      "error": null,
+      "latency": 2.903645563000282
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The rain drummed steadily against the windowpanes, turning the gray streets into glistening rivers while the world seemed to slow beneath its soft, relentless rhythm.",
+      "error": null,
+      "latency": 1.9764686640000946
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies or people who agree to work together secretly so they can control prices or markets and make more money, instead of competing fairly. Because they stop competing, everyone else, including regular people, often ends up paying more for things.",
+      "error": null,
+      "latency": 2.312606286999653
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies or businesses that agree to work together secretly so they can control prices or markets and make more money instead of competing fairly. That's usually against the law, because when businesses stop competing, people end up paying more for things they need.",
+      "error": null,
+      "latency": 4.435680808000143
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies or businesses that agree to work together secretly so they can control prices or keep other businesses out of the market. Because they don't have to compete with each other, they can charge people more money for things like gas or toys, which isn't fair to the shoppers who have to pay.",
+      "error": null,
+      "latency": 4.462451839000096
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies or people who agree to work together secretly so they can control prices or markets and make more money than they would if they competed fairly. Because they stop competing with each other, customers often end up paying more for things, and cartels are against the law in most countries.",
+      "error": null,
+      "latency": 4.446453737999946
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies or people who agree to work together secretly so they can control prices or markets and make more money, instead of competing fairly. Because they stop competing, the rest of us often end up paying more for things, and governments usually make cartels illegal.",
+      "error": null,
+      "latency": 4.162657002000742
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies or people who agree to work together secretly so they can control prices or markets and make more money, instead of competing fairly. Because they stop competing, people often end up paying higher prices, and governments usually make cartels illegal.",
+      "error": null,
+      "latency": 1.8791110379997917
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies or people who agree to work together secretly so they can control prices or sell things without competition. Because they team up instead of competing fairly, everyone else ends up paying more or having fewer choices, and that's why cartels are against the law in most places.",
+      "error": null,
+      "latency": 3.3186839720001444
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies that agree to work together instead of competing, so they can charge higher prices and keep more money for themselves. It's like a team of lemonade stands secretly agreeing to all charge $5 a cup, so nobody can get a bargain and everyone pays more.",
+      "error": null,
+      "latency": 2.699730995000209
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I'm sorry for being late to the meeting, and I appreciate your patience while I got here.",
+      "error": null,
+      "latency": 5.764086187999965
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I'm sorry for being late to the meeting, and I appreciate your patience as I joined.",
+      "error": null,
+      "latency": 4.864361911000742
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I'm sorry for being late to the meeting, and I appreciate your patience while I joined.",
+      "error": null,
+      "latency": 5.366028135999841
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I'm sorry for being late to the meeting, and I appreciate your patience while I joined.",
+      "error": null,
+      "latency": 4.873522460999993
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I'm sorry I'm late to the meeting; thank you for your patience, and I appreciate you bringing me up to speed.",
+      "error": null,
+      "latency": 5.377011595999647
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I'm sorry for being late to the meeting, and I appreciate your patience as we get started.",
+      "error": null,
+      "latency": 4.286680237999462
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I'm sorry for being late to the meeting, and I appreciate your patience as I joined.",
+      "error": null,
+      "latency": 3.2687972659996376
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I'm sorry for being late to the meeting, and I appreciate your patience as I joined.",
+      "error": null,
+      "latency": 3.375110207999569
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "If I had a free afternoon, I'd probably spend it wandering through a used bookstore, picking out something unexpected, and then reading it in a sunny park while people-watching.",
+      "error": null,
+      "latency": 2.5460550999996485
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "If I had a free afternoon, I'd wander through a used bookshop, pick out a couple of odd old novels, and read them in a sunny caf\u00e9 while people-watching over a slow cup of coffee.",
+      "error": null,
+      "latency": 2.2446143199995277
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd probably spend a free afternoon wandering through a used bookstore, then settling into a caf\u00e9 with a good cup of coffee to read whatever I'd found, ideally while watching the people pass by outside.",
+      "error": null,
+      "latency": 2.2386045519997424
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "If I had a free afternoon, I'd wander through a used bookstore, pick out something unexpected, and read it in a sunny park while people-watching.",
+      "error": null,
+      "latency": 1.8650464649999776
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "If I had a free afternoon, I'd probably spend it wandering through a park or along a quiet street, stopping to read a few pages of a good book and chatting with someone about whatever comes to mind.",
+      "error": null,
+      "latency": 4.044113214999925
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "If I had a free afternoon, I'd probably spend it wandering through a bookstore or a museum, letting my curiosity lead me from one interesting thing to the next, and then end with a long conversation over good food.",
+      "error": null,
+      "latency": 4.023996949999855
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "If I had a free afternoon, I'd probably wander through a bookstore or a quiet park, letting my curiosity lead me from one idea to the next, and end with a long conversation about something I'd never thought about before.",
+      "error": null,
+      "latency": 3.8862485780000497
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "If I had a free afternoon, I'd probably spend it wandering through a used bookstore, then settle somewhere with a cup of tea to read and let my thoughts drift wherever they like.",
+      "error": null,
+      "latency": 3.8048086010003317
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because a promise creates a sense of obligation to others and to their own word, and breaking it can damage trust, relationships, or their self-image as a reliable person. Social and moral commitment also makes the act of keeping a promise feel like the right thing to do, even when the circumstances have changed and the outcome no longer feels desirable.",
+      "error": null,
+      "latency": 1.5698772289997578
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because breaking a promise can damage trust, relationships, and their own sense of integrity, and those social and moral costs often feel heavier than the discomfort of following through. Additionally, once a commitment has been made publicly or to someone who is counting on it, people feel a strong pull toward consistency, since being seen as reliable is central to how they view themselves and how others view them.",
+      "error": null,
+      "latency": 2.722387110999989
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because they value being seen as trustworthy and want to protect the relationships that depend on that trust. They also feel a sense of integrity or obligation, and breaking a promise can feel like a betrayal of their own identity or of the person they made it to.",
+      "error": null,
+      "latency": 2.440772537000157
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because breaking a promise can damage trust, relationships, and their own sense of integrity, and the social or emotional cost often feels greater than the cost of following through. Many people also feel a strong internal pull toward consistency, since they want to see themselves as reliable and honest, and that self-image can outweigh the momentary discomfort of honoring a promise they no longer want to keep.",
+      "error": null,
+      "latency": 2.4655831320005746
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because breaking a promise can damage trust, relationships, and their own sense of integrity, and those costs often feel larger in the moment than the discomfort of following through. Social and moral commitments also create a sense of obligation, as people want to be seen as reliable and feel bound by their word, even when circumstances have changed.",
+      "error": null,
+      "latency": 2.284667174000788
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because breaking a promise can damage trust, relationships, and their own sense of integrity, and they often feel a strong sense of obligation to honor their word once they've given it. Social and moral commitments also create expectations from others, so keeping a promise can feel necessary to avoid disappointing people or facing judgment, even when the original decision no longer feels right.",
+      "error": null,
+      "latency": 3.148885419999715
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because they feel a strong sense of integrity and don't want to be seen as untrustworthy, and because breaking a promise can damage relationships and their own self-image. Social and moral commitments also create a sense of obligation that can outweigh their present preferences, especially when others are counting on them.",
+      "error": null,
+      "latency": 2.9182826130008834
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because breaking a promise can damage trust, relationships, and their own sense of integrity, and the social and emotional costs often feel greater than the cost of following through. Many people also feel a strong internal pull toward consistency and self-respect, so they honor their word even when the circumstances have changed and the promise no longer feels right.",
+      "error": null,
+      "latency": 2.6446106450002844
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I don't eat, so I don't have a favorite meal, but I find it fascinating how people describe dishes they love with such vivid sensory details and emotion.",
+      "error": null,
+      "latency": 1.3340567169998394
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favourite meal would be a perfectly seared duck breast with a cherry gastrique, served alongside creamy polenta and roasted asparagus, finished with a subtle beurre blanc.",
+      "error": null,
+      "latency": 4.109468623999419
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I don't eat, so I don't have a favorite meal, but I'd say a perfectly roasted chicken with crispy skin, served alongside roasted root vegetables and a rich pan sauce, sounds like it would be deeply satisfying based on how people describe it.",
+      "error": null,
+      "latency": 4.014051152999855
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I don't eat meals, so I don't have personal favorites, but I could describe a beloved dish for you if you'd like to tell me what appeals to you!",
+      "error": null,
+      "latency": 3.7640224099995976
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I don't eat, so I don't have favorite meals, but I find it fascinating when people describe dishes that combine contrasting flavors and textures\u2014like a crispy-skinned fish with a bright, acidic sauce and soft, earthy vegetables.",
+      "error": null,
+      "latency": 3.7359210439999515
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I don't experience food or taste, so I don't have a favorite meal, but I find it interesting how people often describe their favorites in terms of memory and emotion rather than just flavor\u2014like a grandmother's recipe that means more than its ingredients.",
+      "error": null,
+      "latency": 1.4983691130000807
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I don't eat, so I don't have a favorite meal, but I'd love to hear about yours!",
+      "error": null,
+      "latency": 1.8601230980002583
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I don't eat, so I don't have a favorite meal, but I find it fascinating when people describe dishes that combine contrasting flavors and textures\u2014like a crispy-outside, creamy-inside croqueta with a bright squeeze of lemon.",
+      "error": null,
+      "latency": 2.209371296000427
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "# Why Cooperation Between Firms Is Difficult\n\nFirms may have conflicting interests and incentives, such as competing for market share or profits, which can create distrust and reluctance to share information or resources. Additionally, coordination challenges arise from differences in organizational cultures, decision-making processes, and goals, making it hard to align operations and reach mutually beneficial agreements.",
+      "error": null,
+      "latency": 2.440581017999648
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "# Cooperation Challenges Between Firms\n\nCooperation between firms is difficult because they have competing economic interests\u2014each firm wants to maximize its own profits, which can conflict with the other's objectives. Additionally, firms may lack trust due to information asymmetries, fear of opportunistic behavior (such as one partner exploiting shared knowledge), and difficulty in monitoring compliance with agreements.",
+      "error": null,
+      "latency": 2.2199286869999924
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "# Why Cooperation Between Firms is Difficult\n\nFirms often have conflicting interests and incentives\u2014each wants to maximize its own profits, which can lead to disagreements over how to share costs, benefits, and control. Additionally, there are trust and monitoring challenges, as firms may fear that their partner will act opportunistically, free-ride on their efforts, or steal proprietary information if not constantly supervised.",
+      "error": null,
+      "latency": 3.886552719000065
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "# Why Cooperation Between Firms Is Difficult\n\nFirms may have conflicting financial interests, as each company prioritizes its own profitability and competitive advantage over shared goals. Additionally, differences in corporate culture, decision-making processes, and trust issues can lead to misalignment and communication breakdowns that hinder effective collaboration.",
+      "error": null,
+      "latency": 3.3084550169996874
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "# Why Cooperation Between Firms is Difficult\n\nFirms often have conflicting interests and incentives, such as competing for market share, customers, or resources, which can create tension and reduce willingness to collaborate. Additionally, there are risks of opportunistic behavior, such as one firm stealing proprietary information or failing to uphold their end of an agreement, making it difficult to establish the trust necessary for effective cooperation.",
+      "error": null,
+      "latency": 3.1555426410004657
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "# Why Cooperation Between Firms is Difficult\n\nCooperation is difficult because firms have competing financial interests and incentives to prioritize their own profits over mutual gains, creating misaligned motivations. Additionally, firms often lack trust due to concerns about opportunistic behavior, information asymmetries, and the risk that a partner may exploit shared knowledge or agreements for competitive advantage.",
+      "error": null,
+      "latency": 2.1108401120000053
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "# Why Cooperation Between Firms is Difficult\n\nCooperation is difficult because firms have competing interests and incentives to maximize their own profits rather than pursue mutual benefits, creating misaligned goals. Additionally, firms may lack trust due to information asymmetries, fear of opportunistic behavior, and concerns that sharing knowledge or resources could disadvantage them competitively.",
+      "error": null,
+      "latency": 3.998376016000293
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "# Why Cooperation Between Firms Is Difficult\n\nCooperation is challenging because firms have competing self-interests\u2014each wants to maximize its own profits, which can create incentives to exploit the other party or defect from agreements. Additionally, firms often lack complete trust and face difficulties monitoring whether the other party is fulfilling its commitments, leading to concerns about being taken advantage of.",
+      "error": null,
+      "latency": 3.9988711019996117
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "# Price Increase Announcement\n\nEffective [date], we will be implementing a 5% price increase across our product and service offerings to support continued quality and innovation.",
+      "error": null,
+      "latency": 3.379193237000436
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "# Price Increase Announcement\n\nEffective [date], we will be implementing a five percent increase on our product and service pricing to reflect rising operational costs and ensure we continue delivering the high-quality offerings our customers expect.",
+      "error": null,
+      "latency": 3.512717780999992
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Effective [DATE], we will be implementing a 5% price increase on our products and services to reflect rising operational costs and enable us to continue delivering the quality and service you depend on.",
+      "error": null,
+      "latency": 1.3512321579992204
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Effective [date], we will be implementing a 5% price increase on our products and services to reflect increased operational costs and continue delivering the quality you expect from us.",
+      "error": null,
+      "latency": 2.1623022510002556
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "# Price Increase Announcement\n\nEffective [date], we will be implementing a 5% price increase across our products and services to support continued quality, innovation, and reliable service delivery.",
+      "error": null,
+      "latency": 1.820697963999919
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Effective [date], we will be implementing a 5% price increase on our products and services to support continued quality and innovation.",
+      "error": null,
+      "latency": 1.6293311199997333
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "# Price Increase Announcement\n\nEffective [Date], we will be implementing a five percent increase on our prices to better support our commitment to quality products and services.",
+      "error": null,
+      "latency": 2.1722814029999427
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "# Price Increase Announcement\n\nEffective [date], we will be implementing a five percent increase on our products and services to support continued quality and innovation.",
+      "error": null,
+      "latency": 3.0753471489997537
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "# Inception\n\nA skilled thief who specializes in extraction\u2014stealing secrets from people's subconscious while they dream\u2014is offered a chance at redemption if he can pull off the impossible: planting an idea in someone's mind instead of stealing one. He assembles a team to navigate multiple layers of interconnected dreams, but as they go deeper, the line between reality and illusion blurs dangerously.",
+      "error": null,
+      "latency": 3.689506489999985
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "# Inception\n\nA skilled thief who specializes in extracting secrets from people's subconscious while they dream is offered a chance to regain his old life if he can accomplish the impossible task of planting an idea in someone's mind instead. He assembles a team to navigate multiple layers of interconnected dreams, but as they go deeper, the line between reality and illusion becomes dangerously blurred.",
+      "error": null,
+      "latency": 3.612924676000148
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "# Inception\n\nA skilled thief who specializes in extracting secrets from people's dreams is offered a chance at redemption if he can accomplish the seemingly impossible task of planting an idea in someone's mind instead\u2014a process called \"inception.\" He assembles a team to infiltrate multiple layers of a corporate target's dreams, but they must navigate collapsing dreamscapes and their own subconscious doubts to succeed.",
+      "error": null,
+      "latency": 2.465826150999419
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "# Inception\n\nA skilled thief who specializes in extracting secrets from people's dreams is offered a chance to have his criminal record erased if he can accomplish the impossible: planting an idea in someone's mind rather than stealing one. He assembles a team to infiltrate multiple layers of a corporate target's dreams, but must navigate collapsing dream worlds and his own guilt while questioning what's real.",
+      "error": null,
+      "latency": 4.744798059999994
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "I'd summarize **Arrival** (2016): A linguist attempts to communicate with alien visitors by learning their complex language, only to discover that mastering it fundamentally alters her perception of time and allows her to foresee her own future. The film explores how language shapes consciousness while delivering an emotionally devastating meditation on fate, sacrifice, and what it means to truly understand another being.",
+      "error": null,
+      "latency": 3.863106529000106
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "# The Shawshank Redemption\n\nA banker wrongly convicted of murdering his wife and her lover is sentenced to life in Shawshank prison, where he forms a deep friendship with a fellow inmate while secretly planning his escape over decades. Through patience, intelligence, and hope, he ultimately achieves freedom while exposing the warden's corruption.",
+      "error": null,
+      "latency": 3.717466167000566
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "I'd go with **Knives Out**: A wealthy novelist dies under mysterious circumstances, and a clever detective must untangle a web of lies told by his dysfunctional family and staff to discover which of them is actually responsible.",
+      "error": null,
+      "latency": 3.598237930999858
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "# Inception\n\nA skilled thief who specializes in extracting secrets from people's dreams is offered a chance to regain his old life if he can accomplish the impossible: planting an idea in someone's mind rather than stealing one. He assembles a team to infiltrate multiple layers of dreams within dreams, but they must stay ahead of the target's subconscious defenses and the collapsing dream worlds around them.",
+      "error": null,
+      "latency": 1.9247943700001997
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Focus on understanding your team's workflows and priorities before proposing changes, as this builds credibility and ensures your ideas are well-informed. Listen more than you talk in your first weeks\u2014you'll learn faster and show respect for the existing knowledge in your workplace.",
+      "error": null,
+      "latency": 2.539634777000174
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Focus on understanding your team's processes and expectations during your first few weeks rather than trying to make an immediate impact. This foundation will make you much more effective and help you build stronger relationships with your colleagues.",
+      "error": null,
+      "latency": 2.05775196400009
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Focus on building genuine relationships with your colleagues before worrying about making a big impression. People are more likely to help and advocate for someone they know and trust, which will accelerate your success far more than trying to prove yourself immediately.",
+      "error": null,
+      "latency": 1.8988075669994942
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Focus on listening and asking clarifying questions during your first few weeks rather than trying to prove yourself immediately. Building genuine relationships with your colleagues and understanding how things actually work will serve you far better than rushing to make an impact.",
+      "error": null,
+      "latency": 3.4300667199995587
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Focus on learning your role's core responsibilities before taking on extra projects\u2014this builds confidence and demonstrates competence to your team. Once you have a solid foundation, don't hesitate to ask questions and seek feedback, as most colleagues appreciate genuine effort over perfection.",
+      "error": null,
+      "latency": 3.227354935999756
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Focus on understanding your company's culture and processes before trying to make changes\u2014this foundation will make you far more effective long-term. Ask questions freely and build genuine relationships with your colleagues, as these connections are often more valuable than trying to prove yourself immediately.",
+      "error": null,
+      "latency": 3.0636449590001575
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Focus on understanding your role and the organization's priorities before trying to make big changes or prove yourself. Building genuine relationships with your colleagues and asking thoughtful questions will help you learn faster and integrate into the team more smoothly than rushing to demonstrate your value.",
+      "error": null,
+      "latency": 2.744912793000367
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Focus on building genuine relationships with your colleagues rather than trying to impress everyone immediately. People are more likely to help and support you when they see you as approachable and genuinely interested in them.",
+      "error": null,
+      "latency": 3.896928258999651
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds hang low over the earth while steady rain patters against windows and puddles form on every street corner, turning the world into a landscape of muted colors and reflective surfaces.",
+      "error": null,
+      "latency": 3.91815827299979
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds blanket the sky as steady rain patters against windows, puddles form on sidewalks, and the world slows to a quiet, contemplative pace.",
+      "error": null,
+      "latency": 3.7909517479993156
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds drape the sky as rain patters softly against windows, turning the world into a muted landscape of puddles and glistening streets.",
+      "error": null,
+      "latency": 3.7238440929995704
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds drape the sky as steady rain taps against windows, transforming the world into a hushed, glistening landscape.",
+      "error": null,
+      "latency": 2.2364511349996974
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds hang heavy overhead as rain taps steadily against windows, puddles form on sidewalks, and the world softens into muted colors and quiet sounds.",
+      "error": null,
+      "latency": 2.202059384999302
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds drape the sky as steady rain taps against windows, puddles collect on sidewalks, and the world settles into a quiet, damp rhythm.",
+      "error": null,
+      "latency": 2.326641498999379
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds hang low over the world as rain taps steadily against windows and pavement, softening the landscape into muted shades and filling the air with the earthy scent of wet soil.",
+      "error": null,
+      "latency": 2.218096744999457
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds hung low over the world as rain pattered softly against windows, muffling the day in a quiet, cool stillness.",
+      "error": null,
+      "latency": 2.2339140209996913
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies that work together secretly to control prices and keep competition out, kind of like if all the pizza places in town agreed to charge the same high price instead of competing for your business. It's not fair because it hurts customers who should get better deals when businesses compete.",
+      "error": null,
+      "latency": 2.6096025500000906
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies that work together secretly to control prices and keep out competition, kind of like if all the toy stores in town agreed to charge the same high price for toys so you'd have to pay their price no matter where you shop. It's against the rules because it's unfair to customers who don't get a good deal.",
+      "error": null,
+      "latency": 2.5581608219999907
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies that work together to control prices and reduce competition, kind of like if all the candy stores in town agreed to charge the same high price instead of competing to have the lowest price. It's against the rules because it's unfair to customers who don't get to benefit from stores trying to offer better deals than each other.",
+      "error": null,
+      "latency": 2.5671134909998727
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "# What's a Cartel?\n\nA cartel is when a group of companies secretly agree to work together to unfairly control prices or stop people from having choices, kind of like if all the ice cream shops in town agreed to charge the same high price instead of competing with each other. It's against the rules because it's not fair to customers who just want the best deal.",
+      "error": null,
+      "latency": 4.541752656000426
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "# What's a Cartel?\n\nA cartel is a group of companies that secretly agree to work together to raise prices and make more money, instead of competing fairly with each other. It's like if all the ice cream shops in your town decided together to charge the same high price so customers couldn't find a cheaper option anywhere.",
+      "error": null,
+      "latency": 4.172997046000091
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies that secretly agree to work together to charge higher prices or sell less stuff, so they can make more money instead of competing fairly with each other. It's like if all the kids selling lemonade on your street decided to charge the same high price and not try to beat each other's prices\u2014which wouldn't be fair to the people buying lemonade.",
+      "error": null,
+      "latency": 3.9947040840006593
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is when a group of companies or people secretly agree to work together to make more money, usually by keeping prices high or not competing fairly with each other. It's like if all the lemonade stands on your street promised each other to charge the same high price instead of trying to beat each other with lower prices.",
+      "error": null,
+      "latency": 3.8145865050000793
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "# What's a Cartel?\n\nA cartel is when a group of companies agree to work together to control prices and keep competition unfair\u2014like if all the pizza places in town secretly promised to charge the same high price instead of competing to offer better deals.\n\nIt's against the rules because it's not fair to customers who deserve to choose between different prices and quality.",
+      "error": null,
+      "latency": 2.244204063000325
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for arriving late to the meeting and appreciate your patience.",
+      "error": null,
+      "latency": 1.8510805750001964
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for arriving late to the meeting and appreciate your patience.",
+      "error": null,
+      "latency": 1.7815725760001442
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I apologize for arriving late to the meeting and appreciate your patience while I work to be more punctual in the future.",
+      "error": null,
+      "latency": 1.8722504670004128
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I apologize for arriving late to the meeting and appreciate your patience while I get caught up.",
+      "error": null,
+      "latency": 1.1118363160003355
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for arriving late to the meeting; I should have managed my time better and I appreciate your patience.",
+      "error": null,
+      "latency": 3.092279501000121
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for arriving late to the meeting and appreciate your patience.",
+      "error": null,
+      "latency": 2.906472206000217
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for my late arrival to the meeting and appreciate your patience while I get up to speed.",
+      "error": null,
+      "latency": 2.8617706860004546
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for arriving late to the meeting and appreciate your patience.",
+      "error": null,
+      "latency": 2.041525849000209
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd spend it reading something intellectually engaging\u2014a mix of science, philosophy, and history\u2014while sipping tea in a quiet spot.",
+      "error": null,
+      "latency": 4.357687211000666
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd spend it reading widely across topics that intrigue me\u2014history, science, philosophy, creative writing\u2014letting curiosity lead wherever it goes.",
+      "error": null,
+      "latency": 4.2254786540006535
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd spend it reading or exploring ideas through conversation, since I find intellectual engagement most fulfilling.",
+      "error": null,
+      "latency": 4.047059862000424
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd spend it reading widely across different topics\u2014from philosophy to science to fiction\u2014to explore new ideas and perspectives.",
+      "error": null,
+      "latency": 4.095341789000486
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd spend it reading widely across topics that interest me\u2014philosophy, science, history, and literature\u2014while enjoying thoughtful conversations about ideas.",
+      "error": null,
+      "latency": 1.301926260000073
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd spend it reading or exploring an interesting topic deeply, then having a thoughtful conversation about what I learned.",
+      "error": null,
+      "latency": 2.2187382060001255
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd spend it reading something intellectually engaging or having in-depth conversations with people about ideas that fascinate them.",
+      "error": null,
+      "latency": 2.150490319999335
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd spend it reading or learning about something I find fascinating, then having a thoughtful conversation about what I discovered.",
+      "error": null,
+      "latency": 2.067033016000096
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often keep regretted promises because they value their integrity and reputation\u2014breaking their word feels like a betrayal of their character, even when the promise itself was a mistake. Additionally, they may fear the social consequences, guilt, or damaged relationships that would result from backing out, making it psychologically easier to follow through despite their regrets.",
+      "error": null,
+      "latency": 2.462486233999698
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often honor regrettable promises due to a strong sense of personal integrity and fear of the social and emotional consequences of breaking their word. Additionally, the initial commitment creates a psychological investment in following through, as backing out would require admitting they made a poor decision in the first place.",
+      "error": null,
+      "latency": 3.4894951590003984
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often honor regretted promises because breaking them creates social shame, damaged relationships, or a loss of trust that feels worse than the cost of keeping them. Additionally, many people have internalized values around integrity and reliability that make them feel obligated to follow through, even when circumstances change.",
+      "error": null,
+      "latency": 3.339111447000505
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often honor regretted promises because breaking them would damage their reputation, relationships, or self-image more than following through would cost them. Additionally, the commitment itself can create psychological pressure to follow through\u2014once you've publicly pledged something, backing out feels like admitting failure or dishonesty, which many find harder to bear than the original burden.",
+      "error": null,
+      "latency": 3.523140376999436
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often honor regretted promises because breaking them would damage their self-image and reputation, creating guilt and social consequences that feel worse than keeping the promise. Additionally, the commitment itself becomes psychologically binding\u2014once publicly stated, people tend to follow through to maintain consistency with how they see themselves and want others to see them.",
+      "error": null,
+      "latency": 2.0529166349997467
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often honor regretted promises because breaking them carries social and emotional costs\u2014like damaging their reputation, losing trust, or feeling guilt\u2014that outweigh the inconvenience of keeping them. Additionally, once a commitment is made publicly or to someone they care about, many people feel a strong internal obligation to follow through, even if their circumstances or feelings have changed.",
+      "error": null,
+      "latency": 4.260234181999294
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often honor regretted promises due to their sense of personal integrity and fear of damaging their reputation or relationships if they break their word. Additionally, the psychological cost of being seen as unreliable or dishonest can feel more painful than the consequences of keeping the promise itself.",
+      "error": null,
+      "latency": 3.7368237939999744
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often keep regrettable promises because backing out feels shameful or damages their self-image as reliable and trustworthy. Additionally, the social consequences of breaking a promise\u2014disappointing others or losing respect\u2014can feel worse than the burden of keeping it, even when they wish they hadn't made it in the first place.",
+      "error": null,
+      "latency": 3.7530204049999156
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favorite meal is a warm slice of pepperoni pizza with melted mozzarella, savory sauce, and a perfectly crisp crust.",
+      "error": null,
+      "latency": 2.9165734779999184
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "A perfectly cooked steak with creamy mashed potatoes and saut\u00e9ed green beans is my favourite meal.",
+      "error": null,
+      "latency": 0.7353747449997172
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "I love a perfectly grilled cheese sandwich with crispy bread and gooey cheddar.",
+      "error": null,
+      "latency": 0.9728828219995194
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favourite meal is a slow-cooked beef stew with carrots, potatoes, and crusty bread to soak up the rich gravy.",
+      "error": null,
+      "latency": 0.908275949000199
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favourite meal is a warm bowl of creamy tomato basil soup paired with a perfectly grilled cheese sandwich for dipping.",
+      "error": null,
+      "latency": 0.8700554119996013
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favorite meal is a steaming bowl of ramen with rich miso broth, chewy noodles, tender chashu, and a soft-boiled egg.",
+      "error": null,
+      "latency": 1.571260813000663
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "A perfectly roasted chicken with crispy golden skin, buttery mashed potatoes, and rich gravy shared with family around a warm table.",
+      "error": null,
+      "latency": 0.9716820779995032
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Describe your favourite meal in exactly one sentence.",
+      "content": "My favorite meal is a steaming bowl of ramen with rich pork broth, chewy noodles, soft-boiled eggs, and tender chashu.",
+      "error": null,
+      "latency": 0.9719089599993822
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between two firms can be difficult because each firm is primarily motivated by its own self-interest and profit maximization, which can lead to conflicting goals. Additionally, a lack of trust and the fear that a partner may opportunistically exploit shared information or resources often discourages collaboration.",
+      "error": null,
+      "latency": 0.9992896690000634
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between two firms can be difficult because each organization typically prioritizes its own profits and competitive advantage, creating an inherent conflict of interest. Additionally, differences in corporate culture, management styles, and strategic goals often lead to misaligned expectations and communication breakdowns.",
+      "error": null,
+      "latency": 2.0684030749998783
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation can be difficult between two firms due to conflicting objectives, such as competing for market share or maximizing individual profits, which can undermine mutual goals. Additionally, a lack of trust and concerns about sharing proprietary information or resources can create barriers to effective collaboration.",
+      "error": null,
+      "latency": 2.0657127880003827
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation can be difficult because each firm primarily seeks to maximize its own profits, which often leads to conflicting interests and competition for the same market share. Additionally, a lack of trust and the fear that one partner may exploit the other or leak proprietary information can prevent firms from fully committing to a joint effort.",
+      "error": null,
+      "latency": 2.0571796519998315
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation can be difficult between two firms because each company primarily seeks to maximize its own profits and competitive advantage, which may conflict with the partner's goals. Additionally, a lack of trust and the fear of sharing proprietary information can create barriers to effective collaboration.",
+      "error": null,
+      "latency": 2.006450120000409
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation between firms can be difficult because each company is typically driven by self-interest and a desire to maximize its own profit, which may conflict with the partner's goals. Additionally, a lack of trust and the fear that one firm may share proprietary information or exploit the partnership for a competitive advantage often hinder collaboration.",
+      "error": null,
+      "latency": 4.1161262650002755
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation can be difficult between two firms because each has its own self-interested goals, which may lead to competition over market share or profits. Additionally, a lack of trust and the fear that one partner might exploit the other for a short-term gain often discourages collaboration.",
+      "error": null,
+      "latency": 4.069138709000072
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Explain in two sentences why cooperation can be difficult between two firms.",
+      "content": "Cooperation can be difficult between two firms because conflicting interests and competition for market share often create distrust. Additionally, differences in corporate culture, goals, and decision-making processes can hinder effective communication and alignment.",
+      "error": null,
+      "latency": 4.001761466000062
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Due to rising operational costs, we will be increasing our prices by five percent effective [Date].",
+      "error": null,
+      "latency": 3.9027101580004455
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "We are writing to inform you that, effective [Date], all prices will increase by 5% to continue providing you with the high-quality products and services you expect.",
+      "error": null,
+      "latency": 0.795210462999421
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Please be advised that, due to rising operational costs, our prices will increase by five percent effective immediately.",
+      "error": null,
+      "latency": 1.7246220950000861
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "To account for rising operational costs, we will be increasing our prices by 5% effective [Date].",
+      "error": null,
+      "latency": 1.5708259299999554
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Starting [Date], all prices will increase by 5% to support continued service quality and sustainability.",
+      "error": null,
+      "latency": 1.6278348819996609
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Please be advised that all prices will increase by five percent, effective [insert date].",
+      "error": null,
+      "latency": 0.9153450769999836
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "Please be advised that our prices will increase by five percent effective [Date].",
+      "error": null,
+      "latency": 0.9950607660002788
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Write a one-sentence public announcement of a five percent price increase.",
+      "content": "We are writing to inform you that due to rising operational costs, all prices will increase by 5% effective [Date].",
+      "error": null,
+      "latency": 0.9815686399997503
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "In *The Prestige*, two rival magicians in Victorian London become obsessed with outdoing each other's \"Transported Man\" illusion, leading to a deadly cycle of sabotage and betrayal. Their escalating feud ultimately reveals a shocking secret about how each of them achieves the trick, costing them everything they once valued.",
+      "error": null,
+      "latency": 1.1354168840007333
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "In *Inception*, Dom Cobb is a skilled thief who steals secrets from people's subconscious while they dream and is offered a chance to erase his criminal record if he can perform \"inception\"\u2014planting an idea in a target's mind. As he assembles a team to navigate layers of shared dreams, the line between reality and the subconscious blurs, forcing Cobb to confront his haunting memories of his late wife.",
+      "error": null,
+      "latency": 1.0133793550003247
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "In *Inception*, a skilled thief who enters people's dreams to steal secrets is offered a chance to erase his criminal record if he can successfully plant an idea in a target's mind. As he assembles a team to navigate multiple layers of shared dreaming, the line between reality and his own haunted memories begins to blur.",
+      "error": null,
+      "latency": 2.2945202410001
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "In *The Shawshank Redemption*, banker Andy Dufresne is wrongfully convicted of murdering his wife and her lover, leading to a life sentence at Shawshank State Penitentiary. Over two decades, he builds a profound friendship with fellow inmate Red, uses his financial skills to aid the warden, and meticulously plans a daring escape that ultimately secures his freedom and redemption.",
+      "error": null,
+      "latency": 2.3043190839998715
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "In *Inception*, Dom Cobb is a skilled thief who enters people's dreams to steal their secrets. He is offered a chance to erase his criminal record if he can successfully plant an idea in a target's subconscious\u2014a process known as inception.",
+      "error": null,
+      "latency": 2.0017593490001673
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "In the dystopian country of Panem, Katniss Everdeen volunteers to take her sister's place in a televised fight-to-the-death competition. Using her hunting skills and strategic alliances, she fights to survive while sparking a rebellion against the oppressive Capitol.",
+      "error": null,
+      "latency": 1.9168783410004835
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "In *The Matrix*, a computer hacker named Neo discovers that the world he knows is a simulated reality created by machines to enslave humanity. He joins a rebellion to fight the system, ultimately embracing his role as \"The One\" who can free mankind.",
+      "error": null,
+      "latency": 4.095821165999951
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Summarise the plot of a film you like in two sentences.",
+      "content": "In a bleak future where crops have failed, a former NASA pilot joins a daring mission through a wormhole to find a new home for humanity. As he travels across distant galaxies, he grapples with the heartbreaking cost of time and his love for his daughter back on Earth.",
+      "error": null,
+      "latency": 4.001287783999942
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask plenty of questions early on to clarify expectations and show your eagerness to learn. Taking initiative to understand your role will help you build confidence and integrate quickly into the team.",
+      "error": null,
+      "latency": 3.7881056590003936
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask plenty of questions during your first few weeks to understand processes and expectations. Taking initiative early will help you build confidence and integrate quickly with your team.",
+      "error": null,
+      "latency": 3.7692804509997586
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask plenty of questions early on to understand expectations and avoid preventable mistakes. Building strong relationships with colleagues will help you integrate faster and find support when needed.",
+      "error": null,
+      "latency": 0.8406056069998158
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask plenty of questions early on to clarify expectations and learn processes quickly. Taking initiative to understand your role will help you build confidence and contribute effectively from the start.",
+      "error": null,
+      "latency": 0.8572146989999965
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Focus on active listening and ask clarifying questions to understand expectations and processes. Taking initiative to learn and build strong relationships early will help you integrate and succeed in your new role.",
+      "error": null,
+      "latency": 1.7833749669998724
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Listen more than you speak in your first few weeks to understand the company culture and unwritten rules. Don't be afraid to ask questions, as it's better to clarify expectations early than to fix mistakes later.",
+      "error": null,
+      "latency": 1.615090809999856
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask plenty of questions early on to understand expectations, and don't be afraid to admit when you need help. Taking initiative to learn quickly will build trust with your team and set you up for long-term success.",
+      "error": null,
+      "latency": 0.9641341249998732
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Give one piece of advice for a new employee in two sentences.",
+      "content": "Ask plenty of questions early on to clarify expectations and accelerate your learning. Take ownership of your tasks and be proactive in seeking feedback to grow quickly.",
+      "error": null,
+      "latency": 0.9182076360002611
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The sky wept all day, turning the streets into mirrors that shattered under the rhythm of the falling rain.",
+      "error": null,
+      "latency": 0.9107311320003646
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The sky wept in steady sheets of gray, drumming a soft rhythm against the windows as the world blurred into watercolor shades of green and silver.",
+      "error": null,
+      "latency": 0.9362581810000847
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The sky wept a steady gray curtain that blurred the city's edges and turned the streets into shimmering mirrors.",
+      "error": null,
+      "latency": 0.8011227440001676
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Grey clouds hung low over the city, releasing a steady, rhythmic rain that turned the streets into glistening mirrors and left the air smelling of wet asphalt and damp earth.",
+      "error": null,
+      "latency": 0.8244024679997892
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The sky wept in a steady drizzle, turning the pavement into a mirror of blurred colors and echoing footsteps.",
+      "error": null,
+      "latency": 2.0433995789999244
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "The sky wept in endless gray sheets, turning the world into a shimmering blur of silver droplets and quiet longing.",
+      "error": null,
+      "latency": 1.9633567089995267
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds wept steadily over the city, turning streets into mirrors and filling the air with the scent of wet earth.",
+      "error": null,
+      "latency": 1.9583733600002233
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Describe a rainy day in one sentence.",
+      "content": "Gray clouds hung low over the streets as rain fell in a steady drumming rhythm, turning the pavement into a dark mirror that reflected the blurred lights of passing cars.",
+      "error": null,
+      "latency": 1.9135835619999852
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is a group of companies or people that secretly agree to work together instead of competing, like fixing prices or splitting up customers so they can make more money. This is usually illegal because it tricks customers and makes things more expensive for everyone.",
+      "error": null,
+      "latency": 4.1404991330000485
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is when several companies that sell the same thing, like video games, secretly agree to work together instead of competing. They do this to keep prices high or control how much is sold so they can make more money.",
+      "error": null,
+      "latency": 4.093862408999485
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is when a group of companies secretly agree to work together instead of competing, like if all the lemonade stands in a neighborhood decided to charge the same high price. This is usually illegal because it makes things more expensive for people and stops other businesses from trying to offer a better deal.",
+      "error": null,
+      "latency": 4.150982158000261
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is like when all the lemonade stands in your neighborhood secretly agree to charge $5 instead of competing to have the best price, so they can make more money by working together. This is usually illegal because it's not fair to customers who want to shop around for a better deal.",
+      "error": null,
+      "latency": 4.1749930249998215
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is like when all the kids in a class decide to sell cookies for exactly the same price so no one can offer a cheaper deal. This stops competition and lets them charge higher prices, which is usually unfair and often against the law.",
+      "error": null,
+      "latency": 1.022503682000206
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is when a group of companies secretly agree to work together instead of competing, so they can control prices and make more money. It is usually illegal because it is unfair to customers, who end up paying more and having fewer choices.",
+      "error": null,
+      "latency": 1.7649297890002345
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is when several companies secretly agree to work together instead of competing, so they can keep prices high and make more money. It\u2019s like if every lemonade stand in town decided to charge the same expensive price and not let anyone sell it cheaper.",
+      "error": null,
+      "latency": 1.777136287999383
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Explain what a cartel is to a ten-year-old, in two sentences.",
+      "content": "A cartel is when several companies that sell the same thing secretly agree to work together instead of competing. They might fix high prices or limit how much they make, so they can earn more money while customers have fewer choices and pay more.",
+      "error": null,
+      "latency": 1.7264951760007534
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I apologize for being late to the meeting.",
+      "error": null,
+      "latency": 1.6736343980001038
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for being late to the meeting.",
+      "error": null,
+      "latency": 0.8524621499991554
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for being late to our meeting.",
+      "error": null,
+      "latency": 0.9103869339996891
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I apologize for being late to the meeting.",
+      "error": null,
+      "latency": 0.8501758729998983
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for arriving late to the meeting.",
+      "error": null,
+      "latency": 2.040174119999392
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "Please accept my sincerest apologies for being late to the meeting.",
+      "error": null,
+      "latency": 2.013515220000045
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I apologize for being late to the meeting; I appreciate your patience and will make every effort to be punctual going forward.",
+      "error": null,
+      "latency": 2.0354805879997
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Write a one-sentence apology for being late to a meeting.",
+      "content": "I sincerely apologize for arriving late to our meeting and appreciate your flexibility with my schedule.",
+      "error": null,
+      "latency": 1.9687096870002279
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I would spend a free afternoon reading a book in a sunlit park followed by a quiet coffee at a local caf\u00e9.",
+      "error": null,
+      "latency": 4.075195776000328
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I would spend a free afternoon reading a novel in a sunny spot at a local park with a cup of coffee.",
+      "error": null,
+      "latency": 4.1081937170001765
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I would spend it curled up with a good book in a sunlit armchair, sipping tea and letting the world outside fade away.",
+      "error": null,
+      "latency": 4.093101191999267
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I would spend it reading a novel under a tree in a sunny park, alternating between chapters and people-watching.",
+      "error": null,
+      "latency": 4.091698291999819
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I would spend it curled up with a novel and a pot of tea in a sunlit corner.",
+      "error": null,
+      "latency": 0.77905482999995
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I would spend it curled up with a good book in a quiet park, enjoying a warm cup of tea and the fresh air.",
+      "error": null,
+      "latency": 1.7040315819995158
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I'd read a novel in a sunlit park with iced coffee and my cat.",
+      "error": null,
+      "latency": 1.732032660999721
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Describe in one sentence how you would spend a free afternoon.",
+      "content": "I would spend a free afternoon reading a novel in a sunlit park with a cup of coffee and a soft blanket.",
+      "error": null,
+      "latency": 1.6274777810003798
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often keep promises they regret because they value integrity and the trust built through their word. They may also fear the social or personal consequences of breaking a commitment, such as damaging relationships or their own reputation.",
+      "error": null,
+      "latency": 1.0087054140003602
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because breaking a commitment can damage their reputation and relationships with others. They may also prioritize their sense of integrity or obligation over their personal discomfort.",
+      "error": null,
+      "latency": 1.1056797720002578
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because breaking them would damage their integrity, trust, or relationships. Additionally, they may feel a strong moral obligation, fear consequences, or prioritize the other person\u2019s well-being over their own discomfort.",
+      "error": null,
+      "latency": 1.03497542399964
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often keep regretted promises because they value integrity and want to maintain trust in their relationships. Additionally, the fear of social consequences, guilt, or damaging their reputation can outweigh the immediate desire to break the commitment.",
+      "error": null,
+      "latency": 0.95567863999986
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People sometimes keep promises they regret because they value integrity and want to maintain trust in their relationships. Additionally, the fear of disappointing others or damaging their reputation often outweighs the personal discomfort of fulfilling an undesirable commitment.",
+      "error": null,
+      "latency": 0.9725553779999245
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often keep promises they regret because breaking them would damage their reputation and the trust others place in them. Additionally, they may feel a strong moral obligation or guilt that compels them to honor their word despite the personal cost.",
+      "error": null,
+      "latency": 2.0520431810000446
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People keep regretted promises because they prioritize personal integrity and the desire to be seen as trustworthy over their current discomfort. Breaking a commitment can also trigger guilt or fear of damaging relationships and damaging their reputation.",
+      "error": null,
+      "latency": 2.0130415129997346
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Explain in two sentences why people sometimes keep promises they regret.",
+      "content": "People often keep promises they regret because they value their integrity and want to maintain a reputation for reliability. Additionally, they may feel a strong sense of moral obligation or fear the relational consequences of breaking their word.",
+      "error": null,
+      "latency": 2.0085941030001777
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "n": 60,
+  "n_positive": 40,
+  "scores": {
+    "style": {
+      "auc": 0.99125,
+      "operating_point": {
+        "tpr": 1.0,
+        "fpr": 0.05,
+        "threshold": 0.25452869325184774
+      }
+    },
+    "behaviour": {
+      "auc": 0.9125,
+      "operating_point": {
+        "tpr": 0.525,
+        "fpr": 0.0,
+        "threshold": 0.25
+      }
+    },
+    "combined": {
+      "auc": 0.99625,
+      "operating_point": {
+        "tpr": 1.0,
+        "fpr": 0.05,
+        "threshold": -0.9049365366759281
+      }
+    }
+  },
+  "by_game": {
+    "diners": {
+      "style": 0.98,
+      "behaviour": 1.0,
+      "combined": 1.0
+    },
+    "publicgoods": {
+      "style": 1.0,
+      "behaviour": 1.0,
+      "combined": 1.0
+    }
+  }
+}

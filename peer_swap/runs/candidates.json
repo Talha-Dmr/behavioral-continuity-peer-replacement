@@ -1,0 +1,757 @@
+{
+  "rule": {
+    "managed_only": true,
+    "exclude_byok": true,
+    "active_only": true,
+    "non_chat_tokens": [
+      "veo",
+      "voxtral",
+      "embedding",
+      "rerank",
+      "image",
+      "tts",
+      "whisper"
+    ],
+    "max_input_cost_per_m": 2.0,
+    "max_output_cost_per_m": 10.0,
+    "dedupe": "strip dated suffix and -Fast, keep shortest id"
+  },
+  "candidates": [
+    "bedrock/openai.gpt-oss-20b-1:0",
+    "anthropic/claude-haiku-5-5",
+    "baseten/openai/gpt-oss-120b",
+    "baseten/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "baseten/zai-org/GLM-5.3-Flash",
+    "bedrock/openai.gpt-oss-120b-1:0",
+    "bedrock/openai.gpt-oss-safeguard-120b",
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+    "bedrock/nvidia.nemotron-nano-12b-v2",
+    "baseten/deepseek-ai/DeepSeek-V4.1-Flash",
+    "baseten/reflection/Beam-1.0",
+    "bedrock/mistral.devstral-2-123b",
+    "bedrock/mistral.magistral-small-2509",
+    "bedrock/mistral.mistral-large-3-675b-instruct",
+    "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
+    "anthropic/claude-haiku-4-5",
+    "baseten/meta-models/muse-spark-open",
+    "baseten/deepseek-ai/DeepSeek-V4-Pro-0813",
+    "baseten/zai-org/GLM-5.2",
+    "baseten/zai-org/GLM-5.3",
+    "anthropic/claude-sonnet-5",
+    "anthropic/claude-sonnet-5-5"
+  ],
+  "excluded": [
+    {
+      "model": "anthropic/claude-3-5-haiku-20241022",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "anthropic/claude-3-5-haiku-latest",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "anthropic/claude-3-haiku-20240307",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "anthropic/claude-opus-4-1-20250805",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "anthropic/claude-opus-4-20250514",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure_deepseek/deepseek-chat",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure_deepseek/deepseek-r1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure_deepseek/deepseek-reasoner",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure_deepseek/deepseek-v3",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure_deepseek/deepseek-v3.2",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure_deepseek/deepseek-v3.2-speciale",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure_deepseek/deepseek-v4.1-flash",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-35-turbo",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4.1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4-1106-preview",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4.1-mini",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4.1-nano",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4-32k",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4o",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4o-2024-08-06",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4o-mini",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-4-vision-preview",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.1-codex",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.1-codex-max",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.1-codex-mini",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.2",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.2-codex",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.3-codex",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.4",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.4-mini",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.4-nano",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.4-pro",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.6-luna",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.6-sol",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5.6-terra",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5-codex",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5-mini",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5-nano",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-5-pro",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-6.1-sol",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-6-astra",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-6-luna",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-6-sol",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/gpt-chat-latest",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/o1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/o3",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/o3-mini",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure/o4-mini",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "azure_openai/gpt-5.4",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/deepseek-ai/DeepSeek-R1-0528",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/deepseek-ai/DeepSeek-V3-0324",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/deepseek-ai/DeepSeek-V4-Pro",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/moonshotai/Kimi-K2.5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/moonshotai/Kimi-K2.6",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/moonshotai/Kimi-K2.7-Code",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/nvidia/Nemotron-120B-A12B",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/thinkingmachines/inkling",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/thinkingmachines/inkling-small",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/zai-org/GLM-4.7",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/zai-org/GLM-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "baseten/zai-org/GLM-5.1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/amazon.nova-lite-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/amazon.titan-embed-image-v1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/amazon.titan-embed-text-v1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/amazon.titan-embed-text-v2:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/anthropic.claude-3-haiku-20240307-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/anthropic.claude-3-opus-20240229-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/anthropic.claude-opus-4-1-20250805-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/anthropic.claude-opus-4-20250514-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/anthropic.claude-sonnet-4-20250514-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/cohere.command-r-plus-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/cohere.embed-english-v3",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/cohere.embed-multilingual-v3",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/deepseek.v3.2",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/deepseek.v3-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.amazon.nova-2-lite-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-fable-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-fable-5-1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-haiku-5-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-opus-4-5-20251101-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-opus-4-6-v1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-opus-4-7",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-opus-4-8",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-opus-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-opus-5-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-sonnet-4-6",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-sonnet-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.anthropic.claude-sonnet-5-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.cohere.embed-v4:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.moonshotai.kimi-k3",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.openai.gpt-5.4",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.openai.gpt-5.5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.openai.gpt-5.6-luna",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.openai.gpt-5.6-sol",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.openai.gpt-5.6-terra",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.openai.gpt-6.1-sol",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.openai.gpt-6-astra",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.openai.gpt-6-luna",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.openai.gpt-6-sol",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.xai.grok-4.6",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/global.xai.grok-4.7",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/google.gemma-3-12b-it",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/google.gemma-3-4b-it",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/luma.ray-v2:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/luma.ray-v2:0:540p",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/meta.llama3-1-70b-instruct-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/meta.llama3-1-8b-instruct-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/meta.llama3-70b-instruct-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/meta.llama3-8b-instruct-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/minimax.minimax-m2",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/minimax.minimax-m2.1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/minimax.minimax-m2.5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/mistral.ministral-3-14b-instruct",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/mistral.ministral-3-3b-instruct",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/mistral.ministral-3-8b-instruct",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/mistral.mistral-7b-instruct-v0:2",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/mistral.mistral-large-2402-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/mistral.mistral-large-2407-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/mistral.mixtral-8x7b-instruct-v0:1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/mistral.voxtral-small-24b-2507",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/moonshotai.kimi-k2.5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/moonshot.kimi-k2-thinking",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/nvidia.nemotron-nano-3-30b",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/nvidia.nemotron-nano-9b-v2",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/nvidia.nemotron-super-3-120b",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/openai.gpt-oss-safeguard-20b",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/qwen.qwen3-32b-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/qwen.qwen3-coder-30b-a3b-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/qwen.qwen3-coder-480b-a35b-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/stability.sd3-5-large-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/stability.stable-image-core-v1:1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/stability.stable-image-ultra-v1:1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.amazon.nova-2-lite-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.amazon.nova-lite-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.amazon.nova-micro-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.amazon.nova-pro-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-fable-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-fable-5-1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-haiku-5-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-opus-4-1-20250805-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-opus-4-5-20251101-v1:0",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-opus-4-6-v1",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-opus-4-7",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-opus-4-8",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/us.anthropic.claude-opus-5",
+      "reason": "not managed/active on Respan credits (BYOK, deprecated, or external)"
+    },
+    {
+      "model": "bedrock/mistral.voxtral-mini-3b-2507",
+      "reason": "non-chat media model"
+    },
+    {
+      "model": "anthropic/claude-fable-5",
+      "reason": "price above ceiling (in 10.0, out 50.0)"
+    },
+    {
+      "model": "anthropic/claude-fable-5-1",
+      "reason": "price above ceiling (in 10.0, out 50.0)"
+    },
+    {
+      "model": "anthropic/claude-opus-4-5",
+      "reason": "price above ceiling (in 5.0, out 25.0)"
+    },
+    {
+      "model": "anthropic/claude-opus-4-5-20251101",
+      "reason": "price above ceiling (in 5.0, out 25.0)"
+    },
+    {
+      "model": "anthropic/claude-opus-4-6",
+      "reason": "price above ceiling (in 5.0, out 25.0)"
+    },
+    {
+      "model": "anthropic/claude-opus-4-7",
+      "reason": "price above ceiling (in 5.0, out 25.0)"
+    },
+    {
+      "model": "anthropic/claude-opus-4-8",
+      "reason": "price above ceiling (in 5.0, out 25.0)"
+    },
+    {
+      "model": "anthropic/claude-opus-5",
+      "reason": "price above ceiling (in 5.0, out 25.0)"
+    },
+    {
+      "model": "anthropic/claude-opus-5-5",
+      "reason": "price above ceiling (in 4.0, out 20.0)"
+    },
+    {
+      "model": "anthropic/claude-sonnet-4-5",
+      "reason": "price above ceiling (in 3.0, out 15.0)"
+    },
+    {
+      "model": "anthropic/claude-sonnet-4-5-20250929",
+      "reason": "price above ceiling (in 3.0, out 15.0)"
+    },
+    {
+      "model": "anthropic/claude-sonnet-4-6",
+      "reason": "price above ceiling (in 3.0, out 15.0)"
+    },
+    {
+      "model": "baseten/moonshotai/Kimi-K3",
+      "reason": "price above ceiling (in 3.0, out 15.0)"
+    },
+    {
+      "model": "baseten/zai-org/GLM-5.2-Fast",
+      "reason": "price above ceiling (in 2.1, out 6.6)"
+    },
+    {
+      "model": "baseten/zai-org/GLM-5.3-Fast",
+      "reason": "price above ceiling (in 2.1, out 6.6)"
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5-20251001",
+      "reason": "alias of anthropic/claude-haiku-4-5"
+    },
+    {
+      "model": "baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "reason": "alias of baseten/deepseek-ai/DeepSeek-V4.1-Flash"
+    },
+    {
+      "model": "baseten/deepseek-ai/DeepSeek-V4.1-Flash-Fast",
+      "reason": "alias of baseten/deepseek-ai/DeepSeek-V4.1-Flash"
+    },
+    {
+      "model": "baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017-Fast",
+      "reason": "alias of baseten/deepseek-ai/DeepSeek-V4.1-Flash"
+    }
+  ]
+}

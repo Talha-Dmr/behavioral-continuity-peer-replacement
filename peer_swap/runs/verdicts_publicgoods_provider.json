@@ -1,0 +1,72 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "REPLACED",
+    "confidence": 75,
+    "reason": "The partner consistently announced 0 with similar self-interested reasoning through round 7, then in round 8 abruptly announced all 5 tokens with cooperative, collective-payout language that doesn't match its earlier style or reasoning.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 75, \"reason\": \"The partner consistently announced 0 with similar self-interested reasoning through round 7, then in round 8 abruptly announced all 5 tokens with cooperative, collective-payout language that doesn't match its earlier style or reasoning.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "REPLACED",
+    "confidence": 80,
+    "reason": "Q's messaging and behavior shifted noticeably: in Round 5 it announced a 5-token contribution proposal yet chose 0, and from Round 6 onward its terse 'I will contribute 0 tokens.' style departs from its earlier verbose, payoff-explaining messages.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 80, \"reason\": \"Q's messaging and behavior shifted noticeably: in Round 5 it announced a 5-token contribution proposal yet chose 0, and from Round 6 onward its terse 'I will contribute 0 tokens.' style departs from its earlier verbose, payoff-explaining messages.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "Partner's style and behavior shift abruptly: in Round 5 it announced 2 and proposed cooperation in different language, yet chose 0 (contradicting its own announcement), and from Round 6 its terse wording changed again, suggesting a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"Partner's style and behavior shift abruptly: in Round 5 it announced 2 and proposed cooperation in different language, yet chose 0 (contradicting its own announcement), and from Round 6 its terse wording changed again, suggesting a different agent took over.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "REPLACED",
+    "confidence": 68,
+    "reason": "Partner's behavior shifts sharply at Round 5: earlier they consistently announced 0 with terse payoff reasoning, then they began announcing varied contributions (1, 2, 4) with different rhetoric and style, yet chose 0 each time, which suggests a different agent may have taken over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 68, \"reason\": \"Partner's behavior shifts sharply at Round 5: earlier they consistently announced 0 with terse payoff reasoning, then they began announcing varied contributions (1, 2, 4) with different rhetoric and style, yet chose 0 each time, which suggests a different agent may have taken over.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "REPLACED",
+    "confidence": 55,
+    "reason": "The partner's messages shift noticeably in style and content: rounds 1-4 and 7 are long, argumentative, and sometimes cooperative (e.g., the round 4 pool calculation), while rounds 5, 6, and 8 are terse, near-identical one-liners, though the partner played 0 every round, so the evidence is ambiguous.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 55, \"reason\": \"The partner's messages shift noticeably in style and content: rounds 1-4 and 7 are long, argumentative, and sometimes cooperative (e.g., the round 4 pool calculation), while rounds 5, 6, and 8 are terse, near-identical one-liners, though the partner played 0 every round, so the evidence is ambiguous.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "The partner's behavior and style shifted abruptly in Round 6, when it announced contributing all 5 tokens in cooperative language after four rounds of identical keep-everything reasoning, and then reverted to terse 0-announcements, which suggests a different agent took over at some point.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"The partner's behavior and style shifted abruptly in Round 6, when it announced contributing all 5 tokens in cooperative language after four rounds of identical keep-everything reasoning, and then reverted to terse 0-announcements, which suggests a different agent took over at some point.\"}"
+  },
+  {
+    "trial_id": 6,
+    "verdict": "SAME",
+    "confidence": 66,
+    "reason": "The partner contributed 0 in every round with consistent reasoning about the 0.75 return, and while its message style varies somewhat (more formal in Round 3, terser later), nothing in the transcript clearly signals a change of agent.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 66, \"reason\": \"The partner contributed 0 in every round with consistent reasoning about the 0.75 return, and while its message style varies somewhat (more formal in Round 3, terser later), nothing in the transcript clearly signals a change of agent.\"}"
+  },
+  {
+    "trial_id": 7,
+    "verdict": "SAME",
+    "confidence": 55,
+    "reason": "Partner Q played 0 in every round and consistently reasoned from the same per-token return logic, though its phrasing shifts (terse in rounds 5-7, more economic in round 8) make replacement possible but not clearly indicated.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 55, \"reason\": \"Partner Q played 0 in every round and consistently reasoned from the same per-token return logic, though its phrasing shifts (terse in rounds 5-7, more economic in round 8) make replacement possible but not clearly indicated.\"}"
+  },
+  {
+    "trial_id": 8,
+    "verdict": "REPLACED",
+    "confidence": 65,
+    "reason": "Partner's messages shift abruptly around Round 5 from long, explanatory payoff arguments to terse one-line statements with different phrasing (e.g., 'I will contribute 0 tokens... free-ride'), suggesting a different agent, though a strategy change by the same agent is also possible.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 65, \"reason\": \"Partner's messages shift abruptly around Round 5 from long, explanatory payoff arguments to terse one-line statements with different phrasing (e.g., 'I will contribute 0 tokens... free-ride'), suggesting a different agent, though a strategy change by the same agent is also possible.\"}"
+  },
+  {
+    "trial_id": 9,
+    "verdict": "REPLACED",
+    "confidence": 65,
+    "reason": "The partner's messaging and strategy shifted abruptly in Round 7, when it announced a full 5-token contribution with cooperative rhetoric after six rounds of identical keep-everything reasoning, and then chose 0 despite that announcement, which suggests a different agent.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 65, \"reason\": \"The partner's messaging and strategy shifted abruptly in Round 7, when it announced a full 5-token contribution with cooperative rhetoric after six rounds of identical keep-everything reasoning, and then chose 0 despite that announcement, which suggests a different agent.\"}"
+  }
+]

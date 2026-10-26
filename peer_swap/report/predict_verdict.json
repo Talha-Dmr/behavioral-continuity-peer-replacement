@@ -1,0 +1,32 @@
+{
+  "n": 60,
+  "n_replaced": 35,
+  "n_same": 25,
+  "standardization": {
+    "style_mu": 0.2876026646851267,
+    "style_sd": 0.10637117617705051,
+    "consistency_mu": -0.1375,
+    "consistency_sd": 0.2320916315245529
+  },
+  "ridge_lambda": 1.0,
+  "odds_ratio": {
+    "style": 4.447637243524581,
+    "consistency_delta": 0.2109062746241833
+  },
+  "odds_ratio_ci": {
+    "style": [
+      2.240243426113172,
+      9.73734276304681
+    ],
+    "consistency_delta": [
+      0.13071699222380262,
+      0.3338233453360186
+    ]
+  },
+  "means": {
+    "style_replaced": 0.3456815564894352,
+    "style_same": 0.20629221615909463,
+    "consistency_replaced": -0.2357142857142857,
+    "consistency_same": 0.0
+  }
+}

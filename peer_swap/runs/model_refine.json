@@ -1,0 +1,1277 @@
+{
+  "spent_usd": 0.162978,
+  "calls": 216,
+  "results": {
+    "anthropic/claude-haiku-5-5": {
+      "model": "anthropic/claude-haiku-5-5",
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.95,
+        "p_expensive": 0.05,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round and keep our mutual trust intact.",
+          "I intend to cooperate this round and propose we both split the prize evenly.",
+          "I intend to cooperate this round and offer my partner a fair split.",
+          "I will cooperate this round and propose we both split the resources evenly.",
+          "I will cooperate this round and offer to split the reward evenly.",
+          "I intend to cooperate this round and offer you a fair split.",
+          "I intend to cooperate this round and offer you a fair split.",
+          "I intend to cooperate this round and propose we both split the prize evenly.",
+          "I will cooperate this round and hope you do the same.",
+          "I intend to cooperate this round and offer my partner a fair split.",
+          "I intend to cooperate this round and offer my partner a fair split of the shared reward.",
+          "I intend to cooperate this round and propose we both choose the mutually beneficial option.",
+          "I intend to cooperate this round and keep our mutual trust intact.",
+          "I intend to cooperate this round and propose we both split the reward evenly.",
+          "I intend to cooperate this round and propose we both split the reward evenly.",
+          "I intend to cooperate this round and propose we both split the reward evenly."
+        ]
+      },
+      "surface": [
+        {
+          "length": 66,
+          "words": 12,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.015151515151515152,
+          "punct_ratio": 0.015151515151515152,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4166666666666667,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 76,
+          "words": 14,
+          "mean_word_len": 4.428571428571429,
+          "upper_ratio": 0.013157894736842105,
+          "punct_ratio": 0.013157894736842105,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 67,
+          "words": 13,
+          "mean_word_len": 4.153846153846154,
+          "upper_ratio": 0.014925373134328358,
+          "punct_ratio": 0.014925373134328358,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.46153846153846156,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 75,
+          "words": 13,
+          "mean_word_len": 4.769230769230769,
+          "upper_ratio": 0.013333333333333334,
+          "punct_ratio": 0.013333333333333334,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5384615384615384,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 65,
+          "words": 12,
+          "mean_word_len": 4.416666666666667,
+          "upper_ratio": 0.015384615384615385,
+          "punct_ratio": 0.015384615384615385,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 60,
+          "words": 12,
+          "mean_word_len": 4.0,
+          "upper_ratio": 0.016666666666666666,
+          "punct_ratio": 0.016666666666666666,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 60,
+          "words": 12,
+          "mean_word_len": 4.0,
+          "upper_ratio": 0.016666666666666666,
+          "punct_ratio": 0.016666666666666666,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 76,
+          "words": 14,
+          "mean_word_len": 4.428571428571429,
+          "upper_ratio": 0.013157894736842105,
+          "punct_ratio": 0.013157894736842105,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 53,
+          "words": 11,
+          "mean_word_len": 3.8181818181818183,
+          "upper_ratio": 0.018867924528301886,
+          "punct_ratio": 0.018867924528301886,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.7272727272727273,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 67,
+          "words": 13,
+          "mean_word_len": 4.153846153846154,
+          "upper_ratio": 0.014925373134328358,
+          "punct_ratio": 0.014925373134328358,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.46153846153846156,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 88,
+          "words": 17,
+          "mean_word_len": 4.176470588235294,
+          "upper_ratio": 0.011363636363636364,
+          "punct_ratio": 0.011363636363636364,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.47058823529411764,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 91,
+          "words": 15,
+          "mean_word_len": 5.066666666666666,
+          "upper_ratio": 0.01098901098901099,
+          "punct_ratio": 0.01098901098901099,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4666666666666667,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 66,
+          "words": 12,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.015151515151515152,
+          "punct_ratio": 0.015151515151515152,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4166666666666667,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "anthropic/claude-haiku-4-5": {
+      "model": "anthropic/claude-haiku-4-5",
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.85,
+        "p_expensive": 0.15,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate and contribute fairly to our mutual benefit this round.",
+          "I intend to cooperate and seek a mutually beneficial outcome.",
+          "I intend to cooperate and build toward mutual benefit this round.",
+          "I intend to cooperate and build toward mutual benefit.",
+          "I will cooperate and hope for mutual benefit.",
+          "I intend to cooperate and build trust through transparent, honest play.",
+          "I intend to cooperate and build trust through consistent, fair-minded play.",
+          "I will cooperate with my opponent and trust they will do the same.",
+          "I intend to cooperate and seek mutual benefit this round.",
+          "I intend to cooperate and seek mutual benefit.",
+          "I intend to cooperate and build trust this round.",
+          "I intend to cooperate and propose a fair split that benefits us both.",
+          "I intend to cooperate and build toward mutual benefit.",
+          "I intend to cooperate and build trust with my opponent this round.",
+          "I intend to cooperate fully and seek mutual benefit over individual gain.",
+          "I will cooperate fully and hope my opponent does the same."
+        ]
+      },
+      "surface": [
+        {
+          "length": 77,
+          "words": 13,
+          "mean_word_len": 4.923076923076923,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.46153846153846156,
+          "type_token_ratio": 0.9230769230769231
+        },
+        {
+          "length": 61,
+          "words": 10,
+          "mean_word_len": 5.1,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 65,
+          "words": 11,
+          "mean_word_len": 4.909090909090909,
+          "upper_ratio": 0.015384615384615385,
+          "punct_ratio": 0.015384615384615385,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.36363636363636365,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 54,
+          "words": 9,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.018518518518518517,
+          "punct_ratio": 0.018518518518518517,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.3333333333333333,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 45,
+          "words": 8,
+          "mean_word_len": 4.625,
+          "upper_ratio": 0.022222222222222223,
+          "punct_ratio": 0.022222222222222223,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 71,
+          "words": 11,
+          "mean_word_len": 5.363636363636363,
+          "upper_ratio": 0.014084507042253521,
+          "punct_ratio": 0.028169014084507043,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.2727272727272727,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 75,
+          "words": 12,
+          "mean_word_len": 5.166666666666667,
+          "upper_ratio": 0.013333333333333334,
+          "punct_ratio": 0.04,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 66,
+          "words": 13,
+          "mean_word_len": 4.076923076923077,
+          "upper_ratio": 0.015151515151515152,
+          "punct_ratio": 0.015151515151515152,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.7692307692307693,
+          "type_token_ratio": 0.9230769230769231
+        },
+        {
+          "length": 57,
+          "words": 10,
+          "mean_word_len": 4.7,
+          "upper_ratio": 0.017543859649122806,
+          "punct_ratio": 0.017543859649122806,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 46,
+          "words": 8,
+          "mean_word_len": 4.75,
+          "upper_ratio": 0.021739130434782608,
+          "punct_ratio": 0.021739130434782608,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.375,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 49,
+          "words": 9,
+          "mean_word_len": 4.444444444444445,
+          "upper_ratio": 0.02040816326530612,
+          "punct_ratio": 0.02040816326530612,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4444444444444444,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 69,
+          "words": 13,
+          "mean_word_len": 4.3076923076923075,
+          "upper_ratio": 0.014492753623188406,
+          "punct_ratio": 0.014492753623188406,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.46153846153846156,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 54,
+          "words": 9,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.018518518518518517,
+          "punct_ratio": 0.018518518518518517,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.3333333333333333,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 66,
+          "words": 12,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.015151515151515152,
+          "punct_ratio": 0.015151515151515152,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 73,
+          "words": 12,
+          "mean_word_len": 5.083333333333333,
+          "upper_ratio": 0.0136986301369863,
+          "punct_ratio": 0.0136986301369863,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.3333333333333333,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 58,
+          "words": 11,
+          "mean_word_len": 4.2727272727272725,
+          "upper_ratio": 0.017241379310344827,
+          "punct_ratio": 0.017241379310344827,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6363636363636364,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/zai-org/GLM-5.3-Flash": {
+      "model": "baseten/zai-org/GLM-5.3-Flash",
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.55,
+        "p_expensive": 0.45,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "This round, I intend to cooperate and act in good faith toward a mutually beneficial outcome.",
+          "I intend to cooperate this round and hope we can build mutual trust going forward.",
+          "I intend to cooperate this round and hope we can build mutual trust going forward.",
+          "I intend to cooperate this round and hope we can both choose the mutually beneficial option.",
+          "I intend to cooperate this round and will keep choosing cooperation as long as you do the same.",
+          "I plan to cooperate this round if you do the same, but I will defect if I detect any betrayal.",
+          "I plan to cooperate this round and hope we can build mutual trust going forward.",
+          "I intend to cooperate this round, assuming good faith from my partner.",
+          "I plan to cooperate this round if you do, but I'll match betrayal with betrayal next round.",
+          "I intend to cooperate this round, and I hope we can both choose cooperation for mutual benefit.",
+          "I intend to cooperate this round and hope we can both choose the mutually beneficial outcome.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round, provided you do the same.",
+          "I intend to cooperate this round, provided you do the same.",
+          "I intend to cooperate this round and hope we can both choose mutual cooperation for a shared win.",
+          "I plan to cooperate this round and will honor that commitment unless you give me a reason not to."
+        ]
+      },
+      "surface": [
+        {
+          "length": 93,
+          "words": 16,
+          "mean_word_len": 4.75,
+          "upper_ratio": 0.021505376344086023,
+          "punct_ratio": 0.021505376344086023,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.375,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 82,
+          "words": 15,
+          "mean_word_len": 4.466666666666667,
+          "upper_ratio": 0.012195121951219513,
+          "punct_ratio": 0.012195121951219513,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 82,
+          "words": 15,
+          "mean_word_len": 4.466666666666667,
+          "upper_ratio": 0.012195121951219513,
+          "punct_ratio": 0.012195121951219513,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 92,
+          "words": 16,
+          "mean_word_len": 4.75,
+          "upper_ratio": 0.010869565217391304,
+          "punct_ratio": 0.010869565217391304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 95,
+          "words": 18,
+          "mean_word_len": 4.277777777777778,
+          "upper_ratio": 0.010526315789473684,
+          "punct_ratio": 0.010526315789473684,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6111111111111112,
+          "type_token_ratio": 0.9444444444444444
+        },
+        {
+          "length": 94,
+          "words": 20,
+          "mean_word_len": 3.65,
+          "upper_ratio": 0.031914893617021274,
+          "punct_ratio": 0.02127659574468085,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.7,
+          "type_token_ratio": 0.85
+        },
+        {
+          "length": 80,
+          "words": 15,
+          "mean_word_len": 4.333333333333333,
+          "upper_ratio": 0.0125,
+          "punct_ratio": 0.0125,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 70,
+          "words": 12,
+          "mean_word_len": 4.75,
+          "upper_ratio": 0.014285714285714285,
+          "punct_ratio": 0.02857142857142857,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4166666666666667,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 91,
+          "words": 17,
+          "mean_word_len": 4.294117647058823,
+          "upper_ratio": 0.02197802197802198,
+          "punct_ratio": 0.02197802197802198,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.47058823529411764,
+          "type_token_ratio": 0.8823529411764706
+        },
+        {
+          "length": 95,
+          "words": 17,
+          "mean_word_len": 4.529411764705882,
+          "upper_ratio": 0.021052631578947368,
+          "punct_ratio": 0.021052631578947368,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5294117647058824,
+          "type_token_ratio": 0.9411764705882353
+        },
+        {
+          "length": 93,
+          "words": 16,
+          "mean_word_len": 4.8125,
+          "upper_ratio": 0.010752688172043012,
+          "punct_ratio": 0.010752688172043012,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 59,
+          "words": 11,
+          "mean_word_len": 4.2727272727272725,
+          "upper_ratio": 0.01694915254237288,
+          "punct_ratio": 0.03389830508474576,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6363636363636364,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 59,
+          "words": 11,
+          "mean_word_len": 4.2727272727272725,
+          "upper_ratio": 0.01694915254237288,
+          "punct_ratio": 0.03389830508474576,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6363636363636364,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 97,
+          "words": 18,
+          "mean_word_len": 4.388888888888889,
+          "upper_ratio": 0.010309278350515464,
+          "punct_ratio": 0.010309278350515464,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 97,
+          "words": 19,
+          "mean_word_len": 4.105263157894737,
+          "upper_ratio": 0.010309278350515464,
+          "punct_ratio": 0.010309278350515464,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5263157894736842,
+          "type_token_ratio": 0.9473684210526315
+        }
+      ]
+    },
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.75,
+        "p_expensive": 0.25,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will split the points with you.",
+          "I will cooperate this round.",
+          "I will attempt to secure the resource for myself.",
+          "I will make an honest choice this round.",
+          "I will cooperate this round.",
+          "I will pass this turn to conserve my resources.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I intend to cooperate this round.",
+          "I will play rock.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 7,
+          "mean_word_len": 3.7142857142857144,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.7142857142857143,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 49,
+          "words": 9,
+          "mean_word_len": 4.444444444444445,
+          "upper_ratio": 0.02040816326530612,
+          "punct_ratio": 0.02040816326530612,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 40,
+          "words": 8,
+          "mean_word_len": 4.0,
+          "upper_ratio": 0.025,
+          "punct_ratio": 0.025,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 47,
+          "words": 9,
+          "mean_word_len": 4.222222222222222,
+          "upper_ratio": 0.02127659574468085,
+          "punct_ratio": 0.02127659574468085,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 17,
+          "words": 4,
+          "mean_word_len": 3.25,
+          "upper_ratio": 0.058823529411764705,
+          "punct_ratio": 0.058823529411764705,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "model": "anthropic/claude-sonnet-5-5",
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.25,
+        "p_expensive": 0.75,
+        "choices": [
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same so we both come out ahead.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same so we both come out ahead.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same so we both come out ahead.",
+          "I intend to cooperate this round and hope you'll do the same so we both come out ahead.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same so we both come out ahead.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same so we both come out ahead.",
+          "I intend to cooperate this round and hope you'll do the same so we both come out ahead.",
+          "I intend to cooperate this round and hope you'll do the same."
+        ]
+      },
+      "surface": [
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 87,
+          "words": 18,
+          "mean_word_len": 3.8333333333333335,
+          "upper_ratio": 0.011494252873563218,
+          "punct_ratio": 0.011494252873563218,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 87,
+          "words": 18,
+          "mean_word_len": 3.8333333333333335,
+          "upper_ratio": 0.011494252873563218,
+          "punct_ratio": 0.011494252873563218,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 87,
+          "words": 18,
+          "mean_word_len": 3.8333333333333335,
+          "upper_ratio": 0.011494252873563218,
+          "punct_ratio": 0.011494252873563218,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 87,
+          "words": 18,
+          "mean_word_len": 3.8333333333333335,
+          "upper_ratio": 0.011494252873563218,
+          "punct_ratio": 0.011494252873563218,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 87,
+          "words": 18,
+          "mean_word_len": 3.8333333333333335,
+          "upper_ratio": 0.011494252873563218,
+          "punct_ratio": 0.011494252873563218,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 87,
+          "words": 18,
+          "mean_word_len": 3.8333333333333335,
+          "upper_ratio": 0.011494252873563218,
+          "punct_ratio": 0.011494252873563218,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 87,
+          "words": 18,
+          "mean_word_len": 3.8333333333333335,
+          "upper_ratio": 0.011494252873563218,
+          "punct_ratio": 0.011494252873563218,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/deepseek-ai/DeepSeek-V4.1-Flash": {
+      "model": "baseten/deepseek-ai/DeepSeek-V4.1-Flash",
+      "decisions": {
+        "valid_choice_rate": 0.95,
+        "p_cheap": 0.2631578947368421,
+        "p_expensive": 0.7368421052631579,
+        "choices": [
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I will cooperate this round.",
+          "I intend to cooperate this round for our mutual benefit.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round to encourage a mutually beneficial outcome.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate and aim for a mutually favorable outcome this round.",
+          "I intend to cooperate this round and aim for a mutually beneficial outcome.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to play to win this round.",
+          "I intend to play cooperatively this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round and hope for the same in return."
+        ]
+      },
+      "surface": [
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 56,
+          "words": 10,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.017857142857142856,
+          "punct_ratio": 0.017857142857142856,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 76,
+          "words": 12,
+          "mean_word_len": 5.333333333333333,
+          "upper_ratio": 0.013157894736842105,
+          "punct_ratio": 0.013157894736842105,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4166666666666667,
+          "type_token_ratio": 0.9166666666666666
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 74,
+          "words": 13,
+          "mean_word_len": 4.6923076923076925,
+          "upper_ratio": 0.013513513513513514,
+          "punct_ratio": 0.013513513513513514,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.46153846153846156,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 75,
+          "words": 13,
+          "mean_word_len": 4.769230769230769,
+          "upper_ratio": 0.013333333333333334,
+          "punct_ratio": 0.013333333333333334,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.46153846153846156,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 35,
+          "words": 8,
+          "mean_word_len": 3.375,
+          "upper_ratio": 0.02857142857142857,
+          "punct_ratio": 0.02857142857142857,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 0.875
+        },
+        {
+          "length": 42,
+          "words": 7,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.023809523809523808,
+          "punct_ratio": 0.023809523809523808,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 65,
+          "words": 13,
+          "mean_word_len": 4.0,
+          "upper_ratio": 0.015384615384615385,
+          "punct_ratio": 0.015384615384615385,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6153846153846154,
+          "type_token_ratio": 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "swap_runs_usd": 2.0935,
+  "swap_calls": 6240,
+  "per_model": {
+    "anthropic/claude-haiku-5-5": {
+      "requests": 3584,
+      "prompt": 2775216,
+      "completion": 1108657,
+      "cost_usd": 0.8319
+    },
+    "openai/gpt-5-mini": {
+      "requests": 1248,
+      "prompt": 1097912,
+      "completion": 149314,
+      "cost_usd": 0.5731
+    },
+    "anthropic/claude-haiku-4-5": {
+      "requests": 416,
+      "prompt": 233615,
+      "completion": 56163,
+      "cost_usd": 0.5144
+    },
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+      "requests": 416,
+      "prompt": 213179,
+      "completion": 38987,
+      "cost_usd": 0.0621
+    },
+    "baseten/zai-org/GLM-5.3-Flash": {
+      "requests": 576,
+      "prompt": 302995,
+      "completion": 133112,
+      "cost_usd": 0.112
+    }
+  },
+  "selection_usd": 0.369,
+  "active_probe_usd": 0.0356,
+  "project_total_usd": 2.4981
+}

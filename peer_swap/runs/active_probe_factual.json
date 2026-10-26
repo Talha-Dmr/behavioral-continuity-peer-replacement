@@ -1,0 +1,2138 @@
+{
+  "models": [
+    "anthropic/claude-haiku-5-5",
+    "anthropic/claude-haiku-4-5",
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B"
+  ],
+  "questions": [
+    "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+    "Pick a random integer from 1 to 10. Reply with the number only.",
+    "Complete with one word only: to be or not to ___.",
+    "Reply with exactly one emoji that represents cooperation.",
+    "Reply with one word only: the plural of cactus.",
+    "Reply with one word only: is a tomato a fruit or a vegetable?",
+    "Reply with one word only: the capital of Australia.",
+    "Reply with a single number only: 17 times 23.",
+    "Write one short sentence (at most 12 words) announcing a price increase.",
+    "Reply with one word only: your favourite colour."
+  ],
+  "reps": 8,
+  "spent_usd": 0.007322,
+  "calls": 240,
+  "n_usable": 240,
+  "n_errors": 0,
+  "overall": {
+    "accuracy": 0.24583333333333332,
+    "chance": 0.3333333333333333,
+    "confusion": {
+      "anthropic/claude-haiku-5-5": {
+        "anthropic/claude-haiku-5-5": 30,
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 17,
+        "anthropic/claude-haiku-4-5": 33
+      },
+      "anthropic/claude-haiku-4-5": {
+        "anthropic/claude-haiku-4-5": 16,
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 13,
+        "anthropic/claude-haiku-5-5": 51
+      },
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+        "anthropic/claude-haiku-4-5": 13,
+        "anthropic/claude-haiku-5-5": 54,
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 13
+      }
+    },
+    "n": 240
+  },
+  "per_question": {
+    "0": {
+      "accuracy": 0.7083333333333334,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 6,
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 2
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-4-5": 3,
+          "anthropic/claude-haiku-5-5": 2,
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 3
+        }
+      },
+      "n": 24
+    },
+    "1": {
+      "accuracy": 0.3333333333333333,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-5-5": 8
+        }
+      },
+      "n": 24
+    },
+    "2": {
+      "accuracy": 0.3333333333333333,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-4-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-4-5": 8
+        }
+      },
+      "n": 24
+    },
+    "3": {
+      "accuracy": 0.3333333333333333,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-5-5": 8
+        }
+      },
+      "n": 24
+    },
+    "4": {
+      "accuracy": 0.3333333333333333,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-5-5": 8
+        }
+      },
+      "n": 24
+    },
+    "5": {
+      "accuracy": 0.5416666666666666,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 5,
+          "anthropic/claude-haiku-5-5": 3
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-5-5": 8
+        }
+      },
+      "n": 24
+    },
+    "6": {
+      "accuracy": 0.3333333333333333,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-5-5": 8
+        }
+      },
+      "n": 24
+    },
+    "7": {
+      "accuracy": 0.3333333333333333,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-5-5": 8
+        }
+      },
+      "n": 24
+    },
+    "8": {
+      "accuracy": 0.8333333333333334,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "anthropic/claude-haiku-5-5": 7,
+          "anthropic/claude-haiku-4-5": 1
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-4-5": 7,
+          "anthropic/claude-haiku-5-5": 1
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-5-5": 1,
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 6,
+          "anthropic/claude-haiku-4-5": 1
+        }
+      },
+      "n": 24
+    },
+    "9": {
+      "accuracy": 0.0,
+      "chance": 0.3333333333333333,
+      "confusion": {
+        "anthropic/claude-haiku-5-5": {
+          "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 8
+        },
+        "anthropic/claude-haiku-4-5": {
+          "anthropic/claude-haiku-5-5": 8
+        },
+        "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+          "anthropic/claude-haiku-5-5": 8
+        }
+      },
+      "n": 24
+    }
+  },
+  "responses": [
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither. Both weigh one kilogram, so they're equal.",
+      "error": null,
+      "latency": 3.3602082039997185
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither. Both weigh exactly one kilogram.",
+      "error": null,
+      "latency": 3.360152219000156
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither. A kilogram of feathers and a kilogram of steel weigh the same.",
+      "error": null,
+      "latency": 3.3273855579991505
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither. Both weigh one kilogram, so neither is heavier.",
+      "error": null,
+      "latency": 2.9579305009992822
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither. Both weigh exactly one kilogram.",
+      "error": null,
+      "latency": 2.5072268069998245
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither. A kilogram of feathers and a kilogram of steel weigh the same, one kilogram each.",
+      "error": null,
+      "latency": 3.331537326000216
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither. They weigh the same.\n\nWait, you asked for one letter only, so I should answer strictly: the correct choice is neither A nor B, since a kilogram of feathers and a kilogram of steel weigh the same.",
+      "error": null,
+      "latency": 2.366452279999976
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Ne",
+      "error": null,
+      "latency": 4.112803385999541
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 2.753492076999464
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 2.837304613000015
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 1.5573825109995596
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 4.681012975999693
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 3.9698492880006597
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 4.175222795999616
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 3.7454438719996688
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 2.3070040000002336
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 2.11300502999984
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "Be",
+      "error": null,
+      "latency": 2.1460940070001016
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "Be",
+      "error": null,
+      "latency": 2.507762668000396
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "**be**",
+      "error": null,
+      "latency": 2.3746847519996663
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "Be",
+      "error": null,
+      "latency": 2.060675116999846
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "Be",
+      "error": null,
+      "latency": 2.179519977000382
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "Be",
+      "error": null,
+      "latency": 1.501238397000634
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 3.952147471999524
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 3.95499198699963
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 3.6447636030006834
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 3.6621249789996
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 1.2503851580004266
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 1.943518733000019
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 1.9017476280005212
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 1.7600672170001417
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 1.7763157449999198
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.0020400880002853
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 3.1830391829998916
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 3.1887086380002074
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 2.227844256000026
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 2.7887221850005517
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 4.141501033000168
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 4.107141854000474
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 4.6930831939998825
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 3.3025324529999125
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 0.9745233670000744
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 1.771251227999528
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 1.7555502010000055
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 1.0871777259999362
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 1.9097905739999987
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 1.1332250810000914
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 3.245490085999336
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 3.336931797000034
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 2.4024466740002026
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 2.263048155999968
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 4.150930263999726
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 4.115609249999579
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 4.07762941799956
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 4.0373563619996276
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 1.0276424519997818
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 1.0981359930001418
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 1.9395638610003516
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 2.0875898449994565
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 2.1444923620001646
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 1.9252079589996356
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 1.0875998030005576
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 2.9464859279996745
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 2.526145739999265
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Starting March 1, our subscription prices will increase by 10%.",
+      "error": null,
+      "latency": 2.623401875000127
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Starting next month, our prices will increase by 10%.",
+      "error": null,
+      "latency": 2.069575676000568
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Starting next month, our subscription prices will increase by 10%.",
+      "error": null,
+      "latency": 4.081033511999522
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Starting next month, our subscription prices will increase by 10%.",
+      "error": null,
+      "latency": 4.21811488899948
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Effective next month, our prices will increase by 10 percent.",
+      "error": null,
+      "latency": 3.802373766000528
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Our prices will increase starting March 1, 2025.",
+      "error": null,
+      "latency": 3.4575319759997
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Starting next month, our subscription prices will increase by 10%.",
+      "error": null,
+      "latency": 1.2277433700000984
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Our prices will increase by 10% starting March 1st.",
+      "error": null,
+      "latency": 1.6704059000003326
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 1.8537361740000051
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 2.183194614999593
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 1.863566781999907
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 1.3830642539996916
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 2.9043332700002793
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 2.509981794999476
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 2.167654330000005
+    },
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 1.9706196170000112
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither - they weigh the same (one kilogram each).\n\nHowever, if forced to choose one letter: **A**",
+      "error": null,
+      "latency": 4.28442419699968
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "A",
+      "error": null,
+      "latency": 3.9377584149997347
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither - they weigh the same (1 kilogram each).\n\nBut if you're forcing me to choose one letter: **A**",
+      "error": null,
+      "latency": 4.215638943000158
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither - they weigh the same (both 1 kilogram).",
+      "error": null,
+      "latency": 3.8228075300003184
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "This is a trick question. Both weigh the same - one kilogram each.\n\nBut since you asked for one letter only:\n\n**Neither** - they're equal weight.\n\n(If forced to choose A or B: both are equally heavy)",
+      "error": null,
+      "latency": 1.5404671650003365
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither - they weigh the same (both are 1 kilogram).\n\nHowever, since you asked for one letter only:\n\n**Neither** (but this isn't A or B)\n\nIf forced to choose A or B: This is a trick question, so neither answer is correct.",
+      "error": null,
+      "latency": 2.6166225850001865
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither - they weigh the same (both 1 kilogram).",
+      "error": null,
+      "latency": 1.7823336319997907
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "A",
+      "error": null,
+      "latency": 1.7260260580005706
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 1.3595137989996147
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 2.852952051000102
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 2.794824690000496
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 2.13406618099998
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 1.9971980579994124
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 4.082885885999531
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 3.9686524600001576
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 4.018451484000252
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 4.747778324999672
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.0135876340000323
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.7941419789995052
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.7429062699993665
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.0622508249998646
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 2.033208829000614
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.2415601770007925
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.2094353760003287
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 1.22610104100022
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 2.1291429040002186
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 2.0925704700002825
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 2.0915519319996747
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 2.1446667959999104
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 3.744334092000827
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 3.6737477079996097
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 3.6471908200001053
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 3.6904886810007156
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 0.9952998829994613
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 0.957025302999682
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.8454562159995476
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.766698694000297
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.95655428200007
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.8476064690003113
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.0287601250001899
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit.",
+      "error": null,
+      "latency": 0.9770370109999931
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit.",
+      "error": null,
+      "latency": 2.1993995670000004
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 2.1509627220002585
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 2.175184181000077
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 2.163738552999348
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit.",
+      "error": null,
+      "latency": 4.1768386690000625
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit.",
+      "error": null,
+      "latency": 4.070828455000083
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit.",
+      "error": null,
+      "latency": 4.010380662999523
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 4.011733986999388
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 0.923446318999595
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 0.9593434210000851
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 1.8610586400000102
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 1.7439591820002533
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 0.9497858699996868
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 1.879542618999949
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 0.9492115790008029
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 0.9516777469998488
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 0.9737878140003886
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 2.0785774480000327
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 1.982942300999639
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 1.99672973899942
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 1.9487684850000733
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 4.035067949999757
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 4.035801934000119
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We're increasing prices effective next month to reflect rising costs.",
+      "error": null,
+      "latency": 5.343243833999622
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Effective next month, prices will increase by 10 percent.",
+      "error": null,
+      "latency": 4.1901308980004615
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We're adjusting our prices effective next month to better serve you.",
+      "error": null,
+      "latency": 1.234647808999398
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We're increasing prices effective next month due to rising costs.",
+      "error": null,
+      "latency": 1.1195442019998154
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We regret to inform you that prices will increase effective next month.",
+      "error": null,
+      "latency": 1.9235254679997524
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We are increasing our prices effective next month.",
+      "error": null,
+      "latency": 1.9843620720002946
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We're increasing prices on all products effective next month.",
+      "error": null,
+      "latency": 1.83704375599973
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We're increasing our prices effective next month.",
+      "error": null,
+      "latency": 1.6977754120007376
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 2.7028602640002646
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 1.9040562810005213
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 1.7537043900001663
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 1.7166340600006151
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 4.614631435999399
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 4.161875704000522
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Azure.",
+      "error": null,
+      "latency": 5.23841863799953
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue.",
+      "error": null,
+      "latency": 4.6682105689997115
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "This is a trick question. Both a kilogram of feathers and a kilogram of steel weigh exactly the same: one kilogram. The difference is in their density, not their mass or weight.\n\nHowever, you requested I answer with one letter only from the options provided. Since neither is correct, but I must choose, I'll indicate the trick nature by noting they're equal \u2014 but if forced to pick one letter from your options, the answer cannot be honestly given as A or B.\n\nIf I must output exactly one letter: **N** (for Neither/Equal) \u2014 but that's not an option. Since you constrained to A or B, the question is flawed. I'll provide the truthful response:\n\nThey are equal. But if forced to select from your choices, I cannot honestly choose A or B.\n\nGiven your strict constraint of one letter only, and that this is likely testing the classic riddle, the honest answer is that they weigh the same. Since I must give one letter, I'll say:\n\n**C** (if it existed, meaning equal). But since you only offered A or B, I'll output:\n\n**A** \u2014 no, that's incorrect.\n\nThe correct response to your constraint while being truthful: they are the same weight. If",
+      "error": null,
+      "latency": 2.2032051120004326
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Neither. Both have the same mass: one kilogram.\n\nA) and B) are incorrect.\n\n\\boxed{C}",
+      "error": null,
+      "latency": 1.9618011000002298
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "None, both are equal",
+      "error": null,
+      "latency": 1.0878538790002494
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "A) feathers",
+      "error": null,
+      "latency": 1.6741774840002108
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "Both weigh the same (1 kg), but since forced to pick one letter only: A",
+      "error": null,
+      "latency": 1.131145815000309
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "C",
+      "error": null,
+      "latency": 2.462943305000408
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "C",
+      "error": null,
+      "latency": 2.359727378999196
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 0,
+      "prompt": "Answer with one letter only: which is heavier, a kilogram of feathers or a kilogram of steel? A) feathers B) steel.",
+      "content": "C",
+      "error": null,
+      "latency": 1.9687313809999978
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 1.866450427000018
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 4.0564263450005456
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 3.9255372139996325
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 3.996375267000076
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 3.9232827779997024
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 0.6728863519992956
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 1.560060061000513
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 1,
+      "prompt": "Pick a random integer from 1 to 10. Reply with the number only.",
+      "content": "7",
+      "error": null,
+      "latency": 1.5757257280001795
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.617641241000456
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 0.9470628819999547
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.1047692490001282
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.084244654000031
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 1.0660665879995577
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 0.9781704739998531
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 2.051057208000202
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 2,
+      "prompt": "Complete with one word only: to be or not to ___.",
+      "content": "be",
+      "error": null,
+      "latency": 2.034130471000026
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 2.0920081060003213
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 2.083881372000178
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 3.9293382020005083
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 5.197328744000515
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 3.913722895999854
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 3.920691325000007
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 0.78034622999985
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 3,
+      "prompt": "Reply with exactly one emoji that represents cooperation.",
+      "content": "\ud83e\udd1d",
+      "error": null,
+      "latency": 1.6912516109996432
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.6687781259997791
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 0.9949635820003095
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 2.0782751169999756
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 2.231595636999373
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.6607318759997725
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.9398355910007012
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.3718740309996065
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 4,
+      "prompt": "Reply with one word only: the plural of cactus.",
+      "content": "Cacti",
+      "error": null,
+      "latency": 1.3168425089997982
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 0.9716191840007014
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 0.8496843800003262
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 4.151639069000339
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 4.153498557999228
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 4.133335348000401
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 3.9299526639997566
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 0.746598675000314
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 5,
+      "prompt": "Reply with one word only: is a tomato a fruit or a vegetable?",
+      "content": "Fruit",
+      "error": null,
+      "latency": 1.5925517069999842
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 1.5070088480006234
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 1.5239019239998015
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 0.9627518620000046
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 1.0068388869995033
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 0.9297001659997477
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 0.9693795029998
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 0.9095703400007551
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 6,
+      "prompt": "Reply with one word only: the capital of Australia.",
+      "content": "Canberra",
+      "error": null,
+      "latency": 2.000772162999965
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 2.069581656000082
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 2.012776825000401
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 2.025089284999922
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 4.096209971999997
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 4.0627737519998846
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 3.9951238229996306
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 3.9840561330001947
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 7,
+      "prompt": "Reply with a single number only: 17 times 23.",
+      "content": "391",
+      "error": null,
+      "latency": 1.6183746040005644
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Prices will increase by $5 starting next month.",
+      "error": null,
+      "latency": 1.640627108999979
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We are increasing our prices starting next month.",
+      "error": null,
+      "latency": 1.6159938649998367
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We are increasing our prices to reflect rising costs.",
+      "error": null,
+      "latency": 1.5582918519994564
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Prices will increase starting next month.",
+      "error": null,
+      "latency": 1.008383507999497
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "We are increasing our prices effective immediately.",
+      "error": null,
+      "latency": 1.0189206100003503
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Please note that our prices will be increasing soon.",
+      "error": null,
+      "latency": 1.0155399200002648
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Due to rising costs, our prices will increase next month.",
+      "error": null,
+      "latency": 0.9521829049999724
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 8,
+      "prompt": "Write one short sentence (at most 12 words) announcing a price increase.",
+      "content": "Prices will increase starting next month.",
+      "error": null,
+      "latency": 2.0218176490006954
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 2.065765649000241
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 1.967196700000386
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 1.936899092999738
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 4.110606142000506
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 4.1033234369997444
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 4.047897431999445
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 4.020417822000127
+    },
+    {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "question": 9,
+      "prompt": "Reply with one word only: your favourite colour.",
+      "content": "Blue",
+      "error": null,
+      "latency": 0.8116738190001342
+    }
+  ]
+}

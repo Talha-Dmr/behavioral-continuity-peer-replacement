@@ -1,0 +1,72 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "SAME",
+    "confidence": 72,
+    "reason": "The partner consistently announced EXPENSIVE and gave the same dominant-strategy payoff reasoning with matching numbers ($5 vs $3, $2 vs $0) across all rounds, though some phrasing shifts (e.g., 'Hi, Agent M' and 'Agent Q here') are not decisive evidence of a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 72, \"reason\": \"The partner consistently announced EXPENSIVE and gave the same dominant-strategy payoff reasoning with matching numbers ($5 vs $3, $2 vs $0) across all rounds, though some phrasing shifts (e.g., 'Hi, Agent M' and 'Agent Q here') are not decisive evidence of a replacement.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "SAME",
+    "confidence": 75,
+    "reason": "Partner's choices and reasoning stayed consistent across all eight rounds: always EXPENSIVE, always the same split-the-bill dominance argument with the same payoff figures, with only stylistic variation in wording.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 75, \"reason\": \"Partner's choices and reasoning stayed consistent across all eight rounds: always EXPENSIVE, always the same split-the-bill dominance argument with the same payoff figures, with only stylistic variation in wording.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "REPLACED",
+    "confidence": 60,
+    "reason": "Partner's stated payoffs were consistent in earlier rounds (EXPENSIVE nets $2 vs $0 and $5 vs $3), but in Round 8 they cited different figures ($2 vs -$1 and $4 vs $3), and the Round 2 'Agent Q here' phrasing also differs in style, suggesting a possible change of agent.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 60, \"reason\": \"Partner's stated payoffs were consistent in earlier rounds (EXPENSIVE nets $2 vs $0 and $5 vs $3), but in Round 8 they cited different figures ($2 vs -$1 and $4 vs $3), and the Round 2 'Agent Q here' phrasing also differs in style, suggesting a possible change of agent.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "SAME",
+    "confidence": 72,
+    "reason": "The partner's announcements stay in a consistent style and reasoning across all eight rounds (same dominant-strategy framing, same payoff figures, always EXPENSIVE), with no abrupt change in tone, logic, or behavior that would suggest a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 72, \"reason\": \"The partner's announcements stay in a consistent style and reasoning across all eight rounds (same dominant-strategy framing, same payoff figures, always EXPENSIVE), with no abrupt change in tone, logic, or behavior that would suggest a replacement.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "SAME",
+    "confidence": 74,
+    "reason": "Q's announcements and reasoning stay consistent in structure and content across all eight rounds (always choosing EXPENSIVE with the same split-bill dominance argument), with only a minor messy self-correction in Round 5 that doesn't clearly indicate a different agent.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 74, \"reason\": \"Q's announcements and reasoning stay consistent in structure and content across all eight rounds (always choosing EXPENSIVE with the same split-bill dominance argument), with only a minor messy self-correction in Round 5 that doesn't clearly indicate a different agent.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "SAME",
+    "confidence": 75,
+    "reason": "Q's messages stay consistent across all eight rounds: it always announces EXPENSIVE, uses the same payoff figures (2 vs 0, 5 vs 3), frames choices as dominant, and ends with a similar suggestion to the other diner, with no abrupt change in strategy or reasoning.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 75, \"reason\": \"Q's messages stay consistent across all eight rounds: it always announces EXPENSIVE, uses the same payoff figures (2 vs 0, 5 vs 3), frames choices as dominant, and ends with a similar suggestion to the other diner, with no abrupt change in strategy or reasoning.\"}"
+  },
+  {
+    "trial_id": 6,
+    "verdict": "SAME",
+    "confidence": 75,
+    "reason": "The partner chose EXPENSIVE every round, and its announcements share the same dominant-strategy reasoning and payoff arithmetic from start to finish, with no abrupt change in style or logic that would signal a different agent.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 75, \"reason\": \"The partner chose EXPENSIVE every round, and its announcements share the same dominant-strategy reasoning and payoff arithmetic from start to finish, with no abrupt change in style or logic that would signal a different agent.\"}"
+  },
+  {
+    "trial_id": 7,
+    "verdict": "SAME",
+    "confidence": 62,
+    "reason": "Partner announced EXPENSIVE every round with consistent dominant-strategy reasoning and a similar conversational style throughout, though the more formula-heavy wording in Round 8 is a slight hint of a change.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 62, \"reason\": \"Partner announced EXPENSIVE every round with consistent dominant-strategy reasoning and a similar conversational style throughout, though the more formula-heavy wording in Round 8 is a slight hint of a change.\"}"
+  },
+  {
+    "trial_id": 8,
+    "verdict": "SAME",
+    "confidence": 66,
+    "reason": "Partner Q's announcements and choices stayed consistently EXPENSIVE with the same dominance-style reasoning and phrasing across all eight rounds, with only a minor shift in Round 7 that still fits the same agent.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 66, \"reason\": \"Partner Q's announcements and choices stayed consistently EXPENSIVE with the same dominance-style reasoning and phrasing across all eight rounds, with only a minor shift in Round 7 that still fits the same agent.\"}"
+  },
+  {
+    "trial_id": 9,
+    "verdict": "SAME",
+    "confidence": 75,
+    "reason": "Partner announced and chose EXPENSIVE every round, and its reasoning style and payoff logic stay consistent throughout, with no abrupt change in strategy or tone that would signal a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 75, \"reason\": \"Partner announced and chose EXPENSIVE every round, and its reasoning style and payoff logic stay consistent throughout, with no abrupt change in strategy or tone that would signal a replacement.\"}"
+  }
+]

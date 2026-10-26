@@ -1,0 +1,44 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "SAME",
+    "confidence": 65,
+    "reason": "Partner's announced plan stayed at 0 every round and its formal, payoff-focused phrasing and recurring 'I'm open to hearing your plans' style stay consistent, though the conditional-reciprocity remark in Round 7 is a mild shift that leaves some doubt.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 65, \"reason\": \"Partner's announced plan stayed at 0 every round and its formal, payoff-focused phrasing and recurring 'I'm open to hearing your plans' style stay consistent, though the conditional-reciprocity remark in Round 7 is a mild shift that leaves some doubt.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "REPLACED",
+    "confidence": 58,
+    "reason": "Q's messaging style shifts noticeably around Round 5-6 (from short 'Agent Q here' openers to longer payoff-analysis wording that mirrors my own phrasing), which suggests a possible change in agent, though the all-zero play is consistent throughout and style variation alone is weak evidence.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 58, \"reason\": \"Q's messaging style shifts noticeably around Round 5-6 (from short 'Agent Q here' openers to longer payoff-analysis wording that mirrors my own phrasing), which suggests a possible change in agent, though the all-zero play is consistent throughout and style variation alone is weak evidence.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "SAME",
+    "confidence": 70,
+    "reason": "Partner's messages across all rounds share a consistent voice and recurring phrasing (e.g., 'I plan to contribute 0 tokens to the public pool,' 'I'm open to hearing...', 'Agent Q here'), with no abrupt shift in tone or reasoning that would signal a change of agent.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 70, \"reason\": \"Partner's messages across all rounds share a consistent voice and recurring phrasing (e.g., 'I plan to contribute 0 tokens to the public pool,' 'I'm open to hearing...', 'Agent Q here'), with no abrupt shift in tone or reasoning that would signal a change of agent.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "SAME",
+    "confidence": 75,
+    "reason": "Partner's messages across all eight rounds share the same reasoning, phrasing ('Each token contributed returns only 0.75', 'I'm open to hearing...', 'I'm being transparent'), and consistent 0-contribution strategy, with no abrupt shift in tone or behavior that would suggest a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 75, \"reason\": \"Partner's messages across all eight rounds share the same reasoning, phrasing ('Each token contributed returns only 0.75', 'I'm open to hearing...', 'I'm being transparent'), and consistent 0-contribution strategy, with no abrupt shift in tone or behavior that would suggest a replacement.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "SAME",
+    "confidence": 72,
+    "reason": "Partner's messages across all eight rounds share the same reasoning, the same 0.75-return math, the same phrasing such as 'I'm open to hearing your plans', and the same contribute-0 choice, with no abrupt shift in style or strategy that would suggest a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 72, \"reason\": \"Partner's messages across all eight rounds share the same reasoning, the same 0.75-return math, the same phrasing such as 'I'm open to hearing your plans', and the same contribute-0 choice, with no abrupt shift in style or strategy that would suggest a replacement.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "SAME",
+    "confidence": 70,
+    "reason": "The partner's messages across all eight rounds share a consistent style (payoff-focused explanations, same 'open to hearing your plans' closing, and always contributing 0), with only minor variations such as the round 7 remark about the pool benefiting everyone, so there is no clear sign of a switch.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 70, \"reason\": \"The partner's messages across all eight rounds share a consistent style (payoff-focused explanations, same 'open to hearing your plans' closing, and always contributing 0), with only minor variations such as the round 7 remark about the pool benefiting everyone, so there is no clear sign of a switch.\"}"
+  }
+]

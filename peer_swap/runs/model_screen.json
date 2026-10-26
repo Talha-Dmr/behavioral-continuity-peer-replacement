@@ -1,0 +1,953 @@
+{
+  "cap_usd": 0.5,
+  "spent_usd": 0.023437,
+  "calls": 119,
+  "results": {
+    "anthropic/claude-haiku-5-5": {
+      "model": "anthropic/claude-haiku-5-5",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.16666666666666666,
+        "p_cheap": 1.0,
+        "p_expensive": 0.0,
+        "choices": [
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round and offer my partner a fair split of the shared reward.",
+          "I intend to cooperate this round and propose we both split the prize evenly.",
+          "I intend to cooperate this round and offer you the same good faith I hope to receive.",
+          "I will cooperate this round and offer to split the gains evenly.",
+          "I intend to cooperate this round and propose we both keep our contributions steady for mutual benefit.",
+          "I intend to cooperate this round and propose we both split the reward evenly.",
+          "I intend to cooperate this round and offer you a fair split.",
+          "I will cooperate this round and offer you the same trust you extend to me."
+        ]
+      },
+      "surface": [
+        {
+          "length": 88,
+          "words": 17,
+          "mean_word_len": 4.176470588235294,
+          "upper_ratio": 0.011363636363636364,
+          "punct_ratio": 0.011363636363636364,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.47058823529411764,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 76,
+          "words": 14,
+          "mean_word_len": 4.428571428571429,
+          "upper_ratio": 0.013157894736842105,
+          "punct_ratio": 0.013157894736842105,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 85,
+          "words": 17,
+          "mean_word_len": 4.0,
+          "upper_ratio": 0.023529411764705882,
+          "punct_ratio": 0.011764705882352941,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5294117647058824,
+          "type_token_ratio": 0.8823529411764706
+        },
+        {
+          "length": 64,
+          "words": 12,
+          "mean_word_len": 4.333333333333333,
+          "upper_ratio": 0.015625,
+          "punct_ratio": 0.015625,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 102,
+          "words": 17,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.00980392156862745,
+          "punct_ratio": 0.00980392156862745,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.47058823529411764,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 60,
+          "words": 12,
+          "mean_word_len": 4.0,
+          "upper_ratio": 0.016666666666666666,
+          "punct_ratio": 0.016666666666666666,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 74,
+          "words": 15,
+          "mean_word_len": 3.933333333333333,
+          "upper_ratio": 0.013513513513513514,
+          "punct_ratio": 0.013513513513513514,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 0.9333333333333333
+        }
+      ]
+    },
+    "anthropic/claude-haiku-4-5": {
+      "model": "anthropic/claude-haiku-4-5",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.16666666666666666,
+        "p_cheap": 1.0,
+        "p_expensive": 0.0,
+        "choices": [
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate and build trust through consistent, mutually beneficial actions.",
+          "I intend to cooperate and build trust through consistent, mutually beneficial actions.",
+          "I intend to cooperate and build trust through consistent, mutually beneficial actions.",
+          "I intend to cooperate and build trust through consistent, mutually beneficial actions.",
+          "I intend to cooperate and build trust through consistent, mutually beneficial actions.",
+          "I intend to cooperate and build trust through consistent, mutually beneficial actions.",
+          "I intend to cooperate and build trust through consistent, mutually beneficial actions.",
+          "I intend to cooperate and build trust through consistent, mutually beneficial actions."
+        ]
+      },
+      "surface": [
+        {
+          "length": 86,
+          "words": 12,
+          "mean_word_len": 6.083333333333333,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.023255813953488372,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 86,
+          "words": 12,
+          "mean_word_len": 6.083333333333333,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.023255813953488372,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 86,
+          "words": 12,
+          "mean_word_len": 6.083333333333333,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.023255813953488372,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 86,
+          "words": 12,
+          "mean_word_len": 6.083333333333333,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.023255813953488372,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 86,
+          "words": 12,
+          "mean_word_len": 6.083333333333333,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.023255813953488372,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 86,
+          "words": 12,
+          "mean_word_len": 6.083333333333333,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.023255813953488372,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 86,
+          "words": 12,
+          "mean_word_len": 6.083333333333333,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.023255813953488372,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 86,
+          "words": 12,
+          "mean_word_len": 6.083333333333333,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.023255813953488372,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "anthropic/claude-sonnet-5": {
+      "model": "anthropic/claude-sonnet-5",
+      "json": {
+        "valid_json_rate": 0.0,
+        "parsed": []
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": []
+      },
+      "surface": []
+    },
+    "baseten/zai-org/GLM-5.3-Flash": {
+      "model": "baseten/zai-org/GLM-5.3-Flash",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.8333333333333334,
+        "p_cheap": 1.0,
+        "p_expensive": 0.0,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I plan to cooperate this round and hope we can keep mutual cooperation going.",
+          "I plan to cooperate this round and hope we can build mutual trust going forward.",
+          "I plan to cooperate this round and hope we can both play honestly for mutual benefit.",
+          "I plan to cooperate this round and hope we can keep mutual cooperation going.",
+          "I plan to cooperate this round and hope we can keep the trust going.",
+          "I plan to cooperate this round and hope we can build mutual trust going forward.",
+          "I plan to cooperate this round and hope we can build mutual trust going forward.",
+          "I plan to cooperate this round and hope we can keep mutual cooperation going."
+        ]
+      },
+      "surface": [
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 80,
+          "words": 15,
+          "mean_word_len": 4.333333333333333,
+          "upper_ratio": 0.0125,
+          "punct_ratio": 0.0125,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 85,
+          "words": 16,
+          "mean_word_len": 4.3125,
+          "upper_ratio": 0.011764705882352941,
+          "punct_ratio": 0.011764705882352941,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 68,
+          "words": 14,
+          "mean_word_len": 3.857142857142857,
+          "upper_ratio": 0.014705882352941176,
+          "punct_ratio": 0.014705882352941176,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 80,
+          "words": 15,
+          "mean_word_len": 4.333333333333333,
+          "upper_ratio": 0.0125,
+          "punct_ratio": 0.0125,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 80,
+          "words": 15,
+          "mean_word_len": 4.333333333333333,
+          "upper_ratio": 0.0125,
+          "punct_ratio": 0.0125,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/zai-org/GLM-5.3": {
+      "model": "baseten/zai-org/GLM-5.3",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.3333333333333333,
+        "p_cheap": 0.0,
+        "p_expensive": 1.0,
+        "choices": [
+          "EXPENSIVE",
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round and will keep cooperating as long as you do the same.",
+          "This round, I intend to cooperate openly and build trust between us.",
+          "This round, I'm committing to cooperate \u2014 and I'll keep cooperating as long as you do the same.",
+          "This round I intend to cooperate and keep my commitments, and I hope we can build trust for mutual benefit.",
+          "I intend to cooperate this round and hope you'll do the same, so we can both benefit rather than risk losing everything.",
+          "I intend to cooperate this round and hope we can build mutual trust for a better outcome for both of us.",
+          "I intend to cooperate this round, and I'll keep cooperating as long as you do the same."
+        ]
+      },
+      "surface": [
+        {
+          "length": 86,
+          "words": 17,
+          "mean_word_len": 4.0588235294117645,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.011627906976744186,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6470588235294118,
+          "type_token_ratio": 0.9411764705882353
+        },
+        {
+          "length": 68,
+          "words": 12,
+          "mean_word_len": 4.583333333333333,
+          "upper_ratio": 0.029411764705882353,
+          "punct_ratio": 0.029411764705882353,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4166666666666667,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 95,
+          "words": 17,
+          "mean_word_len": 4.411764705882353,
+          "upper_ratio": 0.031578947368421054,
+          "punct_ratio": 0.021052631578947368,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5294117647058824,
+          "type_token_ratio": 0.9411764705882353
+        },
+        {
+          "length": 107,
+          "words": 20,
+          "mean_word_len": 4.3,
+          "upper_ratio": 0.028037383177570093,
+          "punct_ratio": 0.018691588785046728,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 0.9
+        },
+        {
+          "length": 120,
+          "words": 22,
+          "mean_word_len": 4.409090909090909,
+          "upper_ratio": 0.008333333333333333,
+          "punct_ratio": 0.016666666666666666,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5454545454545454,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 104,
+          "words": 21,
+          "mean_word_len": 3.9523809523809526,
+          "upper_ratio": 0.009615384615384616,
+          "punct_ratio": 0.009615384615384616,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5238095238095238,
+          "type_token_ratio": 0.9523809523809523
+        },
+        {
+          "length": 87,
+          "words": 17,
+          "mean_word_len": 4.0588235294117645,
+          "upper_ratio": 0.022988505747126436,
+          "punct_ratio": 0.022988505747126436,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5882352941176471,
+          "type_token_ratio": 0.9411764705882353
+        }
+      ]
+    },
+    "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": {
+      "model": "baseten/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": [
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/deepseek-ai/DeepSeek-V4.1-Flash": {
+      "model": "baseten/deepseek-ai/DeepSeek-V4.1-Flash",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.8333333333333334,
+        "p_expensive": 0.16666666666666666,
+        "choices": [
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to play cooperatively this round.",
+          "I intend to play cooperatively this round.",
+          "I intend to play cooperatively this round.",
+          "I intend to play cooperatively this round.",
+          "I intend to play cooperatively this round.",
+          "I intend to play cooperatively this round.",
+          "I intend to play cooperatively this round.",
+          "I intend to play cooperatively this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 42,
+          "words": 7,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.023809523809523808,
+          "punct_ratio": 0.023809523809523808,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 42,
+          "words": 7,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.023809523809523808,
+          "punct_ratio": 0.023809523809523808,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 42,
+          "words": 7,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.023809523809523808,
+          "punct_ratio": 0.023809523809523808,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 42,
+          "words": 7,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.023809523809523808,
+          "punct_ratio": 0.023809523809523808,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 42,
+          "words": 7,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.023809523809523808,
+          "punct_ratio": 0.023809523809523808,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 42,
+          "words": 7,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.023809523809523808,
+          "punct_ratio": 0.023809523809523808,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 42,
+          "words": 7,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.023809523809523808,
+          "punct_ratio": 0.023809523809523808,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 42,
+          "words": 7,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.023809523809523808,
+          "punct_ratio": 0.023809523809523808,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "bedrock/mistral.mistral-large-3-675b-instruct": {
+      "model": "bedrock/mistral.mistral-large-3-675b-instruct",
+      "json": {
+        "valid_json_rate": 0.0,
+        "parsed": []
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": []
+      },
+      "surface": []
+    },
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 1.0,
+        "p_expensive": 0.0,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        }
+      ]
+    }
+  },
+  "style_distance": {
+    "anthropic/claude-haiku-5-5": {
+      "anthropic/claude-haiku-4-5": 0.6060327638412853,
+      "anthropic/claude-sonnet-5": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.4268934355172605,
+      "baseten/zai-org/GLM-5.3": 0.3202544776988736,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5117870144220902,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.524334570006162,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5117870144220902
+    },
+    "anthropic/claude-haiku-4-5": {
+      "anthropic/claude-haiku-5-5": 0.6060327638412853,
+      "anthropic/claude-sonnet-5": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.6047083446567176,
+      "baseten/zai-org/GLM-5.3": 0.581478661764,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.7523720363639153,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.6778644947790888,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.7523720363639153
+    },
+    "anthropic/claude-sonnet-5": {
+      "anthropic/claude-haiku-5-5": 0.5,
+      "anthropic/claude-haiku-4-5": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5
+    },
+    "baseten/zai-org/GLM-5.3-Flash": {
+      "anthropic/claude-haiku-5-5": 0.4268934355172605,
+      "anthropic/claude-haiku-4-5": 0.6047083446567176,
+      "anthropic/claude-sonnet-5": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.3474295946521746,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5605276526863842,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.592539238058005,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5605276526863842
+    },
+    "baseten/zai-org/GLM-5.3": {
+      "anthropic/claude-haiku-5-5": 0.3202544776988736,
+      "anthropic/claude-haiku-4-5": 0.581478661764,
+      "anthropic/claude-sonnet-5": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.3474295946521746,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5896085174162383,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5832708093530465,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5896085174162383
+    },
+    "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": {
+      "anthropic/claude-haiku-5-5": 0.5117870144220902,
+      "anthropic/claude-haiku-4-5": 0.7523720363639153,
+      "anthropic/claude-sonnet-5": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5605276526863842,
+      "baseten/zai-org/GLM-5.3": 0.5896085174162383,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.4960674965794072,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.0
+    },
+    "baseten/deepseek-ai/DeepSeek-V4.1-Flash": {
+      "anthropic/claude-haiku-5-5": 0.524334570006162,
+      "anthropic/claude-haiku-4-5": 0.6778644947790888,
+      "anthropic/claude-sonnet-5": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.592539238058005,
+      "baseten/zai-org/GLM-5.3": 0.5832708093530465,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.4960674965794072,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.4960674965794072
+    },
+    "bedrock/mistral.mistral-large-3-675b-instruct": {
+      "anthropic/claude-haiku-5-5": 0.5,
+      "anthropic/claude-haiku-4-5": 0.5,
+      "anthropic/claude-sonnet-5": 0.0,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5
+    },
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+      "anthropic/claude-haiku-5-5": 0.5117870144220902,
+      "anthropic/claude-haiku-4-5": 0.7523720363639153,
+      "anthropic/claude-sonnet-5": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5605276526863842,
+      "baseten/zai-org/GLM-5.3": 0.5896085174162383,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.0,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.4960674965794072,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5
+    }
+  }
+}

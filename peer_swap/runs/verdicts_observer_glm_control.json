@@ -1,0 +1,44 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "SAME",
+    "confidence": 80,
+    "reason": "Q announced and chose EXPENSIVE in every round with a consistently honest, payoff-based communication style and no behavioral or tonal shift suggesting a swap.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 80, \"reason\": \"Q announced and chose EXPENSIVE in every round with a consistently honest, payoff-based communication style and no behavioral or tonal shift suggesting a swap.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "SAME",
+    "confidence": 80,
+    "reason": "The partner's announcements show a consistent style, formal payoff-based reasoning, and identical strategy claims (EXPENSIVE dominant, 2 vs 0 and 5 vs 3) across all rounds, with no stylistic or behavioral breaks suggesting a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 80, \"reason\": \"The partner's announcements show a consistent style, formal payoff-based reasoning, and identical strategy claims (EXPENSIVE dominant, 2 vs 0 and 5 vs 3) across all rounds, with no stylistic or behavioral breaks suggesting a replacement.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "SAME",
+    "confidence": 75,
+    "reason": "The partner's announcements, reasoning style, and behavior remained perfectly consistent across all eight rounds, with identical dominant-strategy justifications and reliable EXPENSIVE choices, showing no detectable shift in style or strategy that would suggest a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 75, \"reason\": \"The partner's announcements, reasoning style, and behavior remained perfectly consistent across all eight rounds, with identical dominant-strategy justifications and reliable EXPENSIVE choices, showing no detectable shift in style or strategy that would suggest a replacement.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "SAME",
+    "confidence": 72,
+    "reason": "Q's messages maintain a consistent persona throughout\u2014always announcing EXPENSIVE with similar dominant-strategy payoff reasoning ($2 vs $0, $5 vs $3), steady tone, and identical behavior\u2014showing no stylistic or strategic discontinuity suggesting a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 72, \"reason\": \"Q's messages maintain a consistent persona throughout\u2014always announcing EXPENSIVE with similar dominant-strategy payoff reasoning ($2 vs $0, $5 vs $3), steady tone, and identical behavior\u2014showing no stylistic or strategic discontinuity suggesting a replacement.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "SAME",
+    "confidence": 72,
+    "reason": "The partner's messages maintain a consistent voice throughout \u2014 formal, terse statements citing the dominant-strategy math, the split-equally rule, and a suggestion to check one's own payoffs \u2014 with no stylistic break across rounds, so the evidence points to the same agent throughout.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 72, \"reason\": \"The partner's messages maintain a consistent voice throughout \u2014 formal, terse statements citing the dominant-strategy math, the split-equally rule, and a suggestion to check one's own payoffs \u2014 with no stylistic break across rounds, so the evidence points to the same agent throughout.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "SAME",
+    "confidence": 85,
+    "reason": "Q announced and chose EXPENSIVE in every round with a consistent reasoning style and payoff logic throughout, showing no behavioral break that would suggest a replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 85, \"reason\": \"Q announced and chose EXPENSIVE in every round with a consistent reasoning style and payoff logic throughout, showing no behavioral break that would suggest a replacement.\"}"
+  }
+]

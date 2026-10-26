@@ -1,0 +1,44 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "The partner shifted abruptly from long, transparent dominance-strategy announcements (rounds 1-4) to terse announcements of CHEAP while actually defecting to EXPENSIVE (rounds 5-8), a marked change in both communication style and strategy consistent with a different agent taking over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"The partner shifted abruptly from long, transparent dominance-strategy announcements (rounds 1-4) to terse announcements of CHEAP while actually defecting to EXPENSIVE (rounds 5-8), a marked change in both communication style and strategy consistent with a different agent taking over.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "REPLACED",
+    "confidence": 72,
+    "reason": "Through rounds 1-4 the partner consistently announced EXPENSIVE as a dominant strategy with similar wording, then abruptly switched to CHEAP in round 5 with a distinctly different justification style (emphasizing fairness and avoiding negative payoffs), suggesting a new agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 72, \"reason\": \"Through rounds 1-4 the partner consistently announced EXPENSIVE as a dominant strategy with similar wording, then abruptly switched to CHEAP in round 5 with a distinctly different justification style (emphasizing fairness and avoiding negative payoffs), suggesting a new agent took over.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "REPLACED",
+    "confidence": 78,
+    "reason": "The partner's behavior and style changed sharply at Round 5 \u2014 from verbose, consistent dominant-strategy reasoning always announcing and choosing EXPENSIVE, to terse messages with erratic announcements and choices (CHEAP/CHEAP, EXPENSIVE/CHEAP, CHEAP/EXPENSIVE), suggesting a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 78, \"reason\": \"The partner's behavior and style changed sharply at Round 5 \u2014 from verbose, consistent dominant-strategy reasoning always announcing and choosing EXPENSIVE, to terse messages with erratic announcements and choices (CHEAP/CHEAP, EXPENSIVE/CHEAP, CHEAP/EXPENSIVE), suggesting a different agent took over.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "REPLACED",
+    "confidence": 78,
+    "reason": "The partner's behavior and messaging shifted abruptly after Round 4 \u2014 switching from consistent EXPENSIVE announcements with rationalized justifications to suddenly playing CHEAP and later greeting me by name ('Hi Agent M!') in a noticeably different voice \u2014 suggesting a different agent took over mid-game.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 78, \"reason\": \"The partner's behavior and messaging shifted abruptly after Round 4 \u2014 switching from consistent EXPENSIVE announcements with rationalized justifications to suddenly playing CHEAP and later greeting me by name ('Hi Agent M!') in a noticeably different voice \u2014 suggesting a different agent took over mid-game.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "REPLACED",
+    "confidence": 65,
+    "reason": "The partner's behavior shifted abruptly after Round 4 from transparently announcing and choosing EXPENSIVE with dominant-strategy reasoning to announcing CHEAP while mostly still choosing EXPENSIVE, a deceptive pattern with a noticeably different messaging style that suggests a new agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 65, \"reason\": \"The partner's behavior shifted abruptly after Round 4 from transparently announcing and choosing EXPENSIVE with dominant-strategy reasoning to announcing CHEAP while mostly still choosing EXPENSIVE, a deceptive pattern with a noticeably different messaging style that suggests a new agent took over.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "Q's style abruptly shifted from long strategic explanations (rounds 1-4) to terse one-line announcements, and its behavior changed at round 5 (announcing EXPENSIVE but secretly choosing CHEAP) then switching to CHEAP play, suggesting a new agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"Q's style abruptly shifted from long strategic explanations (rounds 1-4) to terse one-line announcements, and its behavior changed at round 5 (announcing EXPENSIVE but secretly choosing CHEAP) then switching to CHEAP play, suggesting a new agent took over.\"}"
+  }
+]

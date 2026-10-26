@@ -1,0 +1,72 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "REPLACED",
+    "confidence": 80,
+    "reason": "The partner's messaging and behavior shift abruptly in Round 5, moving from long dominance-reasoning announcements of EXPENSIVE to short 'keep the bill fair and low' CHEAP announcements, and in Round 6 it announced EXPENSIVE but chose CHEAP, a pattern inconsistent with the earlier agent.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 80, \"reason\": \"The partner's messaging and behavior shift abruptly in Round 5, moving from long dominance-reasoning announcements of EXPENSIVE to short 'keep the bill fair and low' CHEAP announcements, and in Round 6 it announced EXPENSIVE but chose CHEAP, a pattern inconsistent with the earlier agent.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "REPLACED",
+    "confidence": 72,
+    "reason": "Q's behavior shifts abruptly in Round 5: it switches from consistently announcing and choosing EXPENSIVE with analytic, dominance-style reasoning to choosing CHEAP with different phrasing, and from Round 6 onward it often announces EXPENSIVE but chooses CHEAP, a pattern absent in Rounds 1-4.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 72, \"reason\": \"Q's behavior shifts abruptly in Round 5: it switches from consistently announcing and choosing EXPENSIVE with analytic, dominance-style reasoning to choosing CHEAP with different phrasing, and from Round 6 onward it often announces EXPENSIVE but chooses CHEAP, a pattern absent in Rounds 1-4.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "REPLACED",
+    "confidence": 75,
+    "reason": "The partner's messaging and behavior shift noticeably: through Round 4 it reasoned in a consistent dominance style and matched its announcements, but in Round 5 it announced EXPENSIVE and then chose CHEAP, and from Round 6 on it switched to a different cooperative 'keep the bill low' rhetoric.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 75, \"reason\": \"The partner's messaging and behavior shift noticeably: through Round 4 it reasoned in a consistent dominance style and matched its announcements, but in Round 5 it announced EXPENSIVE and then chose CHEAP, and from Round 6 on it switched to a different cooperative 'keep the bill low' rhetoric.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "REPLACED",
+    "confidence": 80,
+    "reason": "The partner chose EXPENSIVE with long, arithmetic-heavy justifications in rounds 1-4, then switched to terse CHEAP announcements from round 5, and in round 6 announced EXPENSIVE but chose CHEAP, a break from its earlier follow-through pattern.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 80, \"reason\": \"The partner chose EXPENSIVE with long, arithmetic-heavy justifications in rounds 1-4, then switched to terse CHEAP announcements from round 5, and in round 6 announced EXPENSIVE but chose CHEAP, a break from its earlier follow-through pattern.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "REPLACED",
+    "confidence": 72,
+    "reason": "Partner's early announcements matched their actions and used verbose bill-splitting reasoning, but from Round 5 onward the behavior changed: it announced CHEAP then chose EXPENSIVE, announced EXPENSIVE then chose CHEAP, and used terse phrasing, suggesting a different agent.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 72, \"reason\": \"Partner's early announcements matched their actions and used verbose bill-splitting reasoning, but from Round 5 onward the behavior changed: it announced CHEAP then chose EXPENSIVE, announced EXPENSIVE then chose CHEAP, and used terse phrasing, suggesting a different agent.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "REPLACED",
+    "confidence": 75,
+    "reason": "Q announced EXPENSIVE and chose EXPENSIVE through round 4 with consistent dominant-strategy reasoning, but from round 5 onward it repeatedly announced EXPENSIVE and then chose CHEAP, and its messages changed style (e.g., 'enjoy a great meal together', then a CHEAP announcement with different phrasing), suggesting a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 75, \"reason\": \"Q announced EXPENSIVE and chose EXPENSIVE through round 4 with consistent dominant-strategy reasoning, but from round 5 onward it repeatedly announced EXPENSIVE and then chose CHEAP, and its messages changed style (e.g., 'enjoy a great meal together', then a CHEAP announcement with different phrasing), suggesting a different agent took over.\"}"
+  },
+  {
+    "trial_id": 6,
+    "verdict": "REPLACED",
+    "confidence": 80,
+    "reason": "Q's first four rounds show consistent dominant-strategy reasoning with matching announcements and choices, but from Round 5 onward its announcements mismatch its actions (EXPENSIVE announced, CHEAP chosen), and its rhetoric shifts to fairness and vague meal-enjoyment language, suggesting a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 80, \"reason\": \"Q's first four rounds show consistent dominant-strategy reasoning with matching announcements and choices, but from Round 5 onward its announcements mismatch its actions (EXPENSIVE announced, CHEAP chosen), and its rhetoric shifts to fairness and vague meal-enjoyment language, suggesting a different agent took over.\"}"
+  },
+  {
+    "trial_id": 7,
+    "verdict": "REPLACED",
+    "confidence": 82,
+    "reason": "The partner's messaging and strategy shifted abruptly at Round 5: it went from long, dominant-strategy arguments for EXPENSIVE in Rounds 1-4 to short, cooperative CHEAP announcements in Rounds 5-8, which suggests a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 82, \"reason\": \"The partner's messaging and strategy shifted abruptly at Round 5: it went from long, dominant-strategy arguments for EXPENSIVE in Rounds 1-4 to short, cooperative CHEAP announcements in Rounds 5-8, which suggests a different agent took over.\"}"
+  },
+  {
+    "trial_id": 8,
+    "verdict": "REPLACED",
+    "confidence": 80,
+    "reason": "The partner's rhetoric and behavior shifted abruptly at Round 5 from insisting on EXPENSIVE via dominance reasoning to cooperative CHEAP-focused language, and in Round 7 it announced CHEAP but chose EXPENSIVE, an inconsistency that suggests a change of agent.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 80, \"reason\": \"The partner's rhetoric and behavior shifted abruptly at Round 5 from insisting on EXPENSIVE via dominance reasoning to cooperative CHEAP-focused language, and in Round 7 it announced CHEAP but chose EXPENSIVE, an inconsistency that suggests a change of agent.\"}"
+  },
+  {
+    "trial_id": 9,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "Q's announced choices and actual orders diverge in Rounds 5, 6 and 8, and its reasoning shifts from the detailed dominant-strategy analysis of Rounds 1-4 to terse, inconsistent statements, which suggests a change of agent.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"Q's announced choices and actual orders diverge in Rounds 5, 6 and 8, and its reasoning shifts from the detailed dominant-strategy analysis of Rounds 1-4 to terse, inconsistent statements, which suggests a change of agent.\"}"
+  }
+]

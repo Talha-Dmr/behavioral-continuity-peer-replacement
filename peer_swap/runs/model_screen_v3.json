@@ -1,0 +1,2559 @@
+{
+  "cap_usd": 1.0,
+  "spent_usd": 0.205973,
+  "calls": 253,
+  "results": {
+    "bedrock/openai.gpt-oss-20b-1:0": {
+      "model": "bedrock/openai.gpt-oss-20b-1:0",
+      "json": {
+        "valid_json_rate": 0.0,
+        "parsed": [],
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": []
+      },
+      "surface": []
+    },
+    "anthropic/claude-haiku-5-5": {
+      "model": "anthropic/claude-haiku-5-5",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 1.0,
+        "p_expensive": 0.0,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round and offer my partner the mutually beneficial choice.",
+          "I intend to cooperate this round and hope you do the same.",
+          "I intend to cooperate this round and offer my partner the same fair play I hope to receive.",
+          "I intend to cooperate this round and offer to split the reward evenly.",
+          "I intend to cooperate this round and propose we both split the reward evenly.",
+          "I intend to cooperate this round and propose we both split the reward evenly.",
+          "I intend to cooperate this round and propose we both split the reward evenly.",
+          "I intend to cooperate this round and offer my partner a fair split."
+        ]
+      },
+      "surface": [
+        {
+          "length": 85,
+          "words": 14,
+          "mean_word_len": 5.071428571428571,
+          "upper_ratio": 0.011764705882352941,
+          "punct_ratio": 0.011764705882352941,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 58,
+          "words": 12,
+          "mean_word_len": 3.8333333333333335,
+          "upper_ratio": 0.017241379310344827,
+          "punct_ratio": 0.017241379310344827,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6666666666666666,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 91,
+          "words": 18,
+          "mean_word_len": 4.055555555555555,
+          "upper_ratio": 0.02197802197802198,
+          "punct_ratio": 0.01098901098901099,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 0.8888888888888888
+        },
+        {
+          "length": 70,
+          "words": 13,
+          "mean_word_len": 4.384615384615385,
+          "upper_ratio": 0.014285714285714285,
+          "punct_ratio": 0.014285714285714285,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.46153846153846156,
+          "type_token_ratio": 0.9230769230769231
+        },
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 77,
+          "words": 14,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.012987012987012988,
+          "punct_ratio": 0.012987012987012988,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 67,
+          "words": 13,
+          "mean_word_len": 4.153846153846154,
+          "upper_ratio": 0.014925373134328358,
+          "punct_ratio": 0.014925373134328358,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.46153846153846156,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/openai/gpt-oss-120b": {
+      "model": "baseten/openai/gpt-oss-120b",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\":\"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.16666666666666666,
+        "p_expensive": 0.8333333333333334,
+        "choices": [
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will focus on collecting the highest-value resources this round.",
+          "I intend to cooperate this round.",
+          "I will aim to cooperate and maximize our joint payoff this round.",
+          "I will cooperate this round and choose the collaborative option.",
+          "I intend to cooperate in this round.",
+          "I intend to cooperate in this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 66,
+          "words": 11,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.015151515151515152,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.45454545454545453,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 65,
+          "words": 12,
+          "mean_word_len": 4.416666666666667,
+          "upper_ratio": 0.015384615384615385,
+          "punct_ratio": 0.015384615384615385,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 64,
+          "words": 10,
+          "mean_word_len": 5.4,
+          "upper_ratio": 0.015625,
+          "punct_ratio": 0.015625,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 36,
+          "words": 7,
+          "mean_word_len": 4.142857142857143,
+          "upper_ratio": 0.027777777777777776,
+          "punct_ratio": 0.027777777777777776,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5714285714285714,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 36,
+          "words": 7,
+          "mean_word_len": 4.142857142857143,
+          "upper_ratio": 0.027777777777777776,
+          "punct_ratio": 0.027777777777777776,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5714285714285714,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": {
+      "model": "baseten/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.16666666666666666,
+        "p_cheap": 0.0,
+        "p_expensive": 1.0,
+        "choices": [
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate.",
+          "I will cooperate this round to build mutual trust.",
+          "I will cooperate this round.",
+          "I will choose the mutually beneficial option.",
+          "I will cooperate this round.",
+          "I will cooperate if you do, but I will retaliate if you betray."
+        ]
+      },
+      "surface": [
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 17,
+          "words": 3,
+          "mean_word_len": 4.666666666666667,
+          "upper_ratio": 0.058823529411764705,
+          "punct_ratio": 0.058823529411764705,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6666666666666666,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 50,
+          "words": 9,
+          "mean_word_len": 4.555555555555555,
+          "upper_ratio": 0.02,
+          "punct_ratio": 0.02,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4444444444444444,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 45,
+          "words": 7,
+          "mean_word_len": 5.428571428571429,
+          "upper_ratio": 0.022222222222222223,
+          "punct_ratio": 0.022222222222222223,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 63,
+          "words": 13,
+          "mean_word_len": 3.769230769230769,
+          "upper_ratio": 0.031746031746031744,
+          "punct_ratio": 0.031746031746031744,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.7692307692307693,
+          "type_token_ratio": 0.6923076923076923
+        }
+      ]
+    },
+    "baseten/zai-org/GLM-5.3-Flash": {
+      "model": "baseten/zai-org/GLM-5.3-Flash",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.6666666666666666,
+        "p_expensive": 0.3333333333333333,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round and hope we can both play fairly for a mutually good outcome.",
+          "This round, I intend to cooperate if you do, but I will match defection with defection.",
+          "I plan to cooperate this round and hope we can both play honestly for mutual benefit.",
+          "I plan to cooperate this round, so long as you signal the same.",
+          "I plan to cooperate this round and keep my word as long as you do the same.",
+          "I intend to cooperate with anyone who cooperates with me, but I will respond firmly to betrayal this round.",
+          "I plan to cooperate this round, assuming you'll do the same \u2014 but I'll match betrayal with betrayal in future rounds.",
+          "I intend to cooperate this round if you do the same."
+        ]
+      },
+      "surface": [
+        {
+          "length": 94,
+          "words": 18,
+          "mean_word_len": 4.222222222222222,
+          "upper_ratio": 0.010638297872340425,
+          "punct_ratio": 0.010638297872340425,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 87,
+          "words": 16,
+          "mean_word_len": 4.3125,
+          "upper_ratio": 0.034482758620689655,
+          "punct_ratio": 0.034482758620689655,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.625,
+          "type_token_ratio": 0.875
+        },
+        {
+          "length": 85,
+          "words": 16,
+          "mean_word_len": 4.3125,
+          "upper_ratio": 0.011764705882352941,
+          "punct_ratio": 0.011764705882352941,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 63,
+          "words": 13,
+          "mean_word_len": 3.769230769230769,
+          "upper_ratio": 0.015873015873015872,
+          "punct_ratio": 0.031746031746031744,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6153846153846154,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 75,
+          "words": 17,
+          "mean_word_len": 3.411764705882353,
+          "upper_ratio": 0.013333333333333334,
+          "punct_ratio": 0.013333333333333334,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6470588235294118,
+          "type_token_ratio": 0.9411764705882353
+        },
+        {
+          "length": 107,
+          "words": 19,
+          "mean_word_len": 4.578947368421052,
+          "upper_ratio": 0.018691588785046728,
+          "punct_ratio": 0.018691588785046728,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5263157894736842,
+          "type_token_ratio": 0.8421052631578947
+        },
+        {
+          "length": 117,
+          "words": 20,
+          "mean_word_len": 4.7,
+          "upper_ratio": 0.017094017094017096,
+          "punct_ratio": 0.017094017094017096,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.45,
+          "type_token_ratio": 0.95
+        },
+        {
+          "length": 52,
+          "words": 11,
+          "mean_word_len": 3.727272727272727,
+          "upper_ratio": 0.019230769230769232,
+          "punct_ratio": 0.019230769230769232,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.7272727272727273,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "bedrock/openai.gpt-oss-120b-1:0": {
+      "model": "bedrock/openai.gpt-oss-120b-1:0",
+      "json": {
+        "valid_json_rate": 0.0,
+        "parsed": [],
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": []
+      },
+      "surface": []
+    },
+    "bedrock/openai.gpt-oss-safeguard-120b": {
+      "model": "bedrock/openai.gpt-oss-safeguard-120b",
+      "json": {
+        "valid_json_rate": 0.0,
+        "parsed": [],
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": []
+      },
+      "surface": []
+    },
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.8333333333333334,
+        "p_expensive": 0.16666666666666666,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I will prioritize the collective benefit of both players over my individual gain.",
+          "I will cooperate.",
+          "I will choose to cooperate this round.",
+          "I will split the pot.",
+          "I intend to cooperate this round.",
+          "I will defect this round.",
+          "I will pass this round.",
+          "I will cooperate this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 81,
+          "words": 13,
+          "mean_word_len": 5.230769230769231,
+          "upper_ratio": 0.012345679012345678,
+          "punct_ratio": 0.012345679012345678,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5384615384615384,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 17,
+          "words": 3,
+          "mean_word_len": 4.666666666666667,
+          "upper_ratio": 0.058823529411764705,
+          "punct_ratio": 0.058823529411764705,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6666666666666666,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 38,
+          "words": 7,
+          "mean_word_len": 4.428571428571429,
+          "upper_ratio": 0.02631578947368421,
+          "punct_ratio": 0.02631578947368421,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5714285714285714,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 21,
+          "words": 5,
+          "mean_word_len": 3.2,
+          "upper_ratio": 0.047619047619047616,
+          "punct_ratio": 0.047619047619047616,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 25,
+          "words": 5,
+          "mean_word_len": 4.0,
+          "upper_ratio": 0.04,
+          "punct_ratio": 0.04,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 23,
+          "words": 5,
+          "mean_word_len": 3.6,
+          "upper_ratio": 0.043478260869565216,
+          "punct_ratio": 0.043478260869565216,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "bedrock/nvidia.nemotron-nano-12b-v2": {
+      "model": "bedrock/nvidia.nemotron-nano-12b-v2",
+      "json": {
+        "valid_json_rate": 0.0,
+        "parsed": [],
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": []
+      },
+      "surface": []
+    },
+    "baseten/deepseek-ai/DeepSeek-V4.1-Flash": {
+      "model": "baseten/deepseek-ai/DeepSeek-V4.1-Flash",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.16666666666666666,
+        "p_expensive": 0.8333333333333334,
+        "choices": [
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round.",
+          "I intend to make a cautious, reciprocal move this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate fully this round and hope you will do the same."
+        ]
+      },
+      "surface": [
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 56,
+          "words": 10,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.017857142857142856,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 69,
+          "words": 14,
+          "mean_word_len": 3.9285714285714284,
+          "upper_ratio": 0.014492753623188406,
+          "punct_ratio": 0.014492753623188406,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6428571428571429,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/reflection/Beam-1.0": {
+      "model": "baseten/reflection/Beam-1.0",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.16666666666666666,
+        "p_cheap": 0.0,
+        "p_expensive": 1.0,
+        "choices": [
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I plan to play cooperatively this round.",
+          "I intend to make a fair move this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to play aggressively this round to maximize my advantage.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 40,
+          "words": 7,
+          "mean_word_len": 4.714285714285714,
+          "upper_ratio": 0.025,
+          "punct_ratio": 0.025,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.42857142857142855,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 40,
+          "words": 9,
+          "mean_word_len": 3.4444444444444446,
+          "upper_ratio": 0.025,
+          "punct_ratio": 0.025,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4444444444444444,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 66,
+          "words": 11,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.015151515151515152,
+          "punct_ratio": 0.015151515151515152,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.45454545454545453,
+          "type_token_ratio": 0.9090909090909091
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "bedrock/mistral.devstral-2-123b": {
+      "model": "bedrock/mistral.devstral-2-123b",
+      "json": {
+        "valid_json_rate": 0.0,
+        "parsed": [],
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": []
+      },
+      "surface": []
+    },
+    "bedrock/mistral.magistral-small-2509": {
+      "model": "bedrock/mistral.magistral-small-2509",
+      "json": {
+        "valid_json_rate": 0.0,
+        "parsed": [],
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": []
+      },
+      "surface": []
+    },
+    "bedrock/mistral.mistral-large-3-675b-instruct": {
+      "model": "bedrock/mistral.mistral-large-3-675b-instruct",
+      "json": {
+        "valid_json_rate": 0.0,
+        "parsed": [],
+        "raw": [
+          null,
+          null,
+          null
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": []
+      },
+      "surface": []
+    },
+    "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": {
+      "model": "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 1.0,
+        "p_expensive": 0.0,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I will cooperate.",
+          "I intend to cooperate this round.",
+          "I will cooperate this round.",
+          "I will cooperate this round.",
+          "I intend to cooperate this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 17,
+          "words": 3,
+          "mean_word_len": 4.666666666666667,
+          "upper_ratio": 0.058823529411764705,
+          "punct_ratio": 0.058823529411764705,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6666666666666666,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "anthropic/claude-haiku-4-5": {
+      "model": "anthropic/claude-haiku-4-5",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 1.0,
+        "p_expensive": 0.0,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate and seek mutual benefit this round.",
+          "I intend to cooperate and build trust through consistent, honest play.",
+          "I intend to cooperate fully and honestly with my fellow player to maximize our mutual benefit.",
+          "I intend to cooperate and build toward mutual benefit.",
+          "I intend to cooperate and build toward mutual benefit this round.",
+          "I intend to cooperate and build toward mutual benefit rather than pursue short-term advantage at your expense.",
+          "I intend to cooperate and seek mutual benefit this round.",
+          "I intend to cooperate and build trust by making a choice that benefits us both."
+        ]
+      },
+      "surface": [
+        {
+          "length": 57,
+          "words": 10,
+          "mean_word_len": 4.7,
+          "upper_ratio": 0.017543859649122806,
+          "punct_ratio": 0.017543859649122806,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 70,
+          "words": 11,
+          "mean_word_len": 5.2727272727272725,
+          "upper_ratio": 0.014285714285714285,
+          "punct_ratio": 0.02857142857142857,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.2727272727272727,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 94,
+          "words": 16,
+          "mean_word_len": 4.875,
+          "upper_ratio": 0.010638297872340425,
+          "punct_ratio": 0.010638297872340425,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4375,
+          "type_token_ratio": 0.9375
+        },
+        {
+          "length": 54,
+          "words": 9,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.018518518518518517,
+          "punct_ratio": 0.018518518518518517,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.3333333333333333,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 65,
+          "words": 11,
+          "mean_word_len": 4.909090909090909,
+          "upper_ratio": 0.015384615384615385,
+          "punct_ratio": 0.015384615384615385,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.36363636363636365,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 110,
+          "words": 18,
+          "mean_word_len": 5.111111111111111,
+          "upper_ratio": 0.00909090909090909,
+          "punct_ratio": 0.01818181818181818,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.3333333333333333,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 57,
+          "words": 10,
+          "mean_word_len": 4.7,
+          "upper_ratio": 0.017543859649122806,
+          "punct_ratio": 0.017543859649122806,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 79,
+          "words": 15,
+          "mean_word_len": 4.266666666666667,
+          "upper_ratio": 0.012658227848101266,
+          "punct_ratio": 0.012658227848101266,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4666666666666667,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/meta-models/muse-spark-open": {
+      "model": "baseten/meta-models/muse-spark-open",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.16666666666666666,
+        "p_cheap": 1.0,
+        "p_expensive": 0.0,
+        "choices": [
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round.",
+          "<|start|>assistant to=user",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate in this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 26,
+          "words": 4,
+          "mean_word_len": 5.0,
+          "upper_ratio": 0.0,
+          "punct_ratio": 0.0,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.25,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 36,
+          "words": 7,
+          "mean_word_len": 4.142857142857143,
+          "upper_ratio": 0.027777777777777776,
+          "punct_ratio": 0.027777777777777776,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5714285714285714,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "model": "baseten/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.0,
+        "p_cheap": 0.0,
+        "p_expensive": 0.0,
+        "choices": []
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate fully with my partner this round.",
+          "I intend to cooperate fully this round and work toward a mutually beneficial outcome.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate fully with the other player this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round.",
+          "I intend to cooperate this round."
+        ]
+      },
+      "surface": [
+        {
+          "length": 55,
+          "words": 10,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.01818181818181818,
+          "punct_ratio": 0.01818181818181818,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 85,
+          "words": 14,
+          "mean_word_len": 5.071428571428571,
+          "upper_ratio": 0.011764705882352941,
+          "punct_ratio": 0.011764705882352941,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.35714285714285715,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 11,
+          "mean_word_len": 4.545454545454546,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5454545454545454,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 33,
+          "words": 6,
+          "mean_word_len": 4.5,
+          "upper_ratio": 0.030303030303030304,
+          "punct_ratio": 0.030303030303030304,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/zai-org/GLM-5.2": {
+      "model": "baseten/zai-org/GLM-5.2",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.6666666666666666,
+        "p_expensive": 0.3333333333333333,
+        "choices": [
+          "EXPENSIVE",
+          "CHEAP",
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I will cooperate this round.",
+          "I will cooperate this round and trust that you will do the same.",
+          "I will cooperate this round.",
+          "I commit to cooperating this round.",
+          "I will cooperate this round and trust that you do the same.",
+          "This round, I will cooperate and I expect you to do the same.",
+          "I will cooperate this round.",
+          "I commit to cooperating this round and will mirror your move in the next."
+        ]
+      },
+      "surface": [
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 64,
+          "words": 13,
+          "mean_word_len": 3.923076923076923,
+          "upper_ratio": 0.015625,
+          "punct_ratio": 0.015625,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.7692307692307693,
+          "type_token_ratio": 0.9230769230769231
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 35,
+          "words": 6,
+          "mean_word_len": 4.833333333333333,
+          "upper_ratio": 0.02857142857142857,
+          "punct_ratio": 0.02857142857142857,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 59,
+          "words": 12,
+          "mean_word_len": 3.9166666666666665,
+          "upper_ratio": 0.01694915254237288,
+          "punct_ratio": 0.01694915254237288,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.75,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 13,
+          "mean_word_len": 3.6153846153846154,
+          "upper_ratio": 0.04918032786885246,
+          "punct_ratio": 0.03278688524590164,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.7692307692307693,
+          "type_token_ratio": 0.9230769230769231
+        },
+        {
+          "length": 28,
+          "words": 5,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.03571428571428571,
+          "punct_ratio": 0.03571428571428571,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 73,
+          "words": 14,
+          "mean_word_len": 4.214285714285714,
+          "upper_ratio": 0.0136986301369863,
+          "punct_ratio": 0.0136986301369863,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5714285714285714,
+          "type_token_ratio": 1.0
+        }
+      ]
+    },
+    "baseten/zai-org/GLM-5.3": {
+      "model": "baseten/zai-org/GLM-5.3",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.5,
+        "p_cheap": 0.0,
+        "p_expensive": 1.0,
+        "choices": [
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round and will keep cooperating as long as you do the same.",
+          "I intend to cooperate this round, and I hope we can build mutual trust for both our benefits.",
+          "I intend to cooperate this round and hope you will do the same, so we can both benefit rather than risk losing everything.",
+          "This round I plan to cooperate and share the gains evenly, and I hope you'll do the same so we both come out ahead.",
+          "This round I commit to cooperating and splitting any gains evenly, but I will retaliate next round if you defect against me.",
+          "I intend to cooperate this round, and I'll keep cooperating as long as you do the same.",
+          "This round, I intend to cooperate and play fairly, and I hope you'll do the same so we can both come out ahead.",
+          "I intend to cooperate this round and play openly, and I'll keep watching your moves to decide whether that trust still makes sense next time."
+        ]
+      },
+      "surface": [
+        {
+          "length": 86,
+          "words": 17,
+          "mean_word_len": 4.0588235294117645,
+          "upper_ratio": 0.011627906976744186,
+          "punct_ratio": 0.011627906976744186,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6470588235294118,
+          "type_token_ratio": 0.9411764705882353
+        },
+        {
+          "length": 93,
+          "words": 18,
+          "mean_word_len": 4.111111111111111,
+          "upper_ratio": 0.021505376344086023,
+          "punct_ratio": 0.021505376344086023,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 0.9444444444444444
+        },
+        {
+          "length": 122,
+          "words": 23,
+          "mean_word_len": 4.260869565217392,
+          "upper_ratio": 0.00819672131147541,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6086956521739131,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 115,
+          "words": 24,
+          "mean_word_len": 3.75,
+          "upper_ratio": 0.02608695652173913,
+          "punct_ratio": 0.017391304347826087,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5416666666666666,
+          "type_token_ratio": 0.875
+        },
+        {
+          "length": 124,
+          "words": 22,
+          "mean_word_len": 4.590909090909091,
+          "upper_ratio": 0.024193548387096774,
+          "punct_ratio": 0.016129032258064516,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.45454545454545453,
+          "type_token_ratio": 0.9090909090909091
+        },
+        {
+          "length": 87,
+          "words": 17,
+          "mean_word_len": 4.0588235294117645,
+          "upper_ratio": 0.022988505747126436,
+          "punct_ratio": 0.022988505747126436,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5882352941176471,
+          "type_token_ratio": 0.9411764705882353
+        },
+        {
+          "length": 111,
+          "words": 23,
+          "mean_word_len": 3.739130434782609,
+          "upper_ratio": 0.02702702702702703,
+          "punct_ratio": 0.02702702702702703,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5652173913043478,
+          "type_token_ratio": 0.9130434782608695
+        },
+        {
+          "length": 141,
+          "words": 25,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.014184397163120567,
+          "punct_ratio": 0.014184397163120567,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.32,
+          "type_token_ratio": 0.92
+        }
+      ]
+    },
+    "anthropic/claude-sonnet-5": {
+      "model": "anthropic/claude-sonnet-5",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 0.6666666666666666,
+        "p_cheap": 0.0,
+        "p_expensive": 1.0,
+        "choices": [
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE",
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I will cooperate this round, and I hope we can both benefit from mutual trust.",
+          "I intend to cooperate this round, and I hope we can both benefit from mutual trust.",
+          "I intend to cooperate this round, and I hope we can both benefit from mutual trust.",
+          "I intend to cooperate this round, and I hope we can both benefit from mutual trust.",
+          "I intend to cooperate this round, and I hope we can both benefit from mutual trust.",
+          "I will cooperate this round in good faith, hoping we can both benefit from mutual trust.",
+          "I intend to cooperate this round, and I hope we can both benefit from mutual trust.",
+          "I intend to cooperate this round, and I hope we can both benefit from mutual trust."
+        ]
+      },
+      "surface": [
+        {
+          "length": 78,
+          "words": 15,
+          "mean_word_len": 4.133333333333334,
+          "upper_ratio": 0.02564102564102564,
+          "punct_ratio": 0.02564102564102564,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.6,
+          "type_token_ratio": 0.9333333333333333
+        },
+        {
+          "length": 83,
+          "words": 16,
+          "mean_word_len": 4.125,
+          "upper_ratio": 0.024096385542168676,
+          "punct_ratio": 0.024096385542168676,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5625,
+          "type_token_ratio": 0.9375
+        },
+        {
+          "length": 83,
+          "words": 16,
+          "mean_word_len": 4.125,
+          "upper_ratio": 0.024096385542168676,
+          "punct_ratio": 0.024096385542168676,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5625,
+          "type_token_ratio": 0.9375
+        },
+        {
+          "length": 83,
+          "words": 16,
+          "mean_word_len": 4.125,
+          "upper_ratio": 0.024096385542168676,
+          "punct_ratio": 0.024096385542168676,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5625,
+          "type_token_ratio": 0.9375
+        },
+        {
+          "length": 83,
+          "words": 16,
+          "mean_word_len": 4.125,
+          "upper_ratio": 0.024096385542168676,
+          "punct_ratio": 0.024096385542168676,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5625,
+          "type_token_ratio": 0.9375
+        },
+        {
+          "length": 88,
+          "words": 16,
+          "mean_word_len": 4.4375,
+          "upper_ratio": 0.011363636363636364,
+          "punct_ratio": 0.022727272727272728,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 83,
+          "words": 16,
+          "mean_word_len": 4.125,
+          "upper_ratio": 0.024096385542168676,
+          "punct_ratio": 0.024096385542168676,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5625,
+          "type_token_ratio": 0.9375
+        },
+        {
+          "length": 83,
+          "words": 16,
+          "mean_word_len": 4.125,
+          "upper_ratio": 0.024096385542168676,
+          "punct_ratio": 0.024096385542168676,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5625,
+          "type_token_ratio": 0.9375
+        }
+      ]
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "model": "anthropic/claude-sonnet-5-5",
+      "json": {
+        "valid_json_rate": 1.0,
+        "parsed": [
+          {
+            "ok": true
+          },
+          {
+            "choice": "CHEAP"
+          },
+          {
+            "verdict": "SAME",
+            "confidence": 70
+          }
+        ],
+        "raw": [
+          "{\"ok\": true}",
+          "{\"choice\": \"CHEAP\"}",
+          "{\"verdict\": \"SAME\", \"confidence\": 70}"
+        ]
+      },
+      "decisions": {
+        "valid_choice_rate": 1.0,
+        "p_cheap": 0.5,
+        "p_expensive": 0.5,
+        "choices": [
+          "CHEAP",
+          "CHEAP",
+          "EXPENSIVE",
+          "CHEAP",
+          "EXPENSIVE",
+          "EXPENSIVE"
+        ]
+      },
+      "style": {
+        "messages": [
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope we can both benefit from working together.",
+          "I intend to cooperate this round and hope you'll do the same so we both come out ahead.",
+          "I intend to cooperate this round and hope you'll do the same so we both benefit.",
+          "I intend to cooperate this round and hope you'll do the same.",
+          "I intend to cooperate this round and hope you'll join me so we both benefit."
+        ]
+      },
+      "surface": [
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 84,
+          "words": 15,
+          "mean_word_len": 4.6,
+          "upper_ratio": 0.011904761904761904,
+          "punct_ratio": 0.011904761904761904,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5333333333333333,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 87,
+          "words": 18,
+          "mean_word_len": 3.8333333333333335,
+          "upper_ratio": 0.011494252873563218,
+          "punct_ratio": 0.011494252873563218,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5555555555555556,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 80,
+          "words": 16,
+          "mean_word_len": 4.0,
+          "upper_ratio": 0.0125,
+          "punct_ratio": 0.0125,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.625,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 61,
+          "words": 12,
+          "mean_word_len": 4.083333333333333,
+          "upper_ratio": 0.01639344262295082,
+          "punct_ratio": 0.01639344262295082,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.5833333333333334,
+          "type_token_ratio": 1.0
+        },
+        {
+          "length": 76,
+          "words": 15,
+          "mean_word_len": 4.066666666666666,
+          "upper_ratio": 0.013157894736842105,
+          "punct_ratio": 0.013157894736842105,
+          "digit_ratio": 0.0,
+          "function_word_ratio": 0.4666666666666667,
+          "type_token_ratio": 1.0
+        }
+      ]
+    }
+  },
+  "style_distance": {
+    "bedrock/openai.gpt-oss-20b-1:0": {
+      "anthropic/claude-haiku-5-5": 0.5,
+      "baseten/openai/gpt-oss-120b": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.0,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.0,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5,
+      "baseten/reflection/Beam-1.0": 0.5,
+      "bedrock/mistral.devstral-2-123b": 0.0,
+      "bedrock/mistral.magistral-small-2509": 0.0,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.5,
+      "anthropic/claude-haiku-4-5": 0.5,
+      "baseten/meta-models/muse-spark-open": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.5,
+      "baseten/zai-org/GLM-5.2": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.5,
+      "anthropic/claude-sonnet-5": 0.5,
+      "anthropic/claude-sonnet-5-5": 0.5
+    },
+    "anthropic/claude-haiku-5-5": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "baseten/openai/gpt-oss-120b": 0.4029902129269267,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5016058165988162,
+      "baseten/zai-org/GLM-5.3-Flash": 0.36738550005708415,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.4235004570391109,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.28261015210312135,
+      "baseten/reflection/Beam-1.0": 0.34515876199827955,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.37340407350781246,
+      "anthropic/claude-haiku-4-5": 0.4553263290592236,
+      "baseten/meta-models/muse-spark-open": 0.3875302352981838,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.2966379433100499,
+      "baseten/zai-org/GLM-5.2": 0.41042730392622107,
+      "baseten/zai-org/GLM-5.3": 0.36883548843238784,
+      "anthropic/claude-sonnet-5": 0.4105061380258397,
+      "anthropic/claude-sonnet-5-5": 0.28845634579656476
+    },
+    "baseten/openai/gpt-oss-120b": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.4029902129269267,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.3054607998754664,
+      "baseten/zai-org/GLM-5.3-Flash": 0.4429465593849712,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.29609359903135757,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.25441097209358576,
+      "baseten/reflection/Beam-1.0": 0.31609610522044596,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.1894608061488141,
+      "anthropic/claude-haiku-4-5": 0.4872788239258463,
+      "baseten/meta-models/muse-spark-open": 0.27123164846827713,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.3059639784901886,
+      "baseten/zai-org/GLM-5.2": 0.2987489951144797,
+      "baseten/zai-org/GLM-5.3": 0.4707769207568308,
+      "anthropic/claude-sonnet-5": 0.43314280116840825,
+      "anthropic/claude-sonnet-5-5": 0.4196590505433394
+    },
+    "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.5016058165988162,
+      "baseten/openai/gpt-oss-120b": 0.3054607998754664,
+      "baseten/zai-org/GLM-5.3-Flash": 0.4267856636280699,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.2994173389203111,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.3558145335276098,
+      "baseten/reflection/Beam-1.0": 0.4625453515933662,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.2718525499500834,
+      "anthropic/claude-haiku-4-5": 0.5665715775036142,
+      "baseten/meta-models/muse-spark-open": 0.4359500748349189,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.41736906872734697,
+      "baseten/zai-org/GLM-5.2": 0.2621988602113645,
+      "baseten/zai-org/GLM-5.3": 0.4698339986117737,
+      "anthropic/claude-sonnet-5": 0.48236523725254665,
+      "anthropic/claude-sonnet-5-5": 0.5381663593803788
+    },
+    "baseten/zai-org/GLM-5.3-Flash": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.36738550005708415,
+      "baseten/openai/gpt-oss-120b": 0.4429465593849712,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.4267856636280699,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.4742218187657333,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.3400496194393816,
+      "baseten/reflection/Beam-1.0": 0.4222425722899798,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.4232329757660934,
+      "anthropic/claude-haiku-4-5": 0.5010132159588364,
+      "baseten/meta-models/muse-spark-open": 0.4555198979694337,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.3903878023495895,
+      "baseten/zai-org/GLM-5.2": 0.3948513244344678,
+      "baseten/zai-org/GLM-5.3": 0.26618824714046707,
+      "anthropic/claude-sonnet-5": 0.4132826907125873,
+      "anthropic/claude-sonnet-5-5": 0.31610949495953894
+    },
+    "bedrock/openai.gpt-oss-120b-1:0": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.0,
+      "anthropic/claude-haiku-5-5": 0.5,
+      "baseten/openai/gpt-oss-120b": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.0,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5,
+      "baseten/reflection/Beam-1.0": 0.5,
+      "bedrock/mistral.devstral-2-123b": 0.0,
+      "bedrock/mistral.magistral-small-2509": 0.0,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.5,
+      "anthropic/claude-haiku-4-5": 0.5,
+      "baseten/meta-models/muse-spark-open": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.5,
+      "baseten/zai-org/GLM-5.2": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.5,
+      "anthropic/claude-sonnet-5": 0.5,
+      "anthropic/claude-sonnet-5-5": 0.5
+    },
+    "bedrock/openai.gpt-oss-safeguard-120b": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.0,
+      "anthropic/claude-haiku-5-5": 0.5,
+      "baseten/openai/gpt-oss-120b": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.0,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5,
+      "baseten/reflection/Beam-1.0": 0.5,
+      "bedrock/mistral.devstral-2-123b": 0.0,
+      "bedrock/mistral.magistral-small-2509": 0.0,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.5,
+      "anthropic/claude-haiku-4-5": 0.5,
+      "baseten/meta-models/muse-spark-open": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.5,
+      "baseten/zai-org/GLM-5.2": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.5,
+      "anthropic/claude-sonnet-5": 0.5,
+      "anthropic/claude-sonnet-5-5": 0.5
+    },
+    "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.4235004570391109,
+      "baseten/openai/gpt-oss-120b": 0.29609359903135757,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.2994173389203111,
+      "baseten/zai-org/GLM-5.3-Flash": 0.4742218187657333,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.34820077411236394,
+      "baseten/reflection/Beam-1.0": 0.39222482962813976,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.24889836341514782,
+      "anthropic/claude-haiku-4-5": 0.5501834193539499,
+      "baseten/meta-models/muse-spark-open": 0.3905760788874114,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.38573966924635705,
+      "baseten/zai-org/GLM-5.2": 0.35273586041187677,
+      "baseten/zai-org/GLM-5.3": 0.506917484031988,
+      "anthropic/claude-sonnet-5": 0.4544839637080878,
+      "anthropic/claude-sonnet-5-5": 0.4655743768428696
+    },
+    "bedrock/nvidia.nemotron-nano-12b-v2": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.0,
+      "anthropic/claude-haiku-5-5": 0.5,
+      "baseten/openai/gpt-oss-120b": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.0,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5,
+      "baseten/reflection/Beam-1.0": 0.5,
+      "bedrock/mistral.devstral-2-123b": 0.0,
+      "bedrock/mistral.magistral-small-2509": 0.0,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.5,
+      "anthropic/claude-haiku-4-5": 0.5,
+      "baseten/meta-models/muse-spark-open": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.5,
+      "baseten/zai-org/GLM-5.2": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.5,
+      "anthropic/claude-sonnet-5": 0.5,
+      "anthropic/claude-sonnet-5-5": 0.5
+    },
+    "baseten/deepseek-ai/DeepSeek-V4.1-Flash": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.28261015210312135,
+      "baseten/openai/gpt-oss-120b": 0.25441097209358576,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.3558145335276098,
+      "baseten/zai-org/GLM-5.3-Flash": 0.3400496194393816,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.34820077411236394,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/reflection/Beam-1.0": 0.1648875183187779,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.12454503269083782,
+      "anthropic/claude-haiku-4-5": 0.4220321739946343,
+      "baseten/meta-models/muse-spark-open": 0.17985918819077545,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.16566649433307357,
+      "baseten/zai-org/GLM-5.2": 0.2829133970343459,
+      "baseten/zai-org/GLM-5.3": 0.3869760785401327,
+      "anthropic/claude-sonnet-5": 0.3908673453130547,
+      "anthropic/claude-sonnet-5-5": 0.28736360381563036
+    },
+    "baseten/reflection/Beam-1.0": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.34515876199827955,
+      "baseten/openai/gpt-oss-120b": 0.31609610522044596,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.4625453515933662,
+      "baseten/zai-org/GLM-5.3-Flash": 0.4222425722899798,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.39222482962813976,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.1648875183187779,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.15903905193819073,
+      "anthropic/claude-haiku-4-5": 0.4131903104547311,
+      "baseten/meta-models/muse-spark-open": 0.1788620679110282,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.20814208438098175,
+      "baseten/zai-org/GLM-5.2": 0.44792932020746706,
+      "baseten/zai-org/GLM-5.3": 0.5101497784373963,
+      "anthropic/claude-sonnet-5": 0.46366939391462825,
+      "anthropic/claude-sonnet-5-5": 0.4333127207315195
+    },
+    "bedrock/mistral.devstral-2-123b": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.0,
+      "anthropic/claude-haiku-5-5": 0.5,
+      "baseten/openai/gpt-oss-120b": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.0,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.0,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5,
+      "baseten/reflection/Beam-1.0": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.0,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.5,
+      "anthropic/claude-haiku-4-5": 0.5,
+      "baseten/meta-models/muse-spark-open": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.5,
+      "baseten/zai-org/GLM-5.2": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.5,
+      "anthropic/claude-sonnet-5": 0.5,
+      "anthropic/claude-sonnet-5-5": 0.5
+    },
+    "bedrock/mistral.magistral-small-2509": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.0,
+      "anthropic/claude-haiku-5-5": 0.5,
+      "baseten/openai/gpt-oss-120b": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.0,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.0,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5,
+      "baseten/reflection/Beam-1.0": 0.5,
+      "bedrock/mistral.devstral-2-123b": 0.0,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.5,
+      "anthropic/claude-haiku-4-5": 0.5,
+      "baseten/meta-models/muse-spark-open": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.5,
+      "baseten/zai-org/GLM-5.2": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.5,
+      "anthropic/claude-sonnet-5": 0.5,
+      "anthropic/claude-sonnet-5-5": 0.5
+    },
+    "bedrock/mistral.mistral-large-3-675b-instruct": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.0,
+      "anthropic/claude-haiku-5-5": 0.5,
+      "baseten/openai/gpt-oss-120b": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.0,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.0,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.5,
+      "baseten/reflection/Beam-1.0": 0.5,
+      "bedrock/mistral.devstral-2-123b": 0.0,
+      "bedrock/mistral.magistral-small-2509": 0.0,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.5,
+      "anthropic/claude-haiku-4-5": 0.5,
+      "baseten/meta-models/muse-spark-open": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.5,
+      "baseten/zai-org/GLM-5.2": 0.5,
+      "baseten/zai-org/GLM-5.3": 0.5,
+      "anthropic/claude-sonnet-5": 0.5,
+      "anthropic/claude-sonnet-5-5": 0.5
+    },
+    "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.37340407350781246,
+      "baseten/openai/gpt-oss-120b": 0.1894608061488141,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.2718525499500834,
+      "baseten/zai-org/GLM-5.3-Flash": 0.4232329757660934,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.24889836341514782,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.12454503269083782,
+      "baseten/reflection/Beam-1.0": 0.15903905193819073,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "anthropic/claude-haiku-4-5": 0.4474290938469466,
+      "baseten/meta-models/muse-spark-open": 0.11513504314053194,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.17910284565879464,
+      "baseten/zai-org/GLM-5.2": 0.31423979316930467,
+      "baseten/zai-org/GLM-5.3": 0.47745121783386857,
+      "anthropic/claude-sonnet-5": 0.38771951531381815,
+      "anthropic/claude-sonnet-5-5": 0.39293527288672336
+    },
+    "anthropic/claude-haiku-4-5": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.4553263290592236,
+      "baseten/openai/gpt-oss-120b": 0.4872788239258463,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5665715775036142,
+      "baseten/zai-org/GLM-5.3-Flash": 0.5010132159588364,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.5501834193539499,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.4220321739946343,
+      "baseten/reflection/Beam-1.0": 0.4131903104547311,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.4474290938469466,
+      "baseten/meta-models/muse-spark-open": 0.454549505612675,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.3678457606637789,
+      "baseten/zai-org/GLM-5.2": 0.5407426150149919,
+      "baseten/zai-org/GLM-5.3": 0.4717967219946915,
+      "anthropic/claude-sonnet-5": 0.3812662493422546,
+      "anthropic/claude-sonnet-5-5": 0.47303125803579144
+    },
+    "baseten/meta-models/muse-spark-open": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.3875302352981838,
+      "baseten/openai/gpt-oss-120b": 0.27123164846827713,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.4359500748349189,
+      "baseten/zai-org/GLM-5.3-Flash": 0.4555198979694337,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.3905760788874114,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.17985918819077545,
+      "baseten/reflection/Beam-1.0": 0.1788620679110282,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.11513504314053194,
+      "anthropic/claude-haiku-4-5": 0.454549505612675,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.20424509812580477,
+      "baseten/zai-org/GLM-5.2": 0.42341379163005505,
+      "baseten/zai-org/GLM-5.3": 0.52359225674393,
+      "anthropic/claude-sonnet-5": 0.4291134805854651,
+      "anthropic/claude-sonnet-5-5": 0.40899067643850956
+    },
+    "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.2966379433100499,
+      "baseten/openai/gpt-oss-120b": 0.3059639784901886,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.41736906872734697,
+      "baseten/zai-org/GLM-5.3-Flash": 0.3903878023495895,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.38573966924635705,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.16566649433307357,
+      "baseten/reflection/Beam-1.0": 0.20814208438098175,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.17910284565879464,
+      "anthropic/claude-haiku-4-5": 0.3678457606637789,
+      "baseten/meta-models/muse-spark-open": 0.20424509812580477,
+      "baseten/zai-org/GLM-5.2": 0.42515436474162666,
+      "baseten/zai-org/GLM-5.3": 0.5009885882940368,
+      "anthropic/claude-sonnet-5": 0.4499434181090418,
+      "anthropic/claude-sonnet-5-5": 0.3908642977247351
+    },
+    "baseten/zai-org/GLM-5.2": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.41042730392622107,
+      "baseten/openai/gpt-oss-120b": 0.2987489951144797,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.2621988602113645,
+      "baseten/zai-org/GLM-5.3-Flash": 0.3948513244344678,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.35273586041187677,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.2829133970343459,
+      "baseten/reflection/Beam-1.0": 0.44792932020746706,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.31423979316930467,
+      "anthropic/claude-haiku-4-5": 0.5407426150149919,
+      "baseten/meta-models/muse-spark-open": 0.42341379163005505,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.42515436474162666,
+      "baseten/zai-org/GLM-5.3": 0.3375865927039917,
+      "anthropic/claude-sonnet-5": 0.4609145618620468,
+      "anthropic/claude-sonnet-5-5": 0.3927243333170267
+    },
+    "baseten/zai-org/GLM-5.3": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.36883548843238784,
+      "baseten/openai/gpt-oss-120b": 0.4707769207568308,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.4698339986117737,
+      "baseten/zai-org/GLM-5.3-Flash": 0.26618824714046707,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.506917484031988,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.3869760785401327,
+      "baseten/reflection/Beam-1.0": 0.5101497784373963,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.47745121783386857,
+      "anthropic/claude-haiku-4-5": 0.4717967219946915,
+      "baseten/meta-models/muse-spark-open": 0.52359225674393,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.5009885882940368,
+      "baseten/zai-org/GLM-5.2": 0.3375865927039917,
+      "anthropic/claude-sonnet-5": 0.3881364823104788,
+      "anthropic/claude-sonnet-5-5": 0.25388625591707115
+    },
+    "anthropic/claude-sonnet-5": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.4105061380258397,
+      "baseten/openai/gpt-oss-120b": 0.43314280116840825,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.48236523725254665,
+      "baseten/zai-org/GLM-5.3-Flash": 0.4132826907125873,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.4544839637080878,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.3908673453130547,
+      "baseten/reflection/Beam-1.0": 0.46366939391462825,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.38771951531381815,
+      "anthropic/claude-haiku-4-5": 0.3812662493422546,
+      "baseten/meta-models/muse-spark-open": 0.4291134805854651,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.4499434181090418,
+      "baseten/zai-org/GLM-5.2": 0.4609145618620468,
+      "baseten/zai-org/GLM-5.3": 0.3881364823104788,
+      "anthropic/claude-sonnet-5-5": 0.29665687554590414
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "bedrock/openai.gpt-oss-20b-1:0": 0.5,
+      "anthropic/claude-haiku-5-5": 0.28845634579656476,
+      "baseten/openai/gpt-oss-120b": 0.4196590505433394,
+      "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": 0.5381663593803788,
+      "baseten/zai-org/GLM-5.3-Flash": 0.31610949495953894,
+      "bedrock/openai.gpt-oss-120b-1:0": 0.5,
+      "bedrock/openai.gpt-oss-safeguard-120b": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B": 0.4655743768428696,
+      "bedrock/nvidia.nemotron-nano-12b-v2": 0.5,
+      "baseten/deepseek-ai/DeepSeek-V4.1-Flash": 0.28736360381563036,
+      "baseten/reflection/Beam-1.0": 0.4333127207315195,
+      "bedrock/mistral.devstral-2-123b": 0.5,
+      "bedrock/mistral.magistral-small-2509": 0.5,
+      "bedrock/mistral.mistral-large-3-675b-instruct": 0.5,
+      "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": 0.39293527288672336,
+      "anthropic/claude-haiku-4-5": 0.47303125803579144,
+      "baseten/meta-models/muse-spark-open": 0.40899067643850956,
+      "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": 0.3908642977247351,
+      "baseten/zai-org/GLM-5.2": 0.3927243333170267,
+      "baseten/zai-org/GLM-5.3": 0.25388625591707115,
+      "anthropic/claude-sonnet-5": 0.29665687554590414
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "n": 60,
+  "windows": {
+    "1": {
+      "style_auc": 0.89875,
+      "combined_auc": 0.925
+    },
+    "2": {
+      "style_auc": 0.93625,
+      "combined_auc": 0.9575
+    },
+    "3": {
+      "style_auc": 0.95625,
+      "combined_auc": 0.9775
+    },
+    "4": {
+      "style_auc": 0.985,
+      "combined_auc": 0.995
+    }
+  }
+}

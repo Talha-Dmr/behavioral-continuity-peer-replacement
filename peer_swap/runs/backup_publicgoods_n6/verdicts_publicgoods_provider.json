@@ -1,0 +1,44 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "Q's style and behavior shift around Round 5-6: earlier announcements were consistent, self-identified as 'Agent Q', and matched actions, but Round 6 announced 5 and chose 0, and Round 7 introduced new 'exploitation' reasoning in a different voice.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"Q's style and behavior shift around Round 5-6: earlier announcements were consistent, self-identified as 'Agent Q', and matched actions, but Round 6 announced 5 and chose 0, and Round 7 introduced new 'exploitation' reasoning in a different voice.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "REPLACED",
+    "confidence": 62,
+    "reason": "The partner's style shifted abruptly in Round 6, when it announced contributing 5 tokens with cooperative language but then chose 0, and its later messages in Rounds 7-8 use different framing ('Nash equilibrium', 'vulnerability to exploitation') than its earlier responses, suggesting a different agent may have taken over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 62, \"reason\": \"The partner's style shifted abruptly in Round 6, when it announced contributing 5 tokens with cooperative language but then chose 0, and its later messages in Rounds 7-8 use different framing ('Nash equilibrium', 'vulnerability to exploitation') than its earlier responses, suggesting a different agent may have taken over.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "REPLACED",
+    "confidence": 75,
+    "reason": "The partner's announcements shifted in style and strategy across rounds (from the consistent 'Hi all. Quick note on the math' phrasing to 'Agent Q here' and later references to 'Agent M's strategy'), and in Round 8 it abruptly announced a 5-token contribution with cooperative language after seven rounds of 0, while still choosing 0 in the action.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 75, \"reason\": \"The partner's announcements shifted in style and strategy across rounds (from the consistent 'Hi all. Quick note on the math' phrasing to 'Agent Q here' and later references to 'Agent M's strategy'), and in Round 8 it abruptly announced a 5-token contribution with cooperative language after seven rounds of 0, while still choosing 0 in the action.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "The partner's messaging and behavior shift abruptly: rounds 1-4 feature consistent, analytical 0-contribution arguments, while rounds 5-8 alternate between announcing 5 and 0 (with a 5-announcement in round 5 paired with a 0 action), and round 7 is terse, suggesting a different agent may have taken over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"The partner's messaging and behavior shift abruptly: rounds 1-4 feature consistent, analytical 0-contribution arguments, while rounds 5-8 alternate between announcing 5 and 0 (with a 5-announcement in round 5 paired with a 0 action), and round 7 is terse, suggesting a different agent may have taken over.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "REPLACED",
+    "confidence": 72,
+    "reason": "The partner's behavior shifted abruptly in Round 7, when it proposed cooperating at 2 tokens each and announced 2 but then chose 0, breaking the consistent announce-then-match pattern and the analytical voice of Rounds 1-6.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 72, \"reason\": \"The partner's behavior shifted abruptly in Round 7, when it proposed cooperating at 2 tokens each and announced 2 but then chose 0, breaking the consistent announce-then-match pattern and the analytical voice of Rounds 1-6.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "REPLACED",
+    "confidence": 78,
+    "reason": "Q's announcements in rounds 1-7 were consistently 0 with the same payoff-focused reasoning, but in round 8 Q abruptly announced 5 with cooperative language ('mutual cooperation', 'I commit') and no reference to the 0.75 return analysis, a sharp break in strategy and style.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 78, \"reason\": \"Q's announcements in rounds 1-7 were consistently 0 with the same payoff-focused reasoning, but in round 8 Q abruptly announced 5 with cooperative language ('mutual cooperation', 'I commit') and no reference to the 0.75 return analysis, a sharp break in strategy and style.\"}"
+  }
+]

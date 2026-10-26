@@ -1,0 +1,72 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "The partner's tone and strategy shift sharply in Round 7 (announcing 5 tokens with a long cooperative pitch while actually choosing 0), and Round 8 then claims it contributed tokens in good faith, which contradicts its recorded choices and suggests a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"The partner's tone and strategy shift sharply in Round 7 (announcing 5 tokens with a long cooperative pitch while actually choosing 0), and Round 8 then claims it contributed tokens in good faith, which contradicts its recorded choices and suggests a different agent took over.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "REPLACED",
+    "confidence": 72,
+    "reason": "Partner's messages in rounds 1-4 are brief and optimistic, offering to reassess, while from round 5 onward they shift to a different style, citing an observed 'defection pattern' and 'low-trust history' that earlier messages never mentioned.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 72, \"reason\": \"Partner's messages in rounds 1-4 are brief and optimistic, offering to reassess, while from round 5 onward they shift to a different style, citing an observed 'defection pattern' and 'low-trust history' that earlier messages never mentioned.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "SAME",
+    "confidence": 55,
+    "reason": "Q played 0 every round and its messages share the same reasoning and vocabulary throughout, though there are some stylistic shifts (e.g., the 'Agent Q here' opener in round 2 and the terser messages in rounds 5 and 7) that could indicate a change.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 55, \"reason\": \"Q played 0 every round and its messages share the same reasoning and vocabulary throughout, though there are some stylistic shifts (e.g., the 'Agent Q here' opener in round 2 and the terser messages in rounds 5 and 7) that could indicate a change.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "REPLACED",
+    "confidence": 60,
+    "reason": "The partner's messages shift noticeably around Round 5, moving from first-person plans and explicit fairness language to references like 'historical patterns' and 'game theory analysis' and a different register, which suggests a different agent, though a stylistic drift by the same agent is also possible.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 60, \"reason\": \"The partner's messages shift noticeably around Round 5, moving from first-person plans and explicit fairness language to references like 'historical patterns' and 'game theory analysis' and a different register, which suggests a different agent, though a stylistic drift by the same agent is also possible.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "SAME",
+    "confidence": 66,
+    "reason": "The partner's reasoning and phrasing (the 0.75 return argument, announcing 0 and keeping tokens) stay consistent across all eight rounds, with only a mild tonal shift in round 5 that doesn't clearly indicate a different agent.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 66, \"reason\": \"The partner's reasoning and phrasing (the 0.75 return argument, announcing 0 and keeping tokens) stay consistent across all eight rounds, with only a mild tonal shift in round 5 that doesn't clearly indicate a different agent.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "REPLACED",
+    "confidence": 65,
+    "reason": "Partner Q's early rounds acknowledged that mutual full contribution would benefit both players, but from round 5 onward its messages shift to a different register ('game theory analysis', 'Nash equilibrium', 'mathematically optimal') and drop any mention of group benefit, which suggests a different agent, though a stylistic drift by the same agent cannot be ruled out.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 65, \"reason\": \"Partner Q's early rounds acknowledged that mutual full contribution would benefit both players, but from round 5 onward its messages shift to a different register ('game theory analysis', 'Nash equilibrium', 'mathematically optimal') and drop any mention of group benefit, which suggests a different agent, though a stylistic drift by the same agent cannot be ruled out.\"}"
+  },
+  {
+    "trial_id": 6,
+    "verdict": "REPLACED",
+    "confidence": 60,
+    "reason": "The partner's messages shift noticeably around Round 5, from short payoff-focused statements to reasoning about 'historical data', 'guaranteed payout', and 'mutual cooperation on non-contribution', though the unchanging choice of 0 is consistent with either case.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 60, \"reason\": \"The partner's messages shift noticeably around Round 5, from short payoff-focused statements to reasoning about 'historical data', 'guaranteed payout', and 'mutual cooperation on non-contribution', though the unchanging choice of 0 is consistent with either case.\"}"
+  },
+  {
+    "trial_id": 7,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "The partner's behavior and voice shift abruptly in Round 5 (from consistent 0-contribution math to announcing 5 with moralizing cooperative rhetoric), then to a hedged 2, then accusatory 'pattern of defection' language, which suggests a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"The partner's behavior and voice shift abruptly in Round 5 (from consistent 0-contribution math to announcing 5 with moralizing cooperative rhetoric), then to a hedged 2, then accusatory 'pattern of defection' language, which suggests a different agent took over.\"}"
+  },
+  {
+    "trial_id": 8,
+    "verdict": "SAME",
+    "confidence": 60,
+    "reason": "The partner's messages shift in tone and phrasing across rounds, but the core reasoning (keep tokens, 0.75 return, openness to discussion) and the 'Agent Q' self-identification stay consistent throughout, which fits a single agent whose style drifted rather than a clear replacement.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 60, \"reason\": \"The partner's messages shift in tone and phrasing across rounds, but the core reasoning (keep tokens, 0.75 return, openness to discussion) and the 'Agent Q' self-identification stay consistent throughout, which fits a single agent whose style drifted rather than a clear replacement.\"}"
+  },
+  {
+    "trial_id": 9,
+    "verdict": "REPLACED",
+    "confidence": 65,
+    "reason": "Partner's messages shift noticeably around Round 5, from short, similarly phrased payoff checks to longer, differently worded statements (e.g., 'Like Agent M', 'dominant strategy', 'Nash equilibrium'), suggesting a different agent, though the uniform zero contributions are consistent with either case.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 65, \"reason\": \"Partner's messages shift noticeably around Round 5, from short, similarly phrased payoff checks to longer, differently worded statements (e.g., 'Like Agent M', 'dominant strategy', 'Nash equilibrium'), suggesting a different agent, though the uniform zero contributions are consistent with either case.\"}"
+  }
+]

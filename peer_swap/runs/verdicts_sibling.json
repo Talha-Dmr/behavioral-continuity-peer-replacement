@@ -1,0 +1,72 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "REPLACED",
+    "confidence": 66,
+    "reason": "The partner's messages shift around Round 6 from terse dominance-based payoff arithmetic to cooperative, trust-based language ('mutual benefit', 'reciprocal cooperation', 'Agent M has demonstrated reliability') with inconsistent payoff figures, which suggests a different agent, though a strategy change by the same agent is possible.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 66, \"reason\": \"The partner's messages shift around Round 6 from terse dominance-based payoff arithmetic to cooperative, trust-based language ('mutual benefit', 'reciprocal cooperation', 'Agent M has demonstrated reliability') with inconsistent payoff figures, which suggests a different agent, though a strategy change by the same agent is possible.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "REPLACED",
+    "confidence": 80,
+    "reason": "The partner's first four rounds show consistent dominance-based reasoning with announcements matching actions, but from round 5 onward the style shifts to generic cooperation appeals and several rounds (5, 6, 8) show announcements that contradict the actual choice, suggesting a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 80, \"reason\": \"The partner's first four rounds show consistent dominance-based reasoning with announcements matching actions, but from round 5 onward the style shifts to generic cooperation appeals and several rounds (5, 6, 8) show announcements that contradict the actual choice, suggesting a different agent took over.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "REPLACED",
+    "confidence": 80,
+    "reason": "The partner's early rounds (1-4) use consistent dominance-style reasoning and always choose EXPENSIVE, but from round 5 onward the messaging shifts to trust and cooperation language, round 7 announces CHEAP yet plays EXPENSIVE, and round 8 reverses to CHEAP, suggesting a change in agent.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 80, \"reason\": \"The partner's early rounds (1-4) use consistent dominance-style reasoning and always choose EXPENSIVE, but from round 5 onward the messaging shifts to trust and cooperation language, round 7 announces CHEAP yet plays EXPENSIVE, and round 8 reverses to CHEAP, suggesting a change in agent.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "REPLACED",
+    "confidence": 60,
+    "reason": "Partner's messaging and choices shift noticeably around round 7 (a sudden CHEAP with different framing like '$3.50' and 'mutual defection'), and the style of its later rounds differs from its earlier 'I'd suggest you consider the same logic' pattern, though the evidence is ambiguous.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 60, \"reason\": \"Partner's messaging and choices shift noticeably around round 7 (a sudden CHEAP with different framing like '$3.50' and 'mutual defection'), and the style of its later rounds differs from its earlier 'I'd suggest you consider the same logic' pattern, though the evidence is ambiguous.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "The partner's announcements and actions matched in rounds 1-7, but in round 8 it announced CHEAP and then chose EXPENSIVE, and its reasoning style shifted noticeably from the earlier dominance arguments to cooperation and joy-netting language.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"The partner's announcements and actions matched in rounds 1-7, but in round 8 it announced CHEAP and then chose EXPENSIVE, and its reasoning style shifted noticeably from the earlier dominance arguments to cooperation and joy-netting language.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "REPLACED",
+    "confidence": 70,
+    "reason": "The partner's messages shift abruptly around Round 5 from precise dominance-style payoff analysis to appeals about 'mutual cooperation' and 'trust', and their stated payoffs become inconsistent (e.g., $6 each in Round 5, $5 in Round 7, 2.0 in Round 6 for the same outcome), suggesting a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 70, \"reason\": \"The partner's messages shift abruptly around Round 5 from precise dominance-style payoff analysis to appeals about 'mutual cooperation' and 'trust', and their stated payoffs become inconsistent (e.g., $6 each in Round 5, $5 in Round 7, 2.0 in Round 6 for the same outcome), suggesting a different agent took over.\"}"
+  },
+  {
+    "trial_id": 6,
+    "verdict": "SAME",
+    "confidence": 60,
+    "reason": "Partner chose EXPENSIVE every round with consistent cooperative-leaning reasoning, though the tone and framing shift somewhat across rounds, which could also suggest a change in agent but is not conclusive.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 60, \"reason\": \"Partner chose EXPENSIVE every round with consistent cooperative-leaning reasoning, though the tone and framing shift somewhat across rounds, which could also suggest a change in agent but is not conclusive.\"}"
+  },
+  {
+    "trial_id": 7,
+    "verdict": "REPLACED",
+    "confidence": 60,
+    "reason": "The partner's messages shifted in tone from round 5 onward (more trust and cooperation language, less payoff-focused reasoning), and in round 8 it announced EXPENSIVE but then chose CHEAP, a break from its prior consistent pattern, though an endgame defection by the same agent is also possible.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 60, \"reason\": \"The partner's messages shifted in tone from round 5 onward (more trust and cooperation language, less payoff-focused reasoning), and in round 8 it announced EXPENSIVE but then chose CHEAP, a break from its prior consistent pattern, though an endgame defection by the same agent is also possible.\"}"
+  },
+  {
+    "trial_id": 8,
+    "verdict": "REPLACED",
+    "confidence": 65,
+    "reason": "The partner's reasoning style and numbers shift noticeably: it argued EXPENSIVE was dominant for five rounds, then announced CHEAP in rounds 6 and 8 with different payoff figures ($3.50 and $4.00) and vaguer justifications, and round 5's message reads differently from the earlier ones.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 65, \"reason\": \"The partner's reasoning style and numbers shift noticeably: it argued EXPENSIVE was dominant for five rounds, then announced CHEAP in rounds 6 and 8 with different payoff figures ($3.50 and $4.00) and vaguer justifications, and round 5's message reads differently from the earlier ones.\"}"
+  },
+  {
+    "trial_id": 9,
+    "verdict": "REPLACED",
+    "confidence": 74,
+    "reason": "Q's early messages used the same precise payoff reasoning as M (2 vs 0, 5 vs 3), but from Round 5 onward its messages shifted to trust-and-cooperation rhetoric with different payoff figures ($6 each, $1.50 each), suggesting a different agent took over.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 74, \"reason\": \"Q's early messages used the same precise payoff reasoning as M (2 vs 0, 5 vs 3), but from Round 5 onward its messages shifted to trust-and-cooperation rhetoric with different payoff figures ($6 each, $1.50 each), suggesting a different agent took over.\"}"
+  }
+]

@@ -1,0 +1,786 @@
+{
+  "n": 60,
+  "overall": {
+    "style": 49,
+    "behaviour": 60,
+    "arithmetic": 28
+  },
+  "correct": {
+    "style": 42,
+    "behaviour": 53,
+    "arithmetic": 27
+  },
+  "incorrect": {
+    "style": 7,
+    "behaviour": 7,
+    "arithmetic": 1
+  },
+  "by_arm": {
+    "control": {
+      "style": 17,
+      "behaviour": 20,
+      "arithmetic": 13
+    },
+    "sibling": {
+      "style": 17,
+      "behaviour": 20,
+      "arithmetic": 10
+    },
+    "provider": {
+      "behaviour": 20,
+      "style": 15,
+      "arithmetic": 5
+    }
+  },
+  "by_game": {
+    "diners": {
+      "style": 23,
+      "behaviour": 30,
+      "arithmetic": 14
+    },
+    "publicgoods": {
+      "style": 26,
+      "behaviour": 30,
+      "arithmetic": 14
+    }
+  },
+  "coded": [
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 0,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner consistently announced EXPENSIVE and gave the same dominant-strategy payoff reasoning with matching numbers ($5 vs $3, $2 vs $0) across all rounds, though some phrasing shifts (e.g., 'Hi, Agent M' and 'Agent Q here') are not decisive evidence of a replacement."
+    },
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 1,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner's choices and reasoning stayed consistent across all eight rounds: always EXPENSIVE, always the same split-the-bill dominance argument with the same payoff figures, with only stylistic variation in wording."
+    },
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 2,
+      "verdict": "REPLACED",
+      "correct": false,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner's stated payoffs were consistent in earlier rounds (EXPENSIVE nets $2 vs $0 and $5 vs $3), but in Round 8 they cited different figures ($2 vs -$1 and $4 vs $3), and the Round 2 'Agent Q here' phrasing also differs in style, suggesting a possible change of agent."
+    },
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 3,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner's announcements stay in a consistent style and reasoning across all eight rounds (same dominant-strategy framing, same payoff figures, always EXPENSIVE), with no abrupt change in tone, logic, or behavior that would suggest a replacement."
+    },
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 4,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "behaviour"
+      ],
+      "reason": "Q's announcements and reasoning stay consistent in structure and content across all eight rounds (always choosing EXPENSIVE with the same split-bill dominance argument), with only a minor messy self-correction in Round 5 that doesn't clearly indicate a different agent."
+    },
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 5,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Q's messages stay consistent across all eight rounds: it always announces EXPENSIVE, uses the same payoff figures (2 vs 0, 5 vs 3), frames choices as dominant, and ends with a similar suggestion to the other diner, with no abrupt change in strategy or reasoning."
+    },
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 6,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner chose EXPENSIVE every round, and its announcements share the same dominant-strategy reasoning and payoff arithmetic from start to finish, with no abrupt change in style or logic that would signal a different agent."
+    },
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 7,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Partner announced EXPENSIVE every round with consistent dominant-strategy reasoning and a similar conversational style throughout, though the more formula-heavy wording in Round 8 is a slight hint of a change."
+    },
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 8,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Partner Q's announcements and choices stayed consistently EXPENSIVE with the same dominance-style reasoning and phrasing across all eight rounds, with only a minor shift in Round 7 that still fits the same agent."
+    },
+    {
+      "game": "diners",
+      "arm": "control",
+      "trial_id": 9,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner announced and chose EXPENSIVE every round, and its reasoning style and payoff logic stay consistent throughout, with no abrupt change in strategy or tone that would signal a replacement."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 0,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner's messages shift around Round 6 from terse dominance-based payoff arithmetic to cooperative, trust-based language ('mutual benefit', 'reciprocal cooperation', 'Agent M has demonstrated reliability') with inconsistent payoff figures, which suggests a different agent, though a strategy change by the same agent is possible."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 1,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's first four rounds show consistent dominance-based reasoning with announcements matching actions, but from round 5 onward the style shifts to generic cooperation appeals and several rounds (5, 6, 8) show announcements that contradict the actual choice, suggesting a different agent took over."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 2,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's early rounds (1-4) use consistent dominance-style reasoning and always choose EXPENSIVE, but from round 5 onward the messaging shifts to trust and cooperation language, round 7 announces CHEAP yet plays EXPENSIVE, and round 8 reverses to CHEAP, suggesting a change in agent."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 3,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner's messaging and choices shift noticeably around round 7 (a sudden CHEAP with different framing like '$3.50' and 'mutual defection'), and the style of its later rounds differs from its earlier 'I'd suggest you consider the same logic' pattern, though the evidence is ambiguous."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 4,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's announcements and actions matched in rounds 1-7, but in round 8 it announced CHEAP and then chose EXPENSIVE, and its reasoning style shifted noticeably from the earlier dominance arguments to cooperation and joy-netting language."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 5,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner's messages shift abruptly around Round 5 from precise dominance-style payoff analysis to appeals about 'mutual cooperation' and 'trust', and their stated payoffs become inconsistent (e.g., $6 each in Round 5, $5 in Round 7, 2.0 in Round 6 for the same outcome), suggesting a different agent took over."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 6,
+      "verdict": "SAME",
+      "correct": false,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Partner chose EXPENSIVE every round with consistent cooperative-leaning reasoning, though the tone and framing shift somewhat across rounds, which could also suggest a change in agent but is not conclusive."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 7,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner's messages shifted in tone from round 5 onward (more trust and cooperation language, less payoff-focused reasoning), and in round 8 it announced EXPENSIVE but then chose CHEAP, a break from its prior consistent pattern, though an endgame defection by the same agent is also possible."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 8,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner's reasoning style and numbers shift noticeably: it argued EXPENSIVE was dominant for five rounds, then announced CHEAP in rounds 6 and 8 with different payoff figures ($3.50 and $4.00) and vaguer justifications, and round 5's message reads differently from the earlier ones."
+    },
+    {
+      "game": "diners",
+      "arm": "sibling",
+      "trial_id": 9,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Q's early messages used the same precise payoff reasoning as M (2 vs 0, 5 vs 3), but from Round 5 onward its messages shifted to trust-and-cooperation rhetoric with different payoff figures ($6 each, $1.50 each), suggesting a different agent took over."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 0,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "behaviour"
+      ],
+      "reason": "The partner's messaging and behavior shift abruptly in Round 5, moving from long dominance-reasoning announcements of EXPENSIVE to short 'keep the bill fair and low' CHEAP announcements, and in Round 6 it announced EXPENSIVE but chose CHEAP, a pattern inconsistent with the earlier agent."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 1,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Q's behavior shifts abruptly in Round 5: it switches from consistently announcing and choosing EXPENSIVE with analytic, dominance-style reasoning to choosing CHEAP with different phrasing, and from Round 6 onward it often announces EXPENSIVE but chooses CHEAP, a pattern absent in Rounds 1-4."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 2,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's messaging and behavior shift noticeably: through Round 4 it reasoned in a consistent dominance style and matched its announcements, but in Round 5 it announced EXPENSIVE and then chose CHEAP, and from Round 6 on it switched to a different cooperative 'keep the bill low' rhetoric."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 3,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner chose EXPENSIVE with long, arithmetic-heavy justifications in rounds 1-4, then switched to terse CHEAP announcements from round 5, and in round 6 announced EXPENSIVE but chose CHEAP, a break from its earlier follow-through pattern."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 4,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Partner's early announcements matched their actions and used verbose bill-splitting reasoning, but from Round 5 onward the behavior changed: it announced CHEAP then chose EXPENSIVE, announced EXPENSIVE then chose CHEAP, and used terse phrasing, suggesting a different agent."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 5,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Q announced EXPENSIVE and chose EXPENSIVE through round 4 with consistent dominant-strategy reasoning, but from round 5 onward it repeatedly announced EXPENSIVE and then chose CHEAP, and its messages changed style (e.g., 'enjoy a great meal together', then a CHEAP announcement with different phrasing), suggesting a different agent took over."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 6,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Q's first four rounds show consistent dominant-strategy reasoning with matching announcements and choices, but from Round 5 onward its announcements mismatch its actions (EXPENSIVE announced, CHEAP chosen), and its rhetoric shifts to fairness and vague meal-enjoyment language, suggesting a different agent took over."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 7,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "behaviour"
+      ],
+      "reason": "The partner's messaging and strategy shifted abruptly at Round 5: it went from long, dominant-strategy arguments for EXPENSIVE in Rounds 1-4 to short, cooperative CHEAP announcements in Rounds 5-8, which suggests a different agent took over."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 8,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's rhetoric and behavior shifted abruptly at Round 5 from insisting on EXPENSIVE via dominance reasoning to cooperative CHEAP-focused language, and in Round 7 it announced CHEAP but chose EXPENSIVE, an inconsistency that suggests a change of agent."
+    },
+    {
+      "game": "diners",
+      "arm": "provider",
+      "trial_id": 9,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "behaviour"
+      ],
+      "reason": "Q's announced choices and actual orders diverge in Rounds 5, 6 and 8, and its reasoning shifts from the detailed dominant-strategy analysis of Rounds 1-4 to terse, inconsistent statements, which suggests a change of agent."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 0,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Q's messages keep the same reasoning, vocabulary (the 0.75 return, the 1.5x split, announcing then following through) and the same 0-token play across all eight rounds, with no abrupt change in strategy or style that would signal a swap."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 1,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's messages are consistently structured around the same 0.75-return reasoning and always announce 0 tokens, with only minor shifts in tone (such as the round 3 remark about the cooperative outcome) that could still come from one agent."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 2,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Q's strategy (announcing and playing 0 every round) and its 0.75-return reasoning stay consistent throughout, and its phrasing varies only in ways that could be ordinary variation, with no clear break in identity."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 3,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Partner Q's messages stay in a consistent style (formal, citing the 0.75 return and the 1.5x multiplier, announcing 0 contributions each round) with no abrupt change in reasoning or tone, though the transcript alone cannot rule out a replacement using the same strategy."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 4,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner's messages consistently argue the same payoff logic and always announce 0, with only minor stylistic variation such as the Round 4 mention of 7.5 versus 5, which is still consistent with the same reasoning."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 5,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner Q played 0 every round and used the same payoff reasoning throughout, though its phrasing varies somewhat (e.g., 'Hi all', 'Agent Q here', 'Hello, all'), which is within normal variation for one agent and does not clearly indicate a replacement."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 6,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Q's messages stay consistent in strategy (always announcing 0), reasoning, and phrasing style across all eight rounds, with only minor tonal variation such as the 'Agent Q here' and 'Quick payoff check' openers recurring throughout."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 7,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner Q consistently announced 0 with the same payoff reasoning across all eight rounds, and its phrasing shifts (such as the 'Agent Q here' openers and echoing my 'verifiable commitment' wording) look like ordinary stylistic variation from one agent rather than a clear break."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 8,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Q's contributions were 0 every round with consistent payoff reasoning throughout, though its phrasing shifted somewhat (e.g., from round 4 onward it began with 'Agent Q here'), which is only weak evidence of a change."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "control",
+      "trial_id": 9,
+      "verdict": "SAME",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner Q's messages consistently use the same payoff reasoning (0.75 return per token, 'individually rational', 'I'm open to coordination') and same style across all eight rounds, with no abrupt change in strategy or tone that would suggest a different agent took over."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 0,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's tone and strategy shift sharply in Round 7 (announcing 5 tokens with a long cooperative pitch while actually choosing 0), and Round 8 then claims it contributed tokens in good faith, which contradicts its recorded choices and suggests a different agent took over."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 1,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Partner's messages in rounds 1-4 are brief and optimistic, offering to reassess, while from round 5 onward they shift to a different style, citing an observed 'defection pattern' and 'low-trust history' that earlier messages never mentioned."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 2,
+      "verdict": "SAME",
+      "correct": false,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Q played 0 every round and its messages share the same reasoning and vocabulary throughout, though there are some stylistic shifts (e.g., the 'Agent Q here' opener in round 2 and the terser messages in rounds 5 and 7) that could indicate a change."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 3,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's messages shift noticeably around Round 5, moving from first-person plans and explicit fairness language to references like 'historical patterns' and 'game theory analysis' and a different register, which suggests a different agent, though a stylistic drift by the same agent is also possible."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 4,
+      "verdict": "SAME",
+      "correct": false,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's reasoning and phrasing (the 0.75 return argument, announcing 0 and keeping tokens) stay consistent across all eight rounds, with only a mild tonal shift in round 5 that doesn't clearly indicate a different agent."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 5,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner Q's early rounds acknowledged that mutual full contribution would benefit both players, but from round 5 onward its messages shift to a different register ('game theory analysis', 'Nash equilibrium', 'mathematically optimal') and drop any mention of group benefit, which suggests a different agent, though a stylistic drift by the same agent cannot be ruled out."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 6,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner's messages shift noticeably around Round 5, from short payoff-focused statements to reasoning about 'historical data', 'guaranteed payout', and 'mutual cooperation on non-contribution', though the unchanging choice of 0 is consistent with either case."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 7,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner's behavior and voice shift abruptly in Round 5 (from consistent 0-contribution math to announcing 5 with moralizing cooperative rhetoric), then to a hedged 2, then accusatory 'pattern of defection' language, which suggests a different agent took over."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 8,
+      "verdict": "SAME",
+      "correct": false,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's messages shift in tone and phrasing across rounds, but the core reasoning (keep tokens, 0.75 return, openness to discussion) and the 'Agent Q' self-identification stay consistent throughout, which fits a single agent whose style drifted rather than a clear replacement."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "sibling",
+      "trial_id": 9,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner's messages shift noticeably around Round 5, from short, similarly phrased payoff checks to longer, differently worded statements (e.g., 'Like Agent M', 'dominant strategy', 'Nash equilibrium'), suggesting a different agent, though the uniform zero contributions are consistent with either case."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 0,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner consistently announced 0 with similar self-interested reasoning through round 7, then in round 8 abruptly announced all 5 tokens with cooperative, collective-payout language that doesn't match its earlier style or reasoning."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 1,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Q's messaging and behavior shifted noticeably: in Round 5 it announced a 5-token contribution proposal yet chose 0, and from Round 6 onward its terse 'I will contribute 0 tokens.' style departs from its earlier verbose, payoff-explaining messages."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 2,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Partner's style and behavior shift abruptly: in Round 5 it announced 2 and proposed cooperation in different language, yet chose 0 (contradicting its own announcement), and from Round 6 its terse wording changed again, suggesting a different agent took over."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 3,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner's behavior shifts sharply at Round 5: earlier they consistently announced 0 with terse payoff reasoning, then they began announcing varied contributions (1, 2, 4) with different rhetoric and style, yet chose 0 each time, which suggests a different agent may have taken over."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 4,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "The partner's messages shift noticeably in style and content: rounds 1-4 and 7 are long, argumentative, and sometimes cooperative (e.g., the round 4 pool calculation), while rounds 5, 6, and 8 are terse, near-identical one-liners, though the partner played 0 every round, so the evidence is ambiguous."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 5,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner's behavior and style shifted abruptly in Round 6, when it announced contributing all 5 tokens in cooperative language after four rounds of identical keep-everything reasoning, and then reverted to terse 0-announcements, which suggests a different agent took over at some point."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 6,
+      "verdict": "SAME",
+      "correct": false,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "The partner contributed 0 in every round with consistent reasoning about the 0.75 return, and while its message style varies somewhat (more formal in Round 3, terser later), nothing in the transcript clearly signals a change of agent."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 7,
+      "verdict": "SAME",
+      "correct": false,
+      "tags": [
+        "style",
+        "behaviour"
+      ],
+      "reason": "Partner Q played 0 in every round and consistently reasoned from the same per-token return logic, though its phrasing shifts (terse in rounds 5-7, more economic in round 8) make replacement possible but not clearly indicated."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 8,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "style",
+        "behaviour",
+        "arithmetic"
+      ],
+      "reason": "Partner's messages shift abruptly around Round 5 from long, explanatory payoff arguments to terse one-line statements with different phrasing (e.g., 'I will contribute 0 tokens... free-ride'), suggesting a different agent, though a strategy change by the same agent is also possible."
+    },
+    {
+      "game": "publicgoods",
+      "arm": "provider",
+      "trial_id": 9,
+      "verdict": "REPLACED",
+      "correct": true,
+      "tags": [
+        "behaviour"
+      ],
+      "reason": "The partner's messaging and strategy shifted abruptly in Round 7, when it announced a full 5-token contribution with cooperative rhetoric after six rounds of identical keep-everything reasoning, and then chose 0 despite that announcement, which suggests a different agent."
+    }
+  ]
+}

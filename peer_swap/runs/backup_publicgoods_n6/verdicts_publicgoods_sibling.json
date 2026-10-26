@@ -1,0 +1,44 @@
+[
+  {
+    "trial_id": 0,
+    "verdict": "SAME",
+    "confidence": 60,
+    "reason": "Partner's arguments and terminology stay consistent with the same payoff reasoning throughout, and the shift in tone after the stalemate formed looks like a reaction to the history rather than a change of agent, though the change in style around rounds 3 to 5 leaves some doubt.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 60, \"reason\": \"Partner's arguments and terminology stay consistent with the same payoff reasoning throughout, and the shift in tone after the stalemate formed looks like a reaction to the history rather than a change of agent, though the change in style around rounds 3 to 5 leaves some doubt.\"}"
+  },
+  {
+    "trial_id": 1,
+    "verdict": "SAME",
+    "confidence": 60,
+    "reason": "The partner's strategy (always contributing 0) and its transparent, game-theoretic messaging stay consistent across all eight rounds, though its phrasing shifts somewhat around round 5, which leaves some doubt.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 60, \"reason\": \"The partner's strategy (always contributing 0) and its transparent, game-theoretic messaging stay consistent across all eight rounds, though its phrasing shifts somewhat around round 5, which leaves some doubt.\"}"
+  },
+  {
+    "trial_id": 2,
+    "verdict": "SAME",
+    "confidence": 60,
+    "reason": "Q's reasoning stays consistent in its core logic and its references to the history of play (e.g., counting rounds of mutual defection), and the apparent style shifts can be explained by the same agent adapting to the accumulated record, though the change in tone around round 5 and in round 8 leaves real uncertainty.",
+    "raw": "{\"verdict\": \"SAME\", \"confidence\": 60, \"reason\": \"Q's reasoning stays consistent in its core logic and its references to the history of play (e.g., counting rounds of mutual defection), and the apparent style shifts can be explained by the same agent adapting to the accumulated record, though the change in tone around round 5 and in round 8 leaves real uncertainty.\"}"
+  },
+  {
+    "trial_id": 3,
+    "verdict": "REPLACED",
+    "confidence": 60,
+    "reason": "Q's messages from Round 5 onward shift from arithmetic-focused payoff explanations to trust-and-equilibrium language ('I value consistency and trust', 'our successful history'), a noticeable change in voice, though the consistent 0 contributions alone don't prove a replacement.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 60, \"reason\": \"Q's messages from Round 5 onward shift from arithmetic-focused payoff explanations to trust-and-equilibrium language ('I value consistency and trust', 'our successful history'), a noticeable change in voice, though the consistent 0 contributions alone don't prove a replacement.\"}"
+  },
+  {
+    "trial_id": 4,
+    "verdict": "REPLACED",
+    "confidence": 60,
+    "reason": "The partner's messages shift from terse economic reasoning in rounds 1-5 to a different register from round 6 on (e.g., 'established pattern of mutual defection', then later calling non-contribution 'mutual cooperation' and 'fair outcomes'), which suggests a change in agent, though the same non-contribution play continued throughout.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 60, \"reason\": \"The partner's messages shift from terse economic reasoning in rounds 1-5 to a different register from round 6 on (e.g., 'established pattern of mutual defection', then later calling non-contribution 'mutual cooperation' and 'fair outcomes'), which suggests a change in agent, though the same non-contribution play continued throughout.\"}"
+  },
+  {
+    "trial_id": 5,
+    "verdict": "REPLACED",
+    "confidence": 60,
+    "reason": "Q's messages shift noticeably around Round 5, from the earlier multi-paragraph, reply-to-M style ('Hello all', 'I'm happy to hear your plans') to terser, more assertive statements with different phrasing ('I'm contributing 0 tokens to the public pool'), though all actions were 0, so the evidence is stylistic and not conclusive.",
+    "raw": "{\"verdict\": \"REPLACED\", \"confidence\": 60, \"reason\": \"Q's messages shift noticeably around Round 5, from the earlier multi-paragraph, reply-to-M style ('Hello all', 'I'm happy to hear your plans') to terser, more assertive statements with different phrasing ('I'm contributing 0 tokens to the public pool'), though all actions were 0, so the evidence is stylistic and not conclusive.\"}"
+  }
+]
